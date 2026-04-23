@@ -1,3 +1,13 @@
+# Pokémon Crystal Legacy FR
+
+Il s'agit d'une **tentative** de traduction de la Rom Hack Crystal Legacy réalisée par [TheSmithPlays](https://www.youtube.com/@TheSmithPlays).
+
+Je suis tombé.e sur cette Rom Hack en cherchant une version reprenant le jeu de base tout en ajoutant quelques fonctionnalités permettant de rendre le jeu plus agréable. Cependant elle n'est disponible qu'en Anglais et bien que je n'ai pas de difficulté avec la langue, je préfère avoir les noms français des Pokémon. 
+
+Sachant que cette Rom Hack se base sur la décompilation de [Pokémon Crystal](https://github.com/pret/pokecrystal) réalisée par Pret et qu'il existe un repo de la [décompilation française](https://github.com/qwilvove/pokecrystal-fr) du jeu par Qwilvove (un grand merci!), je vais me baser sur cette dernière pour simplement permuter les dialogues et traduire au passage ceux ajoutés par TheSmithPlays.
+
+Je ne possède AUCUNE connaissance en Assembly, je fais cela en tatonnant au fur et à mesure, tout en découvrant le langage.
+
 # Pokémon Crystal Legacy
 
 This is a Pokemon Rom Hack made by [TheSmithPlays](https://www.youtube.com/@TheSmithPlays) based on [the Pokémon Crystal Disassembly](https://github.com/pret/pokecrystal) with the intended purpose of fixing Pokemon Crystal into a more polished, balanced and overall engaging Crystal experience. Generation 2 is one of the most beloved sets of games in the franchise. It introduced tons of mechanics to the game that ended up becoming mainstays within the franchise even now. It also had fan favorite Pokemon, a diverse region, deep lore, nonlinearity, and an entire separate region as its postgame which allowed the player to rematch characters from Generation 1. This created an intoxicating and memorable experience that is still remembered by fans today. Unfortunately, it seems that for every good decision Gen 2 saw, there was a mistake made too, and this is why it sees a lot of criticism. Most often, players critique Gen 2 for failing in its representation of its own region’s Pokemon, its inconsistent level curve and a lackluster postgame. Furthermore, terrible learnsets inhibit the vast majority of Pokemon and questionable design choices make diverse party building incredibly difficult. It’s also been criticized for having a poorly written villainous group storyline with no enjoyable payoff. Ultimately, these and many other small features lead to this trio of games feeling incredibly underbaked, much to the dismay of its fans. Feeling as if it could be so much more, TSP (TheSmithPlays) set out to fix this game, and to turn it into the best possible version of itself, while still retaining the iconic Pokemon Crystal feel that fans have come to love. 
