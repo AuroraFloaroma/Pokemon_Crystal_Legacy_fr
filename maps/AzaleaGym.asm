@@ -176,285 +176,304 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
-	line "I never lose when"
+	text "Je suis HECTOR!"
+	line "Je ne perds jamais"
 
-	para "it comes to bug"
-	line "#MON."
+	para "lorsqu'il s'agit"
+	line "de #MON"
+	cont "insecte."
 
-	para "My research is"
-	line "going to make me"
+	para "Mes recherches"
+	line "vont me permettre"
 
-	para "the authority on"
-	line "bug #MON!"
-	
-	para "For example, did"
-	line "you know that"
-	
-	para "the move CUT is"
-	line "actually a BUG-"
-	cont "type move?"
-	
-	para "Let me demonstrate"
-	line "all I've learned"
-	cont "from my studies."
+	para "d'être un super"
+	line "expert des"
+	cont "#MON insecte!"
+
+	para "Laisse-moi te"
+	line "montrer ce que"
+	cont "j'ai découvert!"
 	done
 
 BugsyText_ResearchIncomplete:
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #MON!"
+	text "Whaou, dingue!"
+	line "Tu connais bien"
+	cont "les #MON!"
 
-	para "My research isn't"
-	line "complete yet."
+	para "Mes recherches ne"
+	line "sont pas finies."
 
-	para "OK, you win. Take"
-	line "this BADGE."
+	para "OK, tu as gagné."
+	line "Prends ce BADGE."
 	done
 
 Text_ReceivedHiveBadge:
-	text "<PLAYER> received"
-	line "HIVEBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE ESSAIM."
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Do you know the"
-	line "benefits of HIVE-"
-	cont "BADGE?"
+	text "Connais-tu"
+	line "les pouvoirs du"
+	cont "BADGE ESSAIM?"
 
-	para "If you have it,"
-	line "#MON up to L30"
+	para "Une fois que tu"
+	line "possèdes ce BADGE,"
+	cont "les #MON"
+	cont "jusqu'au niveau 30"
+	cont "et les échangés"
+	cont "t'obéissent."
 
-	para "will obey you,"
-	line "even traded ones."
+	para "Les #MON qui"
+	line "connaissent COUPE"
 
-	para "#MON that know"
-	line "CUT will be able"
+	para "peuvent aussi"
+	line "l'utiliser hors"
+	cont "des combats."
 
-	para "to use it outside"
-	line "of battle too."
-
-	para "Here, I also want"
-	line "you to have this."
+	para "Tiens, je veux que"
+	line "tu prennes ceci."
 	done
 
 BugsyText_FuryCutterSpeech:
-	text "TM49 contains"
-	line "FURY CUTTER."
+	text "La CT49 contient"
+	line "TAILLADE."
 
-	para "If you don't miss,"
-	line "it gets stronger"
-	cont "every turn."
+	para "Si tu ne manques"
+	line "pas ton coup,"
+	cont "la puissance au-"
+	cont "gmente à chaque"
+	cont "tour."
 
-	para "The longer your"
-	line "battle goes, the"
-	cont "better it gets."
+	para "Plus le combat est"
+	line "long, plus le coup"
+	cont "est puissant."
 
-	para "Isn't that great?"
-	line "I discovered it!"
+	para "C'est pas super"
+	line "ça? Et c'est moi"
+	cont "qui l'ai trouvée!"
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "Bug #MON are"
-	line "deep. There are"
+	text "Les #MON"
+	line "insecte ont des"
 
-	para "many mysteries to"
-	line "be explored."
-
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "talents cachés. Il"
+	line "faudra encore du"
+	cont "temps pour tous"
+	cont "les découvrir."
+	
+	para "Etudie-les"
+	line "minutieusement."
 	done
-
+	
 BugsyRematchText:
-	text "Wow, you're the"
-	line "JOHTO CHAMPION"
-	cont "now!"
-
-	para "Your skills are"
-	line "truly impressive!"
-
-	para "I've been busy"
-	line "with my research."
-
-	para "I'm ready to"
-	line "show you my new"
-	cont "findings."
-
-	para "Want to have a"
-	line "rematch with me?"
+	text "Wow, alors comme"
+	line "ça, tu es CHAMPION"
+	cont "de JOHTO à"
+	cont "présent ?"
+	
+	para "Tes talents sont"
+	line "vraiment"
+	cont "remarquables."
+	
+	para "J'ai été pas mal"
+	line "occupé avec mes"
+	cont "recherches"
+	cont "dernièrement."
+	
+	para "Je suis prêt à"
+	line "te montrer mes"
+	cont "nouvelles"
+	cont "découvertes."
+	
+	para "Ça te dirait une"
+	line "revanche ?"
 	done
 
 Bugsy_RematchDefeatText:
-	text "Wow, you must"
-	line "be an expert"
-	cont "trainer."
-
-	para "My research must"
-	line "not be complete…"
+	text "Ça alors… tu dois"
+	line "vraiment être un.e"
+	cont "expert.e."
+	
+	para "Mes recherches"
+	line "sont loin d'être"
+	cont "terminées…"
 	done
 
 BugCatcherBennySeenText:
-	text "Bug #MON evolve"
-	line "young. So they get"
+	text "Les #MON"
+	line "insecte évoluent"
 
-	para "stronger that much"
-	line "faster."
+	para "rapidement. Ils"
+	line "deviennent forts"
+	cont "plus vite."
 	done
 
 BugCatcherBennyBeatenText:
-	text "Just evolving"
-	line "isn't enough!"
+	text "Faire évoluer un"
+	line "#MON n'est pas"
+	cont "suffisant!"
 	done
 
 BugCatcherBennyAfterBattleText:
-	text "#MON become"
-	line "stronger if they"
-	cont "evolve. Really!"
+	text "Les #MON"
+	line "deviennent plus"
+	cont "forts en évoluant!"
 	done
 
 BugCatcherAlSeenText:
-	text "Bug #MON are"
-	line "cool and tough!"
+	text "Les #MON"
+	line "insecte sont trop"
 
-	para "I'll prove it to"
-	line "you!"
+	para "cool et trop"
+	line "résistants! Je"
+	cont "vais trop te le"
+	cont "prouver!"
 	done
 
 BugCatcherAlBeatenText:
-	text "You proved how"
-	line "tough you are…"
+	text "T'as prouvé à"
+	line "quel point t'es"
+	cont "balèze!..."
 	done
 
 BugCatcherAlAfterBattleText:
-	text "They're so cool,"
-	line "but most girls"
+	text "Ils sont trop"
+	line "cool mais la"
 
-	para "don't like bug"
-	line "#MON."
+	para "plupart des filles"
+	line "n'aiment pas les"
+	cont "#MON insecte."
 
-	para "I don't know why…"
+	para "Je ne sais pas"
+	line "pourquoi..."
 	done
 
 BugCatcherJoshSeenText:
-	text "You saved all the"
-	line "SLOWPOKE? Whew,"
-	cont "you're mighty!"
+	text "Tu as sauvé tous"
+	line "les RAMOLOSS? T'es"
+	cont "super balèze toi!"
 
-	para "But my grown-up"
-	line "#MON are pretty"
-	cont "tough too!"
+	para "Mais mes #MON"
+	line "adultes sont aussi"
+	cont "un peu balèzes je"
+	cont "crois!"
 	done
 
 BugCatcherJoshBeatenText:
-	text "Urrgggh!"
+	text "Aarrgggh!"
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "I guess I should"
-	line "teach them better"
-	cont "moves…"
+	text "Je crois que j'ai"
+	line "oublié de leur"
+	cont "apprendre un truc!"
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
-	line "challenging the"
-	cont "LEADER? No way!"
+	text "PIM: Salut!"
+	line "Tu veux battre le"
+	cont "CHAMPION? Oh non!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	text "PIM & PAM: Oh,"
+	line "double zut!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
-	line "really strong!"
+	text "PIM: Tu es"
+	line "vraiment"
+	cont "redoutable!"
 
-	para "But BUGSY's even"
-	line "stronger! His"
+	para "Mais tu sais"
+	line "quoi ? HECTOR est"
+	cont "encore plus fort!"
 
-	para "SCYTHER's CUT al-"
-	line "most always makes"
-	cont "critical hits!"
+	para "Le COUPE de son"
+	line "INSECATEUR"
+	cont "inflige quasi tout"
+	cont "le temps des coups"
+	cont "critiques!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
-	line "see the LEADER?"
-	cont "Good luck!"
-	
-	para "BUGSY is so"
-	line "strong! His"
-	cont "SCYTHER's CUT"
-	
-	para "always seems to"
-	line "crit!"
+	text "PAM: Tu veux voir"
+	line "le CHAMPION ?"
+	cont "Bonne chance à"
+	cont "toi !"
+
+	para "HECTOR est si"
+	line "fort, l'attaque"
+	cont "COUPE de son"
+	cont "INSECATEUR inflige"
+	cont "toujours des coups"
+	cont "critiques !"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	text "PIM & PAM: Oh,"
+	line "mince et re-mince!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
-	line "MON lost! Oh, what"
-	cont "a shame."
+	text "PAM: Nos #MON"
+	line "insectes ont"
+	cont "perdu... Quel"
+	cont "dommage."
 
-	para "BUGSY's won't"
-	line "lose though!"
-
-	para "His PINECO makes"
-	line "short work of"
-	cont "ROCK-type #MON!"
+	para "Mais HECTOR lui ne"
+	line "perdra pas ! Son"
+	cont "POMDEPIK ne fait"
+	cont "qu'une bouchée des"
+	cont "#MON de type"
+	cont "ROCHE !"
 	done
 
 AzaleaGymGuideText:
-	text "Yo, challenger!"
+	text "Yo, toi!"
 
-	para "BUGSY's young, but"
-	line "his knowledge of"
+	para "HECTOR est jeune"
+	line "mais ses connais-"
 
-	para "bug #MON is for"
-	line "real."
+	para "sances en matière"
+	line "de #MON sont"
+	cont "vastes."
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "Ca risque d'être"
+	line "difficile sans mes"
+	cont "conseils."
 
-	para "Let's see…"
-	line "BUGSY's bagworm"
-	cont "#MON knows a"
+	para "Voyons voir… Il"
+	line "connaît une"
+	cont "capacité qui"
+	cont "compense sa"
+	cont "faiblesse face au"
+	cont "type ROCHE."
+
+	para "Il a également"
+	line "développé une"
+	cont "nouvelle version"
+	cont "de COUPE de type"
+	cont "INSECTE."
+
+	para "Oh, et n'oublions"
+	line "pas ses"
+	cont "redoutables coups"
+	cont "critiques !"
 	
-	para "move that covers"
-	line "its ROCK-type"
-	cont "weakness."
-
-	para "He's also devel-"
-	line "oped a new"
-	
-	para "version of CUT"
-	line "that is BUG-type."
-
-	para "Oh, and don't"
-	line "forget about"
-
-	para "those nasty"
-	line "critical hits!"
-
-	para "Good luck!"
+	para "Bonne chance !"
 	done
 
 AzaleaGymGuideWinText:
-	text "Well done! That"
-	line "was a great clash"
+	text "Bien joué! Voilà"
+	line "une bonne leçon."
 
-	para "of talented young"
-	line "trainers."
-
-	para "With people like"
-	line "you, the future of"
-	cont "#MON is bright!"
+	para "Avec des gens"
+	line "comme toi, l'ave-"
+	cont "nir des #MON"
+	cont "sera brillant!"
 	done
 
 AzaleaGym_MapEvents:
