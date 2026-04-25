@@ -210,29 +210,39 @@ BridgetWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Hi! I'm WHITNEY!"
+	text "Salut!"
+	line "Moi c'est BLANCHE!"
 
-	para "Everyone was into"
-	line "#MON, so I got"
-	cont "into it too!"
+	para "Tout le monde aime"
+	line "les #MON, alors"
+	cont "moi je fais comme"
+	cont "les autres!"
 
-	para "#MON are"
-	line "super-cute!"
+	para "Les #MON sont"
+	line "super-super"
+	cont "mignons pas vrai?"
 
-	para "You want to bat-"
-	line "tle? I'm warning"
-	cont "you--I'm good!"
+	para "Ca te dirait de te"
+	line "bastonner un peu?"
+	cont "Je préfère te"
+	cont "prévenir, je suis"
+	cont "très forte!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
-	text "Sob…"
+	text "Sniff-sniff..."
 
-	para "…Waaaaaaah!"
-	line "You're mean!"
+	text "...Waaaaaaah!"
 
-	para "You shouldn't be"
-	line "so serious! You…"
-	cont "you child, you!"
+	para "T'es méchant! Tu"
+	line "ne devrais pas"
+	cont "tout prendre au"
+	cont "sérieux!"
+
+	para "Sale..."
+
+	para "Sale gosse!"
+
 	done
 
 WhitneyYouMeanieText:
@@ -240,95 +250,110 @@ WhitneyYouMeanieText:
 
 	para "Waaaaah!"
 
-	para "…Snivel, hic…"
-	line "…You meanie!"
+	para "Sniff et re-sniff"
+	line "...T'es pas cool!"
 	done
 
 WhitneyWhatDoYouWantText:
-	text "…Sniff…"
+	text "...sniff..."
 
-	para "What? What do you"
-	line "want? A BADGE?"
+	para "Quoi? Qu'est-ce"
+	line "que tu veux?"
+	cont "Un BADGE?"
 
-	para "Oh, right."
-	line "I forgot. Here's"
-	cont "PLAINBADGE."
+	para "Oh, c'est vrai."
+	line "J'avais oublié."
+	cont "Prends le BADGE"
+	cont "PLAINE."
 	done
 
 PlayerReceivedPlainBadgeText:
-	text "<PLAYER> received"
-	line "PLAINBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE PLAINE."
 	done
 
 WhitneyPlainBadgeText:
-	text "PLAINBADGE lets"
-	line "your #MON use"
+	text "Le BADGE PLAINE"
+	line "permet à tes"
 
-	para "STRENGTH outside"
-	line "of battle."
+	para "#MON d'utiliser"
+	line "FORCE hors des"
+	cont "combats."
 
-	para "It also boosts"
-	line "your #MON's"
-	cont "SPEED."
+	para "Il accroît aussi"
+	line "la VITESSE de tes"
+	cont "#MON."
 
-	para "Oh, you can have"
-	line "this too!"
+	para "Oh, prends aussi"
+	line "ceci!"
 	done
 
 WhitneyAttractText:
-	text "It's ATTRACT!"
-	line "It makes full use"
+	text "C'est ATTRACTION!"
+	line "Cela développe le"
 
-	para "of a #MON's"
-	line "charm."
+	para "charme et le pou-"
+	line "voir d'attraction"
+	cont "des #MON."
 
-	para "Isn't it just per-"
-	line "fect for a cutie"
-	cont "like me?"
+	para "N'est-ce pas en"
+	line "parfaite harmonie"
+	cont "avec mon gentil"
+	cont "caractère?"
 	done
 
 WhitneyGoodCryText:
-	text "Ah, that was a"
-	line "good cry!"
+	text "Ah, ça fait du"
+	line "bien de pleurer!"
 	done
 
 WhitneyRematchText:
-	text "Hi! It's you!"
+	text "Couc- Oh, c'est"
+	line "toi!"
 
-    para "Wow, JOHTO"
-    line "CHAMPION now?"
+	para "Woah!"
 
-    para "You really are"
-    line "amazing!"
+	para "T'es MAITRE de"
+	line "JOHTO à présent?"
 
-    para "I want to see"
-    line "how strong you"
-    cont "are."
+	para "T'es vraiment"
+	line "incroyable!"
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "J'ai envie de voir"
+	line "à quel point tu es"
+	cont "fort.e."
+
+	para "Ca te dirait une"
+	line "revanche ?"
 	done
 
 Whitney_RematchDefeatText:
-	text "Waaaaah!"
+	text "Ouinnnnnn!"
 
-	para "Waaaaah!"
+	para "Ouinnnnnn!"
 
-	para "…Snivel, hic…"
-	line "…You meanie!"
+	para "...sniff... T'es"
+	line "pas cool!"
+
 	done
 
 LassCarrieSeenText:
-	text "Don't let my"
-	line "#MON's cute"
+	text "Ne te fais pas"
+	line "avoir par la"
+	cont "bouille de mes"
+	cont "#MON!"
 
-	para "looks fool you."
-	line "They can whip you!"
+	para "Ils sont peut-être"
+	line "mignons mais ils"
+	cont "peuvent te mettre"
+	cont "la pâtée!"
+
 	done
 
 LassCarrieBeatenText:
-	text "Darn… I thought"
-	line "you were weak…"
+	text "Zut... Je croyais"
+	line "que tu étais"
+	cont "faible..."
 	done
 
 LassCarrieAfterBattleText:
@@ -337,105 +362,118 @@ LassCarrieAfterBattleText:
 	done
 
 LassBridgetSeenText:
-	text "I like cute #-"
-	line "MON better than"
-	cont "strong #MON."
+	text "Je préfère les"
+	line "#MON mignons"
+	cont "plutôt que les"
+	cont "#MON forts."
 
-	para "But I have strong"
-	line "and cute #MON!"
+	para "Mais j'en ai un"
+	line "multifonction, il"
+	cont "est mignon et fort"
+	cont "à la fois!"
 	done
 
 LassBridgetBeatenText:
-	text "Oh, no, no, no!"
+	text "Oh, non, non, non!"
 	done
 
 LassBridgetAfterBattleText:
-	text "I'm trying to beat"
-	line "WHITNEY, but…"
-	cont "It's depressing."
+	text "J'essaie de battre"
+	line "BLANCHE mais..."
+	cont "C'est déprimant."
 
-	para "I'm okay! If I"
-	line "lose, I'll just"
+	para "Je suis relax! Si"
+	line "je perds, je"
 
-	para "try harder next"
-	line "time!"
+	para "travaillerai dur"
+	line "pour la prochaine"
+	cont "fois!"
 	done
 
 BridgetWhitneyCriesText:
-	text "Oh, no. You made"
-	line "WHITNEY cry."
+	text "Oh, non. Tu as"
+	line "fait pleurer"
+	cont "BLANCHE."
 
-	para "It's OK. She'll"
-	line "stop soon. She"
+	para "C'est bon, elle va"
+	line "bientôt se calmer."
 
-	para "always cries when"
-	line "she loses."
+	para "Elle pleure à"
+	line "chaque fois"
+	cont "qu'elle perd."
 	done
 
 BeautyVictoriaSeenText:
-	text "Oh, you are a cute"
-	line "little trainer! "
+	text "Oh, tu es un sacré"
+	line "numéro, toi!"
 
-	para "I like you, but I"
-	line "won't hold back!"
+	para "Mimi en plus!"
+	line "Je t'aime bien"
+	cont "mais tu ne passe-"
+	cont "ras pas comme ça!"
 	done
 
 BeautyVictoriaBeatenText:
-	text "Let's see… Oops,"
-	line "it's over?"
+	text "Voyons voir..."
+	line "Oups, c'est fini?"
 	done
 
 BeautyVictoriaAfterBattleText:
-	text "Wow, you must be"
-	line "good to beat me!"
-	cont "Keep it up!"
+	text "Whaou, tu dois"
+	line "être cool pour me"
+	cont "battre comme ça!"
+	cont "Continue!"
 	done
 
 BeautySamanthaSeenText:
-	text "Give it your best"
-	line "shot, or I'll take"
-	cont "you down!"
+	text "Fais de ton mieux"
+	line "ou je t'aurai!"
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, MEOWTH,"
-	line "I'm so sorry!"
+	text "Noon! Oh, MIAOUSS,"
+	line "je suis désolée!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "I taught MEOWTH"
-	line "moves for taking"
-	cont "on any type…"
+	text "J'ai appris à"
+	line "MIAOUSS des"
+	cont "attaques pour"
+	cont "parer chaque type."
 	done
 
 GoldenrodGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Hé! Graine de"
+	line "star!"
 
-	para "This GYM is home"
-	line "to WHITNEY, the"
-	cont "master of NORMAL-"
-	cont "type #MON."
+	para "Cette ARENE est la"
+	line "maison de BLANCHE,"
 
-	para "Be cautious of"
-	line "her cute team."
+	para "la CHAMPIONNE du"
+	line "type NORMAL."
 
-	para "That little teddy"
-	line "bear of hers might"
-	cont "be adorable,"
-	
-	para "but I've seen it"
-	line "shatter rocks."
-	
-	para "Check ROUTE 34"
-	line "if you need a"
-	cont "FIGHTING-type."
+	para "Je te conseille de"
+	line "faire attention à"
+	cont "son"
+
+	para "équipe. Elle est"
+	line "peut-être mignonne"
+	cont "mais j'ai déjà vu"
+	cont "son nounours"
+	cont "détruire des"
+	cont "rochers."
+
+	para "Va voir sur la"
+	line "ROUTE 34 si tu as"
+	cont "besoin d'un #MON"
+	cont "de type COMBAT."
 	done
 
 GoldenrodGymGuideWinText:
-	text "You won? Great! I"
-	line "was busy admiring"
-	cont "the ladies here."
+	text "T'as gagné? Super!"
+	line "J'étais occupé à"
+	cont "mater ces jolies"
+	cont "filles."
 	done
 
 GoldenrodGym_MapEvents:

@@ -38,56 +38,56 @@ GoldenrodDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Hey. I love strong"
-	line "#MON."
+	text "Hé. Moi j'aime les"
+	line "#MON qui"
+	cont "sont trop forts."
 
-	para "I feed them PRO-"
-	line "TEIN to crank up"
-	cont "their ATTACK."
+	para "Je les nourris de"
+	line "PROTEINE pour"
+	cont "booster leur"
+	cont "ATTAQUE."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "IRON adds to your"
-	line "#MON's DEFENSE."
+	text "Le FER augmente la"
+	line "DEFENSE de tes"
+	cont "#MON."
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "There were"
-	line "rumours that"
+	text "Tu sais quoi ?"
 
-	para "some #MON"
-	line "evolve only by"
+	para "J'ai entendu des"
+	line "rumeurs qui disent"
+	cont "que certains #MON"
+	cont "n'évoluent que"
+	cont "s'ils sont"
+	cont "échangés via le"
+	cont "câble Game Link."
 
-	para "being traded via a"
-	line "Game Link cable."
+	para "Mais c'est"
+	line "n'importe quoi…"
+	cont "Par exemple"
+	cont "MACHOPEUR, KADABRA"
+	cont "et SPECTRUM, ils"
+	cont "évoluent en les"
+	cont "faisant monter de"
+	cont "niveaux ! Ah, il y"
+	cont "a aussi"
+	cont "GRAVALANCH."
 
-	para "Pfft..."
+	para "Ton #DEX te"
+	line "montreras comment"
+	cont "les #MON évoluent"
+	cont "vraiment!"
 
-	para "Such"
-	line "misinformation."
-
-	para "I know some"
-	line "of the rumoured"
-	cont "#MON:"
-
-	para "MACHOKE, KADABRA,"
-	line "HAUNTER and, um,"
-	cont "GRAVELER,"
-
-	para "but they all"
-	line "evolve through"
-	cont "level up."
-
-	para "Your #DEX shows"
-	line "how #MON really"
-	cont "evolve!"
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Let Us Pump Up"
-	line "Your #MON!"
+	text "Ca fait du bien"
+	line "par où ça passe!"
 
-	para "4F MEDICINE BOX"
+	para "3EME PHARMACIE"
 	done
 
 GoldenrodDeptStore4F_MapEvents:
