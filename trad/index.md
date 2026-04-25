@@ -17,3 +17,6 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
   * [Arène](maps/CeruleanGym.md) (CeruleanGym)
   * Centre Commercial
     * [3ème étage](maps/CeladonDeptStore3F.md) (CeladonDeptStore3F)
+* Azuria
+  * [Centre Pokémon (1er étage)](maps/CeruleanPokecenter1F.md) (CeruleanPokecenter1F)
+  * [Arène d'Azuria](maps/CeruleanGym.md) (CeruleanGym)
