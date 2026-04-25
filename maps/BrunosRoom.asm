@@ -105,71 +105,77 @@ BrunosRoom_EnterMovement:
 	step_end
 
 BrunoScript_BrunoRematchBeforeText:
-	text "BRUNO: Welcome"
-	line "back, young"
-    cont "warrior."
+	text "ALDO: Bon retour,"
+	line "jeune"
+	cont "guerrier.ère."
 
-    para "Through rigorous"
-    line "training, we have"
-    cont "grown stronger."
+	para "Grâce à un"
+	line "entraînement"
+	cont "rigoureux, nous"
+	cont "sommes devenus"
+	cont "plus forts."
 
-    para "My rock-hard will"
-    line "is even more firm"
-    cont "and unyielding."
+	para "Ma volonté de fer"
+	line "est plus"
+	cont "inébranlable que"
+	cont "jamais."
 
-    para "Are you prepared"
-    line "to face an even"
-    cont "greater challenge?"
+	para "Es-tu prêt.e à"
+	line "relever un défi"
+	cont "encore plus"
+	cont "grand ?"
 
-    para "Show me the"
-    line "results of your"
-	cont "training."
+	para "Montre-moi les"
+	line "fruits de ton"
+	cont "entraînement."
 
-	para "Hoo hah!"
+	para "COMBAT !"
 	done
 
 BrunoScript_BrunoBeforeText:
-	text "I am BRUNO of the"
-	line "ELITE FOUR."
+	text "Je suis ALDO du"
+	line "CONSEIL des 4."
 
-	para "I always train to"
-	line "the extreme be-"
-	cont "cause I believe in"
-	cont "our potential."
+	para "Mon truc à moi"
+	line "c'est de m'entraî-"
+	cont "ner comme un méga"
+	cont "dingue."
 
-	para "That is how we"
-	line "became strong."
+	para "Et c'est comme ça"
+	line "que je suis devenu"
+	cont "si fort et beau."
 
-	para "Can you withstand"
-	line "our power?"
+	para "... Ho!"
+	line "Tu m'écoutes?"
 
-	para "Hm? I see no fear"
-	line "in you. You look"
+	para "T'as pas peur ou"
+	line "quoi? Très bien..."
 
-	para "determined. Per-"
-	line "fect for battle!"
+	para "Comme on peut pas"
+	line "discuter, on va"
+	cont "s'battre."
 
-	para "Ready, <PLAYER>?"
-	line "You will bow down"
+	para "OK, <PLAYER>?"
+	line "Tu vas... Quoi?"
 
-	para "to our overwhelm-"
-	line "ing power!"
+	para "Tu veux que j'ar-"
+	line "rête de parler?"
 
-	para "Hoo hah!"
+	para "COMBAT!"
 	done
 
 BrunoScript_BrunoBeatenText:
-	text "Why? How could we"
-	line "lose?"
+	text "Moi? Perdre?"
+	line "Pourquoi?"
 	done
 
 BrunoScript_BrunoDefeatText:
-	text "Having lost, I"
-	line "have no right to"
-	cont "say anything…"
+	text "J'ai perdu, alors"
+	line "je vais me taire."
+	cont "Heu..."
 
-	para "Go face your next"
-	line "challenge!"
+	para "Va dans la pro-"
+	line "chaine salle!"
 	done
 
 BrunosRoom_MapEvents:
