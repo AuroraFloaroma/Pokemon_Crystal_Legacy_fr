@@ -205,254 +205,265 @@ EcruteakGymGrampsSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Good of you to"
-	line "have come."
+	text "Bienvenue."
 
-	para "Here in ECRUTEAK,"
-	line "#MON have been"
-	cont "revered."
+	para "Ici à ROSALIA,"
+	line "les #MON sont"
+	cont "vénérés."
 
-	para "It's said that a"
-	line "rainbow-colored"
+	para "On dit qu'un"
+	line "#MON aux cou-"
 
-	para "#MON will come"
-	line "down to appear"
+	para "leurs de l'arc-en-"
+	line "ciel apparaîtra"
 
-	para "before a truly"
-	line "powerful trainer."
+	para "face à un dresseur"
+	line "d'exception."
 
-	para "I believed that"
-	line "tale, so I have"
+	para "C'est pourquoi je"
+	line "m'entraîne à fond"
+	cont "les bananes."
 
-	para "secretly trained"
-	line "here all my life."
+	para "Je peux voir ce"
+	line "que d'autres ne"
+	cont "voient pas."
 
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
+	para "Hé oui..."
 
-	para "Just a bit more…"
+	para "Encore un peu et"
+	line "je pourrai voir"
 
-	para "With a little"
-	line "more, I could see"
+	para "ce #MON et"
+	line "ses plumes arc-en-"
+	cont "ciel."
 
-	para "a future in which"
-	line "I meet the #MON"
-	cont "of rainbow colors."
-
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "Tu vas m'aider à"
+	line "m'améliorer!"
 	done
 
 MortyWinLossText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Je ne suis pas"
+	line "encore assez bon."
+	cont "Je ne vois rien."
+	cont "Il me faut des"
+	cont "lunettes!!"
 
-	para "All right. This"
-	line "BADGE is yours."
+	para "Bon allez, ce"
+	line "BADGE est à toi."
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> received"
-	line "FOGBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE BRUME."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
-	line "BADGE, #MON up"
+	text "En possédant le"
+	line "BADGE BRUME, tous"
 
-	para "to L50 will obey"
-	line "you."
+	para "les #MON jusqu'"
+	line "au niveau 50"
+	cont "t'obéiront."
 
-	para "Also, #MON that"
-	line "know SURF will be"
+	para "En plus de ça les"
+	line "#MON qui ont"
 
-	para "able to use that"
-	line "move anytime."
+	para "appris SURF"
+	line "pourront l'uti-"
+	cont "liser partout."
 
-	para "I want you to have"
-	line "this too."
+	para "Prends aussi ceci."
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
-	line "It causes damage"
+	text "C'est BALL'OMBRE."
+	line "Elle cause"
 
-	para "and may reduce"
-	line "SPCL.DEF."
+	para "des dégâts et peut"
+	line "réduire la DEFENSE"
+	cont "SPE."
 
-	para "Use it if it"
-	line "appeals to you."
+	para "Utilise-la et tu"
+	line "verras!"
 	done
 
 MortyFightDoneText:
-	text "I see…"
+	text "Je vois..."
 
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
+	para "Ton voyage a été"
+	line "long et"
+	cont "mouvementé."
 
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
-
-	para "I envy you for"
-	line "that…"
+	para "Tu as fait plein"
+	line "de trucs super"
+	cont "géniaux."
 	done
 
 MortyRematchText:
-	text "Ah, the JOHTO"
-	line "CHAMPION! Good"
-	cont "of you to come."
+	text "Ah, MAITRE de"
+	line "JOHTO! C'est"
+	cont "gentil de passer"
+	cont "me voir."
 
-	para "You've shown your"
-	line "strength and"
-	cont "skill, but have"
+	para "Tu m'as déjà"
+	line "prouvé ta force et"
+	cont "tes capacités mais"
+	cont "t'es-tu amélioré"
+	cont "depuis notre"
+	cont "dernier combat ?"
 
-	para "you improved"
-	line "since our last"
-	cont "battle?"
+	para "Je me suis"
+	line "entrainé avec mes"
+	cont "#MON de type"
+	cont "SPECTRE, voyons"
+	cont "voir si tu sauras"
+	cont "surmonter les"
+	cont "ténèbres une fois"
+	cont "de plus."
 
-	para "I've been"
-	line "training with my"
-	cont "GHOST-type"
-	cont "#MON."
+	para "Prêt.e pour une"
+	line "revanche ?"
 
-	para "Let's see if you"
-	line "can overcome the"
-	cont "shadows once"
-	cont "again."
-
-	para "Want to have a"
-	line "rematch with me?"
 	done
 
 Morty_RematchDefeatText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Je ne suis pas"
+	line "encore à la"
+	cont "hauteur…"
 
-	para "You have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "Tu as vécu bien"
+	line "plus de choses que"
+	cont "moi."
 
-	para "I envy you for"
-	line "that…"
+	para "Est-ce de la"
+	line "jalousie que"
+	cont "j'éprouve ?"
 	done
 
 SageJeffreySeenText:
-	text "I spent the spring"
-	line "with my #MON."
+	text "J'ai passé tout le"
+	line "printemps avec mes"
 
-	para "Then summer, fall"
-	line "and winter…"
+	para "#MON et puis"
+	line "aussi l'été et"
+	cont "surtout l'hiver..."
 
-	para "Then spring came"
-	line "again. We have"
+	para "Lorsque le prin-"
+	line "temps revint,"
 
-	para "lived together"
-	line "for a long time."
+	para "nous avions passé"
+	line "de longs moments"
+	cont "ensemble."
 	done
 
 SageJeffreyBeatenText:
-	text "Wins and losses, I"
-	line "experienced both."
+	text "J'ai appris à"
+	line "gagner et à"
+	cont "perdre."
 	done
 
 SageJeffreyAfterBattleText:
-	text "Where did #MON"
-	line "come from?"
+	text "D'où viennent les"
+	line "#MON?"
 	done
 
 SagePingSeenText:
-	text "Can you inflict"
-	line "any damage on our"
+	text "Peux-tu infliger"
+	line "des dégâts à nos"
 	cont "#MON?"
 	done
 
 SagePingBeatenText:
-	text "Ah! Well done!"
+	text "Ah! Bien joué!"
 	done
 
 SagePingAfterBattleText:
-	text "We use GHOST-"
-	line "type #MON."
+	text "On n'utilise que"
+	line "les #MON de"
+	cont "type SPECTRE."
 
-	para "No NORMAL-type"
-	line "attack can harm"
-	cont "them!"
+	para "Aucune attaque"
+	line "de type NORMAL"
+	cont "ne peut les"
+	cont "inquiéter!"
 	done
 
 MediumMarthaSeenText:
-	text "I shall win!"
+	text "Je vais gagner!"
 	done
 
 MediumMarthaBeatenText:
-	text "I, I, I lost!"
+	text "Et bah non, j'ai"
+	line "perdu!"
 	done
 
 MediumMarthaAfterBattleText:
-	text "The one who wants"
-	line "to win most--will!"
+	text "Celui qui veut et"
+	line "bah, il peut!"
 	done
 
 MediumGraceSeenText:
-	text "Stumped by our in-"
-	line "visible floor?"
+	text "Ah! Ca te fait"
+	line "peur le sol"
 
-	para "Defeat me if you"
-	line "want a hint!"
+	para "invisible, hein?"
+	line "Tu n'as plus qu'à"
+	cont "me battre et je te"
+	cont "file un conseil!"
 	done
 
 MediumGraceBeatenText:
-	text "Wha-what?"
+	text "Kk-kkoi?"
 	done
 
 MediumGraceAfterBattleText:
-	text "Fine. I shall tell"
-	line "you the secret of"
+	text "Très bien. Je vais"
+	line "te donner un truc"
 
-	para "the invisible"
-	line "floor."
+	para "à propos du sol"
+	line "invisible."
 
-	para "The path is right"
-	line "before our eyes!"
+	para "Le bon chemin est"
+	line "devant nos yeux!"
 	done
 
 EcruteakGymGuideText:
-	text "Hey CHAMP!"
-	line "You're almost"
-	cont "halfway there!"
-	
-	para "The trainers here"
-	line "use GHOST and"
-	cont "DARK-type #MON."
+	text "Hé! Graine de"
+	line "star! Tu y es"
+	cont "presque !"
 
-	para "While MORTY is a"
-	line "GHOST-type expert,"
-	
-	para "be wary of his"
-	line "mystic deer."
-	
-	para "It's said to cause"
-	line "odd nightmares…"
+	para "Ici, les dresseurs"
+	line "utilisent des #MON"
+	cont "de type SPECTRE et"
+	cont "TÉNÈBRES."
+
+	para "MORTIMER est un"
+	line "expert du type"
+	cont "SPECTRE, mais"
+	cont "méfie toi de son"
+	cont "cerf mystique."
+
+	para "On dit qu'il"
+	line "provoque"
+	cont "d'étranges"
+	cont "cauchemars…"
 	done
 
 EcruteakGymGuideWinText:
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "Whaou, <PLAYER>!"
+	line "Bien joué!"
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "J'étais caché dans"
+	line "un coin tant"
+	cont "j'étais mort de"
+	cont "trouille!"
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, the GYM"
-	line "LEADER, is absent."
+	text "MORTIMER, le CHAM-"
+	line "PION, est absent."
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Tu dois partir."
 
 	para "Hohohoho."
 	done
