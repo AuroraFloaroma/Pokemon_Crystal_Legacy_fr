@@ -1,0 +1,5 @@
+
+| key                              | Original                                                                                                      | Traduction                                                                                                                         | Trad. OG                                                                                  |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| GoldenrodDeptStoreRoofFisherText | Pardon? Who says an adult can't get into this?<br>I'm going to be back every day to<br>collect all the dolls! | Pardon? Comment ça un adulte n'a pas le droit de faire ça ? Je vais revenir ici tous les jours jusqu'à obtenir toutes les poupées! | Pardon? Comment ça un adulte n'a pas le droit de faire ça?<br>Je veux toutes les poupées! |
+#### Notes :
