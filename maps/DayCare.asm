@@ -74,13 +74,12 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "Pépé te cherche."
 	done
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Je suis le type"
+	line "de la PENSION."
 
 	para "There's something"
 	line "new in GOLDENROD"
@@ -102,62 +101,57 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Je suis le TYPE de"
+	line "la PENSION."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Tu connais les"
+	line "OEUFS?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "J'élevais des #MON"
+	line "avec ma femme..."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Et puis on a trou-"
+	line "vé un OEUF!"
 
-	para "How incredible is"
-	line "that?"
+	para "C'est pas trop"
+	line "dingue, ça?"
 
-	para "You know, your"
-	line "#DEX shows EGG"
-	cont "groups, and how"
-	
-	para "long they take to"
-	line "hatch!"
+	para "Et tu sais, ton"
+	line "#DEX te montre tes"
+	cont "groupes d'OEUFS et"
+	cont "combien de temps"
+	cont "ils mettent à"
+	cont "éclore."
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
-
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Bon. Tu le veux"
+	line "cet OEUF? Tu peux"
+	cont "le garder!"
 	done
 
 DayCareText_ComeAgain: ; unreferenced
-	text "Come again."
+	text "A bientôt."
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "<PLAYER> reçoit"
+	line "OEUF BIZARRE!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "J'ai trouvé ça"
+	line "en m'occupant du"
 
-	para "someone's #MON"
-	line "before."
+	para "#MON de"
+	line "quelqu'un."
 
-	para "But the trainer"
-	line "didn't want the"
-
-	para "EGG, so I'd kept"
-	line "it around."
+	para "Mais le dresseur"
+	line "ne veut pas de"
+	cont "l'OEUF..."
 	done
 
 DayCareText_PartyFull:
-	text "You've no room for"
-	line "this."
+	text "Tu n'as plus de"
+	line "place."
 	done
 
 DayCare_MapEvents:
