@@ -13,3 +13,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 * [Salle d'Aldo (E4)](maps/BrunosRoom.md) (BrunosRoom)
 * Tour Cendrée  
   * [1er étage](maps/BurnedTower1F.md) (BurnedTower1F)
+* Céladopole
+  * [Arène](maps/CeruleanGym.md) (CeruleanGym)
+  * Centre Commercial
+    * [3ème étage](maps/CeladonDeptStore3F.md) (CeladonDeptStore3F)
