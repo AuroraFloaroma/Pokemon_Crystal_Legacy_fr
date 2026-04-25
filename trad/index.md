@@ -6,3 +6,10 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 
 ### /maps
 * [Arène D'Écorcia](maps/AzaleaGym.md) (Azalea Gym)
+* [Maison du frère de Léo](maps/BillsBrothersHouse.md) (BillsBrothersHouse)
+* Arène D'Ébènelle 
+  * [1er étage](maps/BlackthornGym1F.md) (BlackthornGym1F) 
+* [Maison de Blue](maps/BluesHouse.md) (BluesHouse)
+* [Salle d'Aldo (E4)](maps/BrunosRoom.md) (BrunosRoom)
+* Tour Cendrée  
+  * [1er étage](maps/BurnedTower1F.md) (BurnedTower1F)
