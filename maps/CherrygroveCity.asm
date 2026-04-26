@@ -484,7 +484,7 @@ CherrygroveRivalText_Seen:
 	cont "que j'ai moi!"
 	done
 
-RivalCherrygroveWinText:
+SilverCherrygroveWinText:
 	text "Alors?"
 	line "C'est la joie?"
 	done
@@ -500,7 +500,7 @@ CherrygroveRivalText_YouLost:
 	cont "monde."
 	done
 
-RivalCherrygroveLossText:
+SilverCherrygroveLossText:
 	text "Pfff. Une perte"
 	line "de temps."
 	done

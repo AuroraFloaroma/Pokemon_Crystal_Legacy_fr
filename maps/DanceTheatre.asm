@@ -307,7 +307,7 @@ RhydonText:
 	line "Férrroosss!"
 	done
 
-DanceTheaterCooltrainerMText:
+DanceTheatreCooltrainerMText:
 	text "Cet homme est"
 	line "toujours avec son"
 	cont "RHINOFEROS."
@@ -322,7 +322,7 @@ DanceTheaterCooltrainerMText:
 	cont "MON synchronisée?"
 	done
 
-DanceTheaterGrannyText:
+DanceTheatreGrannyText:
 	text "Les KIMONO sont"
 	line "très belles..."
 

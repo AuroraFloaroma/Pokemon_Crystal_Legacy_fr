@@ -202,7 +202,7 @@ BurnedTowerSilver_WinText:
 	cont "C'est pathétique."
 	done
 
-BurnedTowerRival_AfterText1:
+BurnedTowerSilver_AfterText1:
 	text "Pff...minable."
 
 	para "T'auras jamais un"
@@ -212,7 +212,7 @@ BurnedTowerRival_AfterText1:
 	line "T'es zéro."
 	done
 
-BurnedTowerRival_LossText:
+BurnedTowerSilver_LossText:
 	text "...Pff!"
 
 	para "Voilà pourquoi"
@@ -223,7 +223,7 @@ BurnedTowerRival_LossText:
 	cont "perte de temps."
 	done
 
-BurnedTowerRival_AfterText2:
+BurnedTowerSilver_AfterText2:
 	text "...Pfff!"
 
 	para "Tu tombes dans les"

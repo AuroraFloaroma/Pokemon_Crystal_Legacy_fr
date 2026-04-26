@@ -282,7 +282,7 @@ DragonShrineSignpostText:
 	cont "l'ANTRE du DRAGON."
 	done
 
-RivalText_Training1:
+SilverText_Training1:
 	text "......"
 	line "Quoi? <PLAYER>?"
 
