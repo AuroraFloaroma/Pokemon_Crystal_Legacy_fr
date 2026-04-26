@@ -18,7 +18,10 @@
 ### Code :
 - Retirer les références à la version AUSTRALIENNE de Pokémon Crystal (\_CRYSTAL\_AU), notamment au niveau de la compilation (censure des slot machines). 
 ### Autre :
-- Changer la texture de l'écran titre en "L'héritage de Cristal" ?
+- modifier makefile pour faire une build avec ou sans custom title (l'heritage du crital - crystal legacy)
+- voir pour la debug room
+### Textures :
+- Remettre les textures customs de la romhack dans les font (notamment le %, vérifier pour le reste)
 
 
 
