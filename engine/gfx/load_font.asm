@@ -18,15 +18,22 @@ Get2bppOptionalHDMA: ; unreferenced
 _LoadStandardFont::
 	ld de, Font
 	ld hl, vTiles1
+	lb bc, BANK(Font), 128 ; "A" to "9"
+	ldh a, [rLCDC]
+	bit rLCDC_ENABLE, a
+	jp z, Copy1bpp
+
+	ld de, Font
+	ld hl, vTiles1
 	lb bc, BANK(Font), 32 ; "A" to "]"
 	call Get1bppViaHDMA
 	ld de, Font + 32 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $20
-	lb bc, BANK(Font), 33 ; "a" to "z" (skip "┌" to "┘")
+	lb bc, BANK(Font), 32 ; "a" to $bf
 	call Get1bppViaHDMA
-	ld de, Font + 77 * LEN_1BPP_TILE
-	ld hl, vTiles1 tile $4d
-	lb bc, BANK(Font), 19 ; $c0 to "←"
+	ld de, Font + 64 * LEN_1BPP_TILE
+	ld hl, vTiles1 tile $40
+	lb bc, BANK(Font), 32 ; "Ä" to "←"
 	call Get1bppViaHDMA
 	ld de, Font + 96 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $60
@@ -35,19 +42,32 @@ _LoadStandardFont::
 	ret
 
 _LoadFontsExtra1::
+	ld de, FontsExtra_SolidBlackGFX
+	ld hl, vTiles2 tile "■" ; $60
+	lb bc, BANK(FontsExtra_SolidBlackGFX), 1
+	call Get1bppViaHDMA
+	ld de, PokegearPhoneIconGFX
+	ld hl, vTiles2 tile "☎" ; $62
+	lb bc, BANK(PokegearPhoneIconGFX), 1
+	call Get2bppViaHDMA
+	ld de, FontExtra + 3 tiles ; "<BOLD_D>"
+	ld hl, vTiles2 tile "<BOLD_D>"
+	lb bc, BANK(FontExtra), 22 ; "<BOLD_D>" to "ぉ"
+	call Get2bppViaHDMA
 	jr LoadFrame
 
 _LoadFontsExtra2::
+	ld de, FontsExtra2_UpArrowGFX
+	ld hl, vTiles2 tile "▲" ; $61
+	ld b, BANK(FontsExtra2_UpArrowGFX)
+	ld c, 1
+	call Get2bppViaHDMA
 	ret
 
 _LoadFontsBattleExtra::
 	ld de, FontBattleExtra
 	ld hl, vTiles2 tile $60
-	lb bc, BANK(FontBattleExtra), 16
-	call Get2bppViaHDMA
-	ld de, FontBattleExtra + 17 tiles ; Starting at the 18th Tile of the FontBattleExtra PNG
-	ld hl, vTiles2 tile $71 ; loading that 18th Tile into Tile $71
-	lb bc, BANK(FontBattleExtra), 4 ; 4 Tiles, left arrow, ID + No. Tiles
+	lb bc, BANK(FontBattleExtra), 25
 	call Get2bppViaHDMA
 	jr LoadFrame
 
@@ -59,7 +79,7 @@ LoadFrame:
 	call AddNTimes
 	ld d, h
 	ld e, l
-	ld hl, vTiles0 tile "┌" ; $ba
+	ld hl, vTiles2 tile "┌" ; $79
 	lb bc, BANK(Frames), TEXTBOX_FRAME_TILES ; "┌" to "┘"
 	call Get1bppViaHDMA
 	ld hl, vTiles2 tile " " ; $7f
