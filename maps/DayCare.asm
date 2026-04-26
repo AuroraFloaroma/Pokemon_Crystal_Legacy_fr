@@ -74,7 +74,7 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Pépé te cherche."
+	text "PÃ©pÃ© te cherche."
 	done
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
@@ -107,21 +107,21 @@ DayCareManText_GiveOddEgg:
 	para "Tu connais les"
 	line "OEUFS?"
 
-	para "J'élevais des #MON"
+	para "J'Ã©levais des #MON"
 	line "avec ma femme..."
 
 	para "Et puis on a trou-"
-	line "vé un OEUF!"
+	line "vÃ© un OEUF!"
 
 	para "C'est pas trop"
-	line "dingue, ça?"
+	line "dingue, Ã§a?"
 
 	para "Et tu sais, ton"
 	line "#DEX te montre tes"
 	cont "groupes d'OEUFS et"
 	cont "combien de temps"
-	cont "ils mettent à"
-	cont "éclore."
+	cont "ils mettent Ã "
+	cont "Ã©clore."
 
 	para "Bon. Tu le veux"
 	line "cet OEUF? Tu peux"
@@ -129,16 +129,16 @@ DayCareManText_GiveOddEgg:
 	done
 
 DayCareText_ComeAgain: ; unreferenced
-	text "A bientôt."
+	text "A bientÃ´t."
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> reçoit"
+	text "<PLAYER> reÃ§oit"
 	line "OEUF BIZARRE!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "J'ai trouvé ça"
+	text "J'ai trouvÃ© Ã§a"
 	line "en m'occupant du"
 
 	para "#MON de"

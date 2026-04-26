@@ -74,11 +74,11 @@ GoldenrodDeptStoreB1FUltraBall:
 	itemball ULTRA_BALL
 
 GoldenrodDeptStoreB1FBlackBelt1Text:
-	text "Hé! Tu nous"
+	text "HÃ©! Tu nous"
 	line "retardes!"
 
 	para "On doit travailler"
-	line "en cachette là où"
+	line "en cachette lÃ  oÃ¹"
 
 	para "personne ne peut"
 	line "nous voir!"
@@ -90,7 +90,7 @@ GoldenrodDeptStoreB1FBlackBelt2Text:
 	cont "me regarde."
 
 	para "Allez..."
-	line "Dégage!"
+	line "DÃ©gage!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt3Text:

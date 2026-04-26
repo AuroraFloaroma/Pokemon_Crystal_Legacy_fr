@@ -57,7 +57,7 @@ CableClubFriendScript:
 
 .FriendReadyText:
 	text "Votre ami(e) est"
-	line "prêt(e)."
+	line "prÃªt(e)."
 	done
 
 Colosseum_MapEvents:

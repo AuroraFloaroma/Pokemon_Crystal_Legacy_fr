@@ -22,13 +22,13 @@ DayOfWeekSiblingsHousePokedexScript:
 
 DayOfWeekSiblingsHousePokedexText1:
 	text "Il y a quelque"
-	line "chose d'écrit."
+	line "chose d'Ã©crit."
 
 	para "Lire?"
 	done
 
 DayOfWeekSiblingsHousePokedexText2:
-	text "A mes frères et"
+	text "A mes frÃ¨res et"
 	line "soeurs:"
 
 	para "Nous devons aider"
@@ -43,7 +43,7 @@ DayOfWeekSiblingsHousePokedexText2:
 	para "Bisous,"
 	line "LUCIE"
 
-	para "Continuer à lire?"
+	para "Continuer Ã  lire?"
 	done
 
 DayOfWeekSiblingsHousePokedexText3:

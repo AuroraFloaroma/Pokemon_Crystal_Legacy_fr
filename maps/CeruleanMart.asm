@@ -28,12 +28,12 @@ CeruleanMart_CooltrainerMText:
 	line "CAP d'AZURIA."
 
 	para "Ils voudront se"
-	line "mesurer à toi."
+	line "mesurer Ã  toi."
 	done
 
 CeruleanMart_CooltrainerFText:
 	text "ONDINE est peut-"
-	line "être la seule à"
+	line "Ãªtre la seule Ã "
 
 	para "pouvoir battre les"
 	line "dresseurs du CAP"

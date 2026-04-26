@@ -24,27 +24,27 @@ CeruleanPokecenter1FGymGuideScript:
 
 CeruleanPokecenter1FSuperNerdText:
 	text "Pour les combats,"
-	line "je préfère utili-"
+	line "je prÃ©fÃ¨re utili-"
 
 	para "ser des #MON"
-	line "que j'ai entraînés"
+	line "que j'ai entraÃ®nÃ©s"
 
-	para "plutôt que des"
+	para "plutÃ´t que des"
 	line "#MON plus forts"
 	cont "que je viens"
 	cont "d'attraper."
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Ça t'arrive de"
+	text "Ã‡a t'arrive de"
 	line "combattre par"
-	cont "téléphone ?"
+	cont "tÃ©lÃ©phone ?"
 
 	para "Si le temps est"
-	line "épuisé pendant le"
+	line "Ã©puisÃ© pendant le"
 	cont "combat, attendre"
 	cont "de savoir qui a"
-	cont "gagné est vraiment"
+	cont "gagnÃ© est vraiment"
 	cont "angoissant."
 	done
 
@@ -53,11 +53,11 @@ CeruleanPokecenter1FGymGuideText:
 	line "fait du 550!"
 
 	para "Il va de KANTO"
-	line "à JOHTO en un"
+	line "Ã  JOHTO en un"
 	cont "rien de temps."
 
-	para "Aller à JOHTO est"
-	line "alors très facile."
+	para "Aller Ã  JOHTO est"
+	line "alors trÃ¨s facile."
 	done
 
 CeruleanPokecenter1F_MapEvents:

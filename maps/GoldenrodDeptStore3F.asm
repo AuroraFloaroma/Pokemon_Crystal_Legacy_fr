@@ -38,7 +38,7 @@ GoldenrodDeptStore3FSuperNerdText:
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hé! Quand tu te"
+	text "HÃ©! Quand tu te"
 	line "bats, utilises-tu"
 	cont "du SPECIAL +?"
 

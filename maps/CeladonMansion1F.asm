@@ -47,10 +47,10 @@ CeladonMansionManagerText:
 	line "tiennent compa-"
 
 	para "gnie. La solitude,"
-	line "c'est du passé."
+	line "c'est du passÃ©."
 
 	para "Mon MIAOUSS m'ap-"
-	line "porte même de"
+	line "porte mÃªme de"
 	cont "l'argent."
 	done
 
@@ -59,8 +59,8 @@ CeladonMansion1FMeowthText:
 	done
 
 CeladonMansion1FClefairyText:
-	text "MELOFEE: Mélo!"
-	line "Méloooo!"
+	text "MELOFEE: MÃ©lo!"
+	line "MÃ©loooo!"
 	done
 
 CeladonMansion1FNidoranFText:

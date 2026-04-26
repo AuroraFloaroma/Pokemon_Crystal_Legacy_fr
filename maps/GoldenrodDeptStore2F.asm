@@ -47,7 +47,7 @@ GoldenrodDeptStore2FUnusedText1: ; unreferenced
 	para "Voici un joli"
 	line "cadeau et en plus"
 	cont "c'est gratuit!"
-	cont "Donne-le à un"
+	cont "Donne-le Ã  un"
 	cont "#MON."
 	done
 
@@ -63,12 +63,12 @@ GoldenrodDeptStore2FUnusedText2: ; unreferenced
 GoldenrodDeptStore2FYoungsterText:
 	text "Le #MATOS"
 	line "peut enregistrer"
-	cont "jusqu'à 25"
-	cont "numéros."
+	cont "jusqu'Ã  25"
+	cont "numÃ©ros."
 
 	para "C'est difficile de"
-	line "décider quel"
-	cont "numéro garder."
+	line "dÃ©cider quel"
+	cont "numÃ©ro garder."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
@@ -88,7 +88,7 @@ GoldenrodDeptStore2FGentlemanText:
 
 	para "La marchandise est"
 	line "la meilleure de"
-	cont "la région."
+	cont "la rÃ©gion."
 	done
 
 GoldenrodDeptStore2FDirectoryText:

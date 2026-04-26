@@ -30,7 +30,7 @@ CeladonDeptStore4FElevatorButton:
 CeladonDeptStore4FSuperNerdText:
 	text "Je vais acheter"
 	line "une LETR SURF pour"
-	cont "l'envoyer à ma"
+	cont "l'envoyer Ã  ma"
 	cont "copine."
 	done
 

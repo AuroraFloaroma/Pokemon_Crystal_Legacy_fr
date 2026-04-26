@@ -13,9 +13,9 @@ GuideGentsHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 GuideGentsHouseGuideGentText:
-	text "Quand je n'étais"
+	text "Quand je n'Ã©tais"
 	line "qu'un mioche,"
-	cont "j'étais un super"
+	cont "j'Ã©tais un super"
 	cont "dresseur!"
 
 	para "Un p'tit conseil:"

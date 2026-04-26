@@ -70,7 +70,7 @@ IcePathB1FHiddenMaxPotion:
 
 IcePathBoulderFellThroughText:
 	text "Le rocher a"
-	line "traversé."
+	line "traversÃ©."
 	done
 
 IcePathB1F_MapEvents:

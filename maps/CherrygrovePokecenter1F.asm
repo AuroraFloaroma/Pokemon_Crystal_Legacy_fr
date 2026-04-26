@@ -53,7 +53,7 @@ CherrygrovePokecenter1FTeacherText:
 	text "Le CENTRE de"
 	line "COMMUNICATION"
 	cont "d'au-dessus vient"
-	cont "d'être construit."
+	cont "d'Ãªtre construit."
 
 	para "Mais ils le peau-"
 	line "finent encore."
@@ -63,9 +63,9 @@ CherrygrovePokecenter1FTeacherText_CommCenterOpen:
 	text "Le CENTRE de"
 	line "COMMUNICATION"
 	cont "d'au-dessus vient"
-	cont "d'être construit."
+	cont "d'Ãªtre construit."
 
-	para "J'y ai échangé"
+	para "J'y ai Ã©changÃ©"
 	line "des #MON!"
 	done
 

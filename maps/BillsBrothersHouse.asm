@@ -14,13 +14,13 @@ BillsBrothersHouseYoungsterScript:
 	jumptextfaceplayer BillsBrothersHouseYoungsterText
 
 BillsBrotherText:
-	text "Mon pépé est chez"
-	line "mon frère LEO au"
+	text "Mon pÃ©pÃ© est chez"
+	line "mon frÃ¨re LEO au"
 	cont "CAP d'AZURIA."
 	done
 	
 BillsBrothersHouseYoungsterText:
-	text "J'ai vu des drôles"
+	text "J'ai vu des drÃ´les"
 	line "de #MON lents"
 	cont "sur la PISTE"
 	cont "CYCLABLE."

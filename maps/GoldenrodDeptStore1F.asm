@@ -42,12 +42,12 @@ GoldenrodDeptStore1FGentlemanText:
 	line "objets ne sont"
 
 	para "disponibles qu'en"
-	line "prix à gagner au"
+	line "prix Ã  gagner au"
 	cont "CASINO."
 	done
 
 GoldenrodDeptStore1FPokefanFText:
-	text "Je suis très"
+	text "Je suis trÃ¨s"
 	line "impatiente de"
 	cont "faire les courses!"
 	done
@@ -57,7 +57,7 @@ GoldenrodDeptStore1FBugCatcherText:
 	line "forte quand il"
 	cont "s'agit de bizness."
 
-	para "Elle achète tou-"
+	para "Elle achÃ¨te tou-"
 	line "jours des trucs"
 	cont "pas chers."
 	done

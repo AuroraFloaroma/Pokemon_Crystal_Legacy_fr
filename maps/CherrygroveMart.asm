@@ -51,10 +51,10 @@ CherrygroveMartCooltrainerMText:
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
 	text "Les # BALLS"
-	line "sont arrivées!"
+	line "sont arrivÃ©es!"
 	cont "C'est reparti! Les"
 	cont "#MON n'ont"
-	cont "qu'à bien se"
+	cont "qu'Ã  bien se"
 	cont "tenir!"
 	done
 
@@ -63,13 +63,13 @@ CherrygroveMartYoungsterText:
 	line "l'herbe et un"
 
 	para "#MON insecte"
-	line "a empoisonné mon"
+	line "a empoisonnÃ© mon"
 	cont "#MON!"
 
-	para "J'ai continué mon"
+	para "J'ai continuÃ© mon"
 	line "chemin mais mon"
 	cont "#MON s'est"
-	cont "évanoui."
+	cont "Ã©vanoui."
 
 	para "Tu devrais garder"
 	line "un ANTIDOTE avec"

@@ -26,10 +26,10 @@ BlackthornMartCooltrainerMText:
 
 	para "MAX mais il permet"
 	line "de ramener un"
-	cont "#MON évanoui"
+	cont "#MON Ã©vanoui"
 	cont "en pleine forme."
 
-	para "Fais attention, ça"
+	para "Fais attention, Ã§a"
 	line "ne restaure pas"
 	cont "les POINTS DE POU-"
 	cont "VOIR des attaques."

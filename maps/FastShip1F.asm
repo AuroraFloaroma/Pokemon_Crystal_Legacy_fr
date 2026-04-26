@@ -207,22 +207,22 @@ FastShip1F_PlayerLeavesShipRightMovement:
 
 FastShip1FSailor1Text_ToVermilion:
 	text "Le BATEAU EXPRESS"
-	line "AQUARIA va à"
+	line "AQUARIA va Ã "
 	cont "CARMIN SUR MER."
 
 	para "Nous ferons un"
-	line "appel à notre"
-	cont "arrivée."
+	line "appel Ã  notre"
+	cont "arrivÃ©e."
 	done
 
 FastShip1FSailor1Text_ToOlivine:
 	text "Le BATEAU EXPRESS"
-	line "AQUARIA va à"
+	line "AQUARIA va Ã "
 	cont "OLIVILLE."
 
 	para "Nous ferons un"
-	line "appel à notre"
-	cont "arrivée."
+	line "appel Ã  notre"
+	cont "arrivÃ©e."
 	done
 
 FastShip1FSailor2Text_FirstTime:
@@ -230,11 +230,11 @@ FastShip1FSailor2Text_FirstTime:
 	line "cabine."
 
 	para "Si vos #MON"
-	line "sont blessés,"
+	line "sont blessÃ©s,"
 	cont "dormez et..."
 
 	para "Ils seront tous"
-	line "soignés."
+	line "soignÃ©s."
 	done
 
 FastShip1FSailor2Text:
@@ -262,26 +262,26 @@ FastShip1FSailor3Text:
 FastShip1FGrandpaText:
 	text "Whoa! Pardon."
 	line "Je suis un peu"
-	cont "pressé!"
+	cont "pressÃ©!"
 
 	para "Ma petite-fille a"
 	line "disparu!"
 
 	para "Elle est toute"
-	line "jeune... Préviens-"
+	line "jeune... PrÃ©viens-"
 	cont "moi si tu la vois!"
 	done
 
 FastShip1FSailor1Text_InOlivine:
 	text "Le BATEAU EXPRESS"
-	line "AQUARIA est arrivé"
-	cont "à OLIVILLE."
+	line "AQUARIA est arrivÃ©"
+	cont "Ã  OLIVILLE."
 	done
 
 FastShip1FSailor1Text_InVermilion:
 	text "Le BATEAU EXPRESS"
-	line "AQUARIA est arrivé"
-	cont "à CARMIN SUR MER."
+	line "AQUARIA est arrivÃ©"
+	cont "Ã  CARMIN SUR MER."
 	done
 
 FastShip1F_MapEvents:

@@ -18,7 +18,7 @@ CherrygroveGymSpeechHouseBookshelf:
 
 CherrygroveGymSpeechHousePokefanMText:
 	text "T'essaierais pas"
-	line "d'évaluer ton"
+	line "d'Ã©valuer ton"
 
 	para "p'tit niveau de"
 	line "dresseur par"

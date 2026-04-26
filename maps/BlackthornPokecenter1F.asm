@@ -37,12 +37,12 @@ BlackthornPokecenter1FGentlemanText:
 
 BlackthornPokecenter1FTwinText:
 	text "Il y avait une"
-	line "capacité que je"
+	line "capacitÃ© que je"
 
-	para "voulais donner à"
+	para "voulais donner Ã "
 	line "mon #MON..."
 
-	para "Alors j'ai demandé"
+	para "Alors j'ai demandÃ©"
 	line "au TYPE QUI EFFACE"
 	cont "LES CAPACITES de"
 	cont "lui faire oublier"

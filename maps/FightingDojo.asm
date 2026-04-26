@@ -23,11 +23,11 @@ FightingDojoBlackBeltText:
 	text "Bonjour!"
 
 	para "Le ROI du KARATE,"
-	line "le maître du DOJO"
+	line "le maÃ®tre du DOJO"
 
 	para "est dans une grot-"
 	line "te de JOHTO pour"
-	cont "s'entraîner."
+	cont "s'entraÃ®ner."
 	done
 
 FightingDojoSign1Text:

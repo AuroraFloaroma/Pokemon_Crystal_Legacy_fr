@@ -25,11 +25,11 @@ CianwoodLugiaSpeechHouseTeacherText:
 	line "d'OLIVILLE?"
 
 	para "Tu te rappelles"
-	line "des quatre îles"
+	line "des quatre Ã®les"
 	cont "sur la route?"
 
 	para "J'ai entendu dire"
-	line "qu'une créature"
+	line "qu'une crÃ©ature"
 	cont "marine mythique"
 	cont "s'y cache."
 	done
@@ -42,20 +42,20 @@ CianwoodLugiaSpeechHouseLassText:
 	line "l'AILE ARGENT."
 
 	para "Elle doit avoir la"
-	line "même odeur que la"
-	cont "créature."
+	line "mÃªme odeur que la"
+	cont "crÃ©ature."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
 	text "On dit que les"
 	line "siphons autour des"
 
-	para "îles sont créés"
-	line "par la créature"
+	para "Ã®les sont crÃ©Ã©s"
+	line "par la crÃ©ature"
 	cont "marine."
 
 	para "Il faut une capa-"
-	line "cité spéciale pour"
+	line "citÃ© spÃ©ciale pour"
 	cont "les passer."
 	done
 

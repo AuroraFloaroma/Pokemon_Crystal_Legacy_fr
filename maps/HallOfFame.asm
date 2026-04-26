@@ -78,8 +78,8 @@ HallOfFame_LanceText:
 	para "Ce lieu consacre"
 	line "les MAITRES de la"
 
-	para "LIGUE pour l'éter-"
-	line "nité."
+	para "LIGUE pour l'Ã©ter-"
+	line "nitÃ©."
 
 	para "Leurs courageux"
 	line "#MON sont aussi"
@@ -95,13 +95,13 @@ HallOfFame_LanceText:
 	line "plus que tout."
 
 	para "Un dresseur"
-	line "persévérant et"
-	cont "déterminé."
+	line "persÃ©vÃ©rant et"
+	cont "dÃ©terminÃ©."
 
-	para "Tu possèdes tous"
+	para "Tu possÃ¨des tous"
 	line "les atouts pour"
 
-	para "être le plus grand"
+	para "Ãªtre le plus grand"
 	line "des MAITRES!"
 
 	para "<PLAY_G>, je vais"

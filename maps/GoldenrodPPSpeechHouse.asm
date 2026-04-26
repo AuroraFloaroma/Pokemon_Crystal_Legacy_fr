@@ -34,7 +34,7 @@ GoldenrodPPSpeechHouseFisherText:
 	line "POUVOIR, ou PP,"
 
 	para "de mes attaques"
-	line "étaient épuisés."
+	line "Ã©taient Ã©puisÃ©s."
 	done
 
 GoldenrodPPSpeechHouseLassText:

@@ -133,7 +133,7 @@ Script_ChallengeCanceled: ; unreferenced
 
 Text_ReturnedAfterSave_Mobile: ; unreferenced
 	text "Vous reviendrez"
-	line "après avoir SAUVE."
+	line "aprÃ¨s avoir SAUVE."
 	done
 
 BattleTowerBattleRoom_MapEvents:

@@ -47,7 +47,7 @@ DarkCaveBlackthornEntrancePharmacistText1:
 	para "C'est pas trop tes"
 	line "oignons, non?"
 
-	para "Voil‡ une paire de"
+	para "Voil√† une paire de"
 	line "LUNETTES NOIRES."
 	cont "Oublie que tu m'as"
 	cont "vu, OK?"

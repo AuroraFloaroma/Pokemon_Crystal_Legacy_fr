@@ -21,7 +21,7 @@ IlexForestAzaleaGateOfficerText:
 
 IlexForestAzaleaGateGrannyText:
 	text "Le BOIS est"
-	line "protégé par son"
+	line "protÃ©gÃ© par son"
 	cont "gardien."
 
 	para "Alors ne fais rien"

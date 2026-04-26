@@ -65,7 +65,7 @@ DaisyScript:
 
 DaisyHelloText:
 	text "NINA: Salut! Mon"
-	line "petit frËre est le"
+	line "petit fr√®re est le"
 
 	para "CHAMPION de l'ARE-"
 	line "NE de JADIELLE."
@@ -73,14 +73,14 @@ DaisyHelloText:
 	para "Mais il se balade"
 	line "beaucoup, ce qui"
 
-	para "embÍte pas mal de"
+	para "emb√™te pas mal de"
 	line "dresseurs."
 	done
 
 DaisyOfferGroomingText:
 	text "NINA: Salut! Ca"
 	line "tombe bien, j'al-"
-	cont "lais faire du thÈ."
+	cont "lais faire du th√©."
 
 	para "En veux-tu?"
 
@@ -109,7 +109,7 @@ GroomedMonLooksContentText:
 	done
 
 DaisyAllDoneText:
-	text "NINA: Voil‡‡‡!"
+	text "NINA: Voil√†√†√†!"
 	line "C'est fini!"
 
 	para "Alors? Il est pas"
@@ -121,7 +121,7 @@ DaisyAllDoneText:
 
 DaisyAlreadyGroomedText:
 	text "NINA: Je me fais"
-	line "du thÈ toujours ‡"
+	line "du th√© toujours √†"
 
 	para "cette heure. Tu"
 	line "peux rester."
@@ -132,11 +132,11 @@ DaisyRefusedText:
 	line "pas que je m'en"
 
 	para "occupe? OK. Un peu"
-	line "de thÈ, alors..."
+	line "de th√©, alors..."
 	done
 
 DaisyCantGroomEggText:
-	text "NINA: Oh, dÈsolÈe."
+	text "NINA: Oh, d√©sol√©e."
 	line "Je ne peux pas"
 	cont "m'occuper d'un"
 	cont "OEUF."

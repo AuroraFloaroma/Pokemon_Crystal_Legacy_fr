@@ -31,11 +31,11 @@ AzaleaPokecenter1FGentlemanText:
 	cont "des CS?"
 
 	para "Ces actions"
-	line "peuvent être réa-"
+	line "peuvent Ãªtre rÃ©a-"
 
-	para "lisées même si le"
+	para "lisÃ©es mÃªme si le"
 	line "#MON est"
-	cont "évanoui."
+	cont "Ã©vanoui."
 	done
 
 AzaleaPokecenter1FUnusedText: ; unreferenced
@@ -52,7 +52,7 @@ AzaleaPokecenter1FUnusedText: ; unreferenced
 
 AzaleaPokecenter1FFishingGuruText:
 	text "Le PC de LEO peut"
-	line "garder jusqu'à 20"
+	line "garder jusqu'Ã  20"
 	cont "#MON par BOITE."
 	done
 
@@ -64,7 +64,7 @@ AzaleaPokecenter1FPokefanFText:
 	line "vide-le et"
 
 	para "remplis-le avec un"
-	line "appareil spécial."
+	line "appareil spÃ©cial."
 
 	para "Tu pourras alors"
 	line "t'en servir pour"
@@ -74,7 +74,7 @@ AzaleaPokecenter1FPokefanFText:
 	para "Avant que les"
 	line "# BALLS ne"
 
-	para "soient inventées"
+	para "soient inventÃ©es"
 	line "tout le monde"
 	cont "utilisait les"
 	cont "NOIGRUMES."

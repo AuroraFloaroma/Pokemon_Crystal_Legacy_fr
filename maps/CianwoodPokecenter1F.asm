@@ -36,7 +36,7 @@ CianwoodPokecenter1FSuperNerdScript:
 	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
 
 CianwoodPokecenter1FLassText:
-	text "As-tu rencontré le"
+	text "As-tu rencontrÃ© le"
 	line "#MANIAC?"
 
 	para "Il se vante sans"
@@ -50,7 +50,7 @@ CianwoodGymGuideText:
 	cont "grosses brutes."
 
 	para "Je veux pas qu'ils"
-	line "s'en prennent à"
+	line "s'en prennent Ã "
 	cont "moi."
 
 	para "Un conseil: le"
@@ -61,7 +61,7 @@ CianwoodGymGuideText:
 	line "utiliser des"
 	cont "#MON PSY."
 
-	para "Mets son équipe"
+	para "Mets son Ã©quipe"
 	line "K.O. avant qu'elle"
 
 	para "n'utilise la"
@@ -71,7 +71,7 @@ CianwoodGymGuideText:
 	line "milieu de l'ARENE?"
 
 	para "Bouge-les correc-"
-	line "tement pour accé-"
+	line "tement pour accÃ©-"
 	cont "der au CHAMPION."
 
 	para "Si tu ne peux plus"
@@ -80,7 +80,7 @@ CianwoodGymGuideText:
 
 CianwoodGymGuideWinText:
 	text "<PLAYER>!"
-	line "Tu as gagné!"
+	line "Tu as gagnÃ©!"
 	cont "Je le savais rien"
 	cont "qu'en te voyant!"
 	done

@@ -16,7 +16,7 @@ DiglettsCavePokefanMText:
 	text "Des TAUPIQUEUR"
 	line "ont surgi du sol"
 
-	para "d'un coup! C'était"
+	para "d'un coup! C'Ã©tait"
 	line "super flippant."
 	done
 

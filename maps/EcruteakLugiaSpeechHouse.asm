@@ -17,8 +17,8 @@ LugiaSpeechHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakLugiaSpeechHouseGrampsText:
-	text "Ca s'est passé"
-	line "lorsque j'étais"
+	text "Ca s'est passÃ©"
+	line "lorsque j'Ã©tais"
 	cont "jeune."
 
 	para "Le ciel est"
@@ -30,9 +30,9 @@ EcruteakLugiaSpeechHouseGrampsText:
 	cont "du soleil."
 
 	para "Je me demande quel"
-	line "#MON c'était..."
+	line "#MON c'Ã©tait..."
 
-	para "C'était comme un"
+	para "C'Ã©tait comme un"
 	line "oiseau ou un"
 	cont "dragon."
 	done
@@ -42,7 +42,7 @@ EcruteakLugiaSpeechHouseYoungsterText:
 	line "#MON aussi"
 
 	para "grand? Si c'est le"
-	line "cas, il doit être"
+	line "cas, il doit Ãªtre"
 	cont "puissant."
 	done
 

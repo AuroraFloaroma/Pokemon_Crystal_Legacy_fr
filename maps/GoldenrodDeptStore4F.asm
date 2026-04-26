@@ -38,7 +38,7 @@ GoldenrodDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Hé. Moi j'aime les"
+	text "HÃ©. Moi j'aime les"
 	line "#MON qui"
 	cont "sont trop forts."
 
@@ -60,17 +60,17 @@ GoldenrodDeptStore4FGameboyKidText:
 	para "J'ai entendu des"
 	line "rumeurs qui disent"
 	cont "que certains #MON"
-	cont "n'évoluent que"
+	cont "n'Ã©voluent que"
 	cont "s'ils sont"
-	cont "échangés via le"
-	cont "câble Game Link."
+	cont "Ã©changÃ©s via le"
+	cont "cÃ¢ble Game Link."
 
 	para "Mais c'est"
-	line "n'importe quoi…"
+	line "n'importe quoiÂ…"
 	cont "Par exemple"
 	cont "MACHOPEUR, KADABRA"
 	cont "et SPECTRUM, ils"
-	cont "évoluent en les"
+	cont "Ã©voluent en les"
 	cont "faisant monter de"
 	cont "niveaux ! Ah, il y"
 	cont "a aussi"
@@ -78,14 +78,14 @@ GoldenrodDeptStore4FGameboyKidText:
 
 	para "Ton #DEX te"
 	line "montreras comment"
-	cont "les #MON évoluent"
+	cont "les #MON Ã©voluent"
 	cont "vraiment!"
 
 	done
 
 GoldenrodDeptStore4FDirectoryText:
 	text "Ca fait du bien"
-	line "par où ça passe!"
+	line "par oÃ¹ Ã§a passe!"
 
 	para "3EME PHARMACIE"
 	done

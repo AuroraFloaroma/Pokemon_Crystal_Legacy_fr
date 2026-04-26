@@ -24,7 +24,7 @@ IcePathB2FMahoganySideHiddenCarbos:
 	hiddenitem CARBOS, EVENT_ICE_PATH_B2F_MAHOGANY_SIDE_HIDDEN_CARBOS
 
 IcePathB2FMahoganySideBoulderText:
-	text "C'est bloqué dans"
+	text "C'est bloquÃ© dans"
 	line "la glace."
 	done
 

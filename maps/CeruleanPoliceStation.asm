@@ -24,16 +24,16 @@ CeruleanDiglett:
 
 CeruleanPoliceStationFishingGuruText:
 	text "On raconte qu'un"
-	line "drÙle de type"
+	line "dr√¥le de type"
 	cont "rode dans le coin."
 
 	para "Si c'est un vo-"
-	line "leur, Áa craint."
+	line "leur, √ßa craint."
 	done
 
 CeruleanPoliceStationPokefanFText:
 	text "Des voleurs nous"
-	line "ont dÈj‡ volÈs."
+	line "ont d√©j√† vol√©s."
 	done
 
 CeruleanDiglettText:

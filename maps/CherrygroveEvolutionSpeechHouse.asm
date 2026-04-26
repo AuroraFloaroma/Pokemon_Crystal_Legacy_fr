@@ -26,18 +26,18 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
 	text "Les #MON"
-	line "gagnent de l'expé-"
+	line "gagnent de l'expÃ©-"
 
-	para "rience et évoluent"
+	para "rience et Ã©voluent"
 	line "en combattant."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
 	text "Les #MON"
-	line "évoluent?"
+	line "Ã©voluent?"
 
 	para "Je serais curieuse"
-	line "de voir ça!"
+	line "de voir Ã§a!"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:

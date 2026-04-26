@@ -135,7 +135,7 @@ KarenScript_KarenBeforeText:
 	cont "TENEBRES."
 
 	para "Leur look noir"
-	line "et méchant est"
+	line "et mÃ©chant est"
 
 	para "trop cool. Et ils"
 	line "sont forts aussi!"

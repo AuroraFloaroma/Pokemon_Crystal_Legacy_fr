@@ -29,12 +29,12 @@ BlackthornDragonSpeechHouseGrannyText:
 	line "seurs commandant"
 
 	para "les dragons vit"
-	line "ici à EBENELLE."
+	line "ici Ã  EBENELLE."
 
 	para "C'est pour cela"
 	line "qu'il y a beaucoup"
 
-	para "de légendes sur"
+	para "de lÃ©gendes sur"
 	line "les dragons dans"
 	cont "cette ville."
 	done
