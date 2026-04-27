@@ -3,6 +3,7 @@
 - NE PAS OUBLIER LE GENRE NEUTRE SI POSSIBLE
 - L'**Améliorator** était nommé "**Evolutor**" avant Pkm RSE -> changer ses références pour le mettre à jour.
 - Il en va de même pour la Tour Ferraille -> Tour Carillon 
+	- "TOUR¯FERRAILLE"
 - Relire les fichiers où les sages parlent (ex. Rosalia) et unifier le vouvoiement, la trad FR originale n'était pas consistante sur ce point.
 - [GoldenrodFlowerShop](maps/Johto/GoldenrodFlowerShop.md), clé *"GoldenrodFlowerShopTeacherHeresTheGoldBerryText"* non insérée.
 	- Attente de voir si la gosse se nomme FLORIA ou porte un autre nom
@@ -18,10 +19,11 @@
 ### Code :
 - Retirer les références à la version AUSTRALIENNE de Pokémon Crystal (\_CRYSTAL\_AU), notamment au niveau de la compilation (censure des slot machines). 
 ### Autre :
-- modifier makefile pour faire une build avec ou sans custom title (l'heritage du crital - crystal legacy)
-- voir pour la debug room
-### Textures :
-- Remettre les textures customs de la romhack dans les font (notamment le %, vérifier pour le reste)
+- Changer la texture de l'écran titre en "L'héritage de Cristal" ?
+
+
+
+Dernier fichier édité : Lac Colère
 
 
 

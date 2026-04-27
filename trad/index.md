@@ -7,6 +7,9 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 
 > (Je trie mes traductions dans des dossiers un peu plus rangés, dans le code ils sont tous situés à la racine du dossier `/maps`)
 ## Traductions :
+### /data
+####  &nbsp; &nbsp; &nbsp; /battle_tower
+- [trainer_text](data/battle_tower/trainer_text.md) - Dialogues d'intro / fin de combat des dresseurs de la Tour de Combat
 ### /maps
 - [HallOfFame](maps/HallOfFame.md) - Panthéon
 - [IndigoPlateauPokecenter1F](maps/IndigoPlateauPokecenter1F.md) - Centre Pokémon de la Ligue Pokémon
@@ -15,7 +18,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 	- [KarensRoom](maps/KarensRoom.md) - Salle de Marion
 	- [KogasRoom](maps/KogasRoom.md) - Salle de Koga
 - [FastShipB1F](maps/FastShipB1F.md) - Bateau Express / Aquaria
-#### /Johto
+#### &nbsp; &nbsp; &nbsp; /Johto
 - [AzaleaGym](maps/Johto/AzaleaGym.md) - Arène d'Écorcia
 - [BlackthornGym1F](maps/Johto/BlackthornGym1F.md) - Arène d'Ébènelle
 - [BurnedTower1F](maps/Johto/BurnedTower1F.md) - Tour cendrée (RDC)
@@ -36,7 +39,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 	- [GoldenrodUndergroundWarehouse](maps/Johto/GoldenrodUndergroundWarehouse.md) - Entrepôt souterrain
 	- [KurtsHouse](maps/Johto/KurtsHouse.md) - Maison de Fargas
 	- [LakeOfRage](maps/Johto/LakeOfRage.md) - Lac Colère
-#### /Kanto
+#### &nbsp; &nbsp; &nbsp; /Kanto
 - [BillsBrothersHouse](maps/Kanto/BillsBrothersHouse.md) - Maison du frère de Léo
 - Céladopole
 	- [CeladonGym](maps/Kanto/CeladonGym.md) - Arène
