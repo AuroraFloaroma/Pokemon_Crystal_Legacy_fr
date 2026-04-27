@@ -60,7 +60,7 @@ OddEggs:
 	bigdw 11 ; Spd
 	bigdw 8 ; SAtk
 	bigdw 8 ; SDef
-	db "EGG@@@@@@@@"
+	db "OEUF@@@@@@@"
 
 	db PICHU
 	db NO_ITEM
