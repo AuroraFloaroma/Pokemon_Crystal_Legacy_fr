@@ -1,6 +1,6 @@
 # Pokémon Crystal Legacy - Traduction Française (W.I.P.)
 
-### You can find the original README [HERE](og_README.md) with propers credits the the original developers !!!!
+### You can find the original README [HERE](og_README.md) with propers credits to the original developers !!!!
 
 ---
 ## Pokémon - L'héritage de Cristal
