@@ -1,30 +1,42 @@
-### Traduction : 
-- NE PAS OUBLIER LE GENRE NEUTRE SI POSSIBLE
-- L'**Améliorator** était nommé "**Evolutor**" avant Pkm RSE -> changer ses références pour le mettre à jour.
-- Il en va de même pour la Tour Ferraille -> Tour Carillon 
-	- "TOUR¯FERRAILLE"
-- Relire les fichiers où les sages parlent (ex. Rosalia) et unifier le vouvoiement, la trad FR originale n'était pas consistante sur ce point.
-- [GoldenrodFlowerShop](trad/maps/Johto/GoldenrodFlowerShop.md), clé *"GoldenrodFlowerShopTeacherHeresTheGoldBerryText"* non insérée.
-	- Attente de voir si la gosse se nomme FLORIA ou porte un autre nom
-- [EcruteakGym](trad/maps/Johto/EcruteakGym.md), clé *"EcruteakGymGuideText"* à vérifier.
-	- Vérifier si son équipe a été modifiée. Je n'ai pas compris qui est le "mystic deer", son équipe ne comportant initialement aucun Pokémon Cerf.
-- À compléter car flemme et fatigue (clés non insérées) :
-	- [EarlsPokemonAcademy](trad/maps/Johto/EarlsPokemonAcademy.md)
-	- [GoldenrodUndergroundWarehouse](trad/maps/Johto/GoldenrodUndergroundWarehouse.md) 
-	- [HallOfFame](trad/maps/HallOfFame.md)
-	- [KarensRoom](trad/maps/KarensRoom.md)
-	- [KogasRoom](trad/maps/KogasRoom.md)
-	- [KurtsHouse](trad/maps/Johto/KurtsHouse.md)
-- "\_CantAcceptFaintedMonText" vérifier que la trad est bonne (pension)
-- \_BattleMonNicknameText -> à vérifier en combat ? aucune idée d'à quoi ça correspond (dialogue vide dans trad FR) data/text/common_2
-- traduire "femme du type de la pension" en dame de la pension tt court
-- Plusieurs clés de [common_3](trad/data/text/common_3.md) (nouveau npc)
-### Code :
+## Traduction : 
+### &nbsp; Retraduction - Changement :
+- Essayer d'utiliser le genre neutre dans les traduction si possible.
+- Changer le références de l'**Évolutor** en **Améliorator[^1]**.
+- Changer les références de la **Tour Ferraille** en **Tour Carillon**[^2].
+- Relire les dialogues des fichiers se rapportant aux sages (Rosalia, Tour Ferraille...) et unifier le vouvoiement[^3]. 
+- Changer les dialogues de la **Pension Pokémon** pour remplacer la désignation de "*La femme du type de la pension*" en "*La dame de la pension*".
+### &nbsp; Éléments à revérifier :
+- `data\text\common_1.asm` 
+	-  *"\_UseAnotherRepelText"* 
+		- -> Voir en jeu avec utilisation de repousse si le formatage est correct
+#### &nbsp;&nbsp; Clés non insérées :
+- [GoldenrodFlowerShop](maps/Johto/GoldenrodFlowerShop.md)
+	- clé *"GoldenrodFlowerShopTeacherHeresTheGoldBerryText"*
+		- -> Vérifier si "**Floria**" la sœur de la fleuriste (?) possède un autre nom en français
+- [EcruteakGym](maps/Johto/EcruteakGym.md)
+	- clé *"EcruteakGymGuideText"*
+		- -> Vérifier si son équipe a été modifiée. *(Je n'ai pas compris qui est le "mystic deer", son équipe ne comportant initialement aucun Pokémon Cerf)*.
+- [common_1](data/text/common_1.md)
+	- clé "*\_CantAcceptFaintedMonText"* 
+		- Vérifier que le dialogue est bien celui de la **Dame de la pension**, sinon changer l'accord en genre.
+- [common_2](data/text/common_2.md) 
+	- clé *"\_BattleMonNicknameText"* (**Pas dans le fichier.md**)
+		- -> Voir dans le code si la ligne est utilisée (Vide dans la traduction française)
+### &nbsp; Éléments à traduire :
+-  [EarlsPokemonAcademy](maps/Johto/EarlsPokemonAcademy.md)
+ - [GoldenrodUndergroundWarehouse](maps/Johto/GoldenrodUndergroundWarehouse.md) 
+ - [HallOfFame](maps/HallOfFame.md)
+ - [KarensRoom](maps/KarensRoom.md)
+ - [KogasRoom](maps/KogasRoom.md)
+ - [KurtsHouse](maps/Johto/KurtsHouse.md)
+ - [common_3](data/text/common_3.md)
+ - `data/trainers/parties.asm` (long et fastidieux)
+ - `data/wild/fish.asm` + chercher correspondance
+ - `data/wild/non_wildmon_locations.asm`
+## Code :
 - Retirer les références à la version AUSTRALIENNE de Pokémon Crystal (\_CRYSTAL\_AU), notamment au niveau de la compilation (censure des slot machines). 
 - `constants\credits_constants.asm` -> revoir pour l'équipe fr
-- data\maps\map_names.asm
-- data\text\common_1.asm voir si repousse ok "\_UseAnotherRepelText"
-### Autre :
+## Autre :
 - ~~Changer la texture de l'écran titre en "L'héritage de Cristal" ?~~
 	- Ajouter une option dans le makefile pour compiler l'écran d'origine ou la version modifiée
 - à ajouter :
@@ -33,6 +45,6 @@
 		- -> il a l'air d'avoir été mis dans un autre fichier, mais déjà présent qq part, peut-être le retirer le charmap
 
 
-
-
-Dernier fichier édité : Lac Colère (maps)
+[^1]: L'**Améliorator** était nommé **Évolutor** avant Rubis et Saphir. (Source : https://www.pokepedia.fr/Am%C3%A9liorator)
+[^2]: La **Tour Ferraille** a été renommée **Tour Carillon** à partir des version HeartGold et SoulSilver (source: https://www.pokepedia.fr/Tour_Carillon)
+[^3]: Durant ma relecture de la traduction française, j'ai remarqué que le vouvoiement des "Sages" était inconsistant (voir [EcruteakTinTowerEntrance](maps/Johto/EcruteakTinTowerEntrance.md))

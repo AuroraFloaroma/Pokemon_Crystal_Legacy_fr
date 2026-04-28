@@ -17,3 +17,6 @@ Pour garder le projet propre et ordonné, je prends le temps de noter tous les d
 
 J'ai également pris la peine de modifier certains textes pour X ou Y raison, TOUTES MES MODIFICATIONS Y SONT RÉFÉRENCÉES ! Mais bien entendu, **je ne cherche pas à m'écarter de la traduction française originale!**
 
+## À faire :
+
+> [Lien vers la to-do list](trad/À%20faire.md)
