@@ -145,9 +145,11 @@ LoadMetatiles::
 	; Load the current wSurroundingTiles address into de.
 	ld e, l
 	ld d, h
+	; Set hl to the address of the current metatile data ([wTilesetBlocksAddress] + (a) tiles).
+; BUG: LoadMetatiles wraps around past 128 blocks (see docs/bugs_and_glitches.md)
+	add a
 	ld l, a
 	ld h, 0
-	add hl, hl
 	add hl, hl
 	add hl, hl
 	add hl, hl
@@ -579,18 +581,17 @@ ReadObjectEvents::
 	ld a, [wCurMapObjectEventCount]
 	call CopyMapObjectEvents
 
-; get NUM_OBJECTS - [wCurMapObjectEventCount] - 1
+; get NUM_OBJECTS - [wCurMapObjectEventCount]
+; BUG: ReadObjectEvents overflows into wObjectMasks (see docs/bugs_and_glitches.md)
 	ld a, [wCurMapObjectEventCount]
 	ld c, a
-	ld a, NUM_OBJECTS - 1
+	ld a, NUM_OBJECTS
 	sub c
 	jr z, .skip
-	jr c, .skip
 
 	; could have done "inc hl" instead
 	ld bc, 1
 	add hl, bc
-; Fill the remaining sprite IDs and y coords with 0 and -1, respectively.
 	ld bc, MAPOBJECT_LENGTH
 .loop
 	ld [hl],  0
@@ -1355,7 +1356,7 @@ LoadTilesetGFX::
 
 	ld hl, wDecompressScratch
 	ld de, vTiles2
-	ld bc, $7f tiles
+	ld bc, $60 tiles
 	call CopyBytes
 
 	ldh a, [rVBK]
@@ -1363,9 +1364,9 @@ LoadTilesetGFX::
 	ld a, BANK(vTiles5)
 	ldh [rVBK], a
 
-	ld hl, wDecompressScratch + $80 tiles
+	ld hl, wDecompressScratch + $60 tiles
 	ld de, vTiles5
-	ld bc, $80 tiles
+	ld bc, $60 tiles
 	call CopyBytes
 
 	pop af
