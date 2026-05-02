@@ -44,10 +44,24 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 	- [GoldenrodFlowerShop](maps/Johto/GoldenrodFlowerShop.md) - Fleuriste
 	- [GoldenrodGym](maps/Johto/GoldenrodGym.md) - Arène
 	- [GoldenrodUndergroundWarehouse](maps/Johto/GoldenrodUndergroundWarehouse.md) - Entrepôt souterrain
-	- [KurtsHouse](maps/Johto/KurtsHouse.md) - Maison de Fargas
-	- [LakeOfRage](maps/Johto/LakeOfRage.md) - Lac Colère
+	- [RadioTower5F](maps/Johto/RadioTower5F.md) - Tour radio 4eme etage
+- [KurtsHouse](maps/Johto/KurtsHouse.md) - Maison de Fargas
+- [LakeOfRage](maps/Johto/LakeOfRage.md) - Lac Colère
+*  Acajou
+	- [MahoganyGym](maps/Johto/MahoganyGym.md) - Arène
+	- [MahoganyMart1F](maps/Johto/MahoganyMart1F.md) - Boutique Pokémon
+- Mont Creuset
+	- [MountMortar1FInside](maps/Johto/MountMortar1FInside.md) - RDC, 
+	- [MountMortar1FOutside](maps/Johto/MountMortar1FOutside.md) - RDC, extérieur
+	- [MountMortar2FInside](maps/Johto/MountMortar2FInside.md) 1er étage (intérieur)
+- [NationalParkBugContest](maps/Johto/NationalParkBugContest.md) - Parc naturel - Concours
+- [MrPokemonHouse](maps/Johto/MrPokemonHouse.md) - Maison de M.Pokemon
+- Oliville
+	- [OlivineGym](maps/Johto/OlivineGym.md) - Arène
+	- [OlivineGoodRodHouse](maps/Johto/OlivineGoodRodHouse.md) - Maison du pêcheur
+	- [OlivineLighthouse6F](maps/Johto/OlivineLighthouse6F.md) - Phare (5ème étage)
+- [PlayersHouse1F](maps/Johto/PlayersHouse1F.md) - Maison du joueur
 #### &nbsp; &nbsp; &nbsp; /Kanto
-- [BillsBrothersHouse](maps/Kanto/BillsBrothersHouse.md) - Maison du frère de Léo
 - Céladopole
 	- [CeladonGym](maps/Kanto/CeladonGym.md) - Arène
 	- [CeladonDeptStore3F](maps/Kanto/CeladonDeptStore3F.md) - Centre commercial (2ème étage)
@@ -55,3 +69,5 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 	- [CeruleanGym](maps/Kanto/CeruleanGym.md) - Arène
 	- [CeruleanPokecenter1F](maps/Kanto/CeruleanPokecenter1F.md) - Centre Pokémon (RDC)
 - [FuchsiaGym](maps/Kanto/FuchsiaGym.md) - Arène de Parmanie
+- [OaksLab](maps/Kanto/OaksLab.md) - Laboratoire du Prof. Chen
+- [PewterGym](maps/Kanto/PewterGym.md) - Arène d'Argenta
