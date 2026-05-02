@@ -32,11 +32,11 @@ ZapdosScript:
 	end
 
 PowerPlantSignText:
-	text "KANTO POWER PLANT"
+	text "CENTRALE de KANTO"
 	done
 
 ZapdosBattleText:
-	text "Gyaoo!"
+	text "Eleccc!"
 	done
 
 Route10North_MapEvents:

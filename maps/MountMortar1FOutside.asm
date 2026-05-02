@@ -60,63 +60,69 @@ MountMortar1FOutsideHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION
 
 MountMortarB1FKiyoIntroText:
-	text "Hey!"
+	text "Salut!"
 
-	para "I am the KARATE"
-	line "KING!"
+	para "Je suis le ROI DU"
+	line "KARATE!"
 
-	para "I train alone here"
-	line "in the dark!"
+	para "Je m'entraîne seul"
+	line "ici, dans"
+	cont "l'obscurité."
 
-	para "You!"
-	line "Battle with me!"
+	para "Hé, toi! COMBAT!"
 
-	para "Hwaaarggh!"
+	para "Yahhhhhhh!"
 	done
 
 MountMortarB1FKiyoWinText:
-	text "Waaaarggh!"
-	line "I'm beaten!"
+	text "Argh! Je suis"
+	line "battu!"
 	done
 
 MountMortarB1FTyrogueRewardText:
-	text "I… I'm crushed…"
+	text "J'ai… J'ai été"
+	line "écrabouillé…"
 
-	para "My training is"
-	line "still not enough…"
+	para "Mon entraînement"
+	line "n'est donc pas"
+	cont "suffisant..."
 
-	para "But a loss is a"
-	line "loss. I admit it."
+	para "Mais une défaite"
+	line "est une défaite,"
+	cont "je sais le"
+	cont "reconnaître."
 
-	para "As proof that you"
-	line "defeated me, I'll"
-
-	para "give you a rare"
-	line "fighting #MON."
+	para "Pour preuve de ta"
+	line "victoire, je vais"
+	cont "te donner un #MON"
+	cont "rare de type"
+	cont "COMBAT."
 	done
 
 MountMortarB1FReceiveMonText:
-	text "<PLAYER> received"
-	line "TYROGUE."
+	text "<PLAYER> obtient"
+	line "DEBUGANT."
 	done
-
+	
 MountMortarB1FKiyoGotTyrogueText:
-	text "TYROGUE is a"
-	line "FIGHTING-type."
+	text "DEBUGANT est de"
+	line "type COMBAT."
 
-	para "It evolves into a"
-	line "tougher #MON."
+	para "Il évolue en #MON"
+	line "encore plus"
+	cont "robuste."
 
-	para "Keep up the hard"
-	line "work. I'll keep"
-	cont "training too."
+	para "Continue comme ça!"
 
-	para "Farewell!"
+	para "Je vais reprendre"
+	line "l'entraînement moi"
+	cont "aussi. Adieu!"
 	done
-
+	
 MountMortarB1FKiyoFullPartyText:
-	text "You have no room"
-	line "in your party!"
+	text "Tu n'as pas la"
+	line "place dans ton"
+	cont "équipe!"
 	done
 
 MountMortar1FOutside_MapEvents:

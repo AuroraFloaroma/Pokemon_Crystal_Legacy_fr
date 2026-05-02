@@ -147,20 +147,24 @@ GruntM15SeenText:
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "You're so good!"
-	
-	para "This TEAM ROCKET"
-	line "thing is just"
-	
-	para "a job, but I can"
-	line "see it hurts"
-	
-	para "others. That's it, "
-	line "I'm leaving."
-	
-	para "Thank you so much."
-	line "Sorry GIOVANNI!"
+	text "Gnyak! T'es trop"
+	line "fort.e! Tu sais"
+	cont "quoi ?"
+
+	para "C'délire de TEAM"
+	line "ROCKET c'est juste"
+	cont "un job comme un"
+	cont "autre pour moi,"
+	cont "mais j'vois bien"
+	cont "qu'c'est pas tout"
+	cont "rose."
+
+	para "C'est bon, j'en ai"
+	line "ma claque j'me"
+	cont "casse."
+
+	para "Merci beaucoup et"
+	line "pardon GIOVANNI!"
 	done
 
 GruntM15AfterBattleText:

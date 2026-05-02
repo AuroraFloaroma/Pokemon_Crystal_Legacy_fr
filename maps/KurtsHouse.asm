@@ -461,8 +461,8 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	step_end
 
 KurtsHouseKurtGetStartedText:
-	text "Kurt: I'll get"
-	line "started right now!"
+	text "Je m'y mets tout"
+	line "de suite !"
 	done
 
 KurtsHouseKurtMakingBallsMustWaitText:
@@ -553,7 +553,7 @@ KurtsHouseKurtAskYouHaveAnApricornText:
 	para "Excellent! Je vais"
 	line "en faire une BALL."
 	done
-	done
+
 
 KurtsHouseKurtThatsALetdownText:
 	text "FARGAS: Oh,oh...!"
