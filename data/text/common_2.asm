@@ -142,8 +142,7 @@ _YourFoesWeakGetmMonText::
 	text_end
 
 _BattleMonNicknameText::
-	text_ram wBattleMonNickname
-	text "!"
+	text_start
 	done
 
 _BattleMonNickCommaText::
