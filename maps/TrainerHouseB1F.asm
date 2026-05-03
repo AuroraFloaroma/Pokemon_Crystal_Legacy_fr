@@ -254,9 +254,9 @@ TrainerHouseB1FWeebraBeatenText:
 	done
 
 TrainerHouseB1FCalBeforeText:
-	text "I traveled out"
-	line "here just so I"
-	cont "could battle you."
+	text "J'ai voyagé jus-"
+	line "qu'ici pour t'af-"
+	cont "fronter."
 	done
 
 TrainerHouseB1FSmithBeforeText:

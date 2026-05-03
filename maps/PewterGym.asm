@@ -173,7 +173,7 @@ BrockFightDoneText:
 
 BrockRematchText:
 	text "PIERRE: Hey salut"
-	line "\<PLAYER>!"
+	line "<PLAYER>!"
 
 	para "J'ai eu vent que"
 	line "tu es MAITRE de"

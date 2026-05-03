@@ -121,8 +121,8 @@ MewtwoBattleText:
 	done
 
 RedSeenText:
-	text "<……>"
-	line "<……>"
+	text "…"
+	line "…"
 	done
 
 RedWinLossText:
@@ -130,8 +130,8 @@ RedWinLossText:
 	done
 
 RedLeavesText:
-	text "<……>"
-	line "<……>"
+	text "…"
+	line "…"
 	done
 
 SilverCaveRoom3_MapEvents:

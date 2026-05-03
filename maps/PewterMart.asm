@@ -21,14 +21,14 @@ PewterMartSuperNerdScript:
 	jumptextfaceplayer PewterMartSuperNerdText
 
 PewterMartYoungsterText:
-	text "Hé! Mate un peu"
+	text "HÃ©! Mate un peu"
 	line "mon LEVIATOR!"
 
 	para "Je l'ai eu en en-"
-	line "traînant mon"
+	line "traÃ®nant mon"
 
 	para "MAGICARPE. Il est"
-	line "super balèze!!!"
+	line "super balÃ¨ze!!!"
 	done
 
 PewterMartSuperNerdText:

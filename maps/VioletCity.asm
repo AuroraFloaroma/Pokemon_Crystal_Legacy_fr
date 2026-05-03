@@ -178,105 +178,112 @@ VioletCitySpinningEarl_MovementData:
 	step_end
 
 Text_EarlAsksIfYouBeatFalkner:
-	text "Hello!"
-	line "You are trainer?"
+	text "Salut!"
+	line "T'es dresseur?"
 
-	para "Battle GYM LEADER,"
-	line "win you did?"
+	para "Une vraie baston,"
+	line "ça te dit?"
 	done
 
 Text_VeryNiceIndeed:
-	text "Ooh, la la!"
-	line "Very indeed nice!"
+	text "Ooh, là, là!"
+	line "Super cool!"
 	done
 
 Text_FollowEarl:
-	text "Is that so? Then"
-	line "study shall you!"
-	cont "Follow me!"
+	text "Vraiment? Tu"
+	line "veux un cours!"
+	cont "Suis-moi!"
 	done
 
 Text_HereTeacherIAm:
-	text "Here, teacher I"
-	line "am. Good it is"
-	cont "you study here!"
+	text "Je suis le"
+	line "professeur."
+	cont "Sortez-moi vos"
+	cont "cahiers!"
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "SPROUT TOWER."
+	text "Le bruit court que"
+	line "des fantômes"
+	cont "errent dans la"
+	cont "TOUR CHETIFLOR."
 
-	para "They say that"
-	line "GHOST-type moves"
+	para "On dit que les"
+	line "capacités de type"
+	cont "SPECTRE sont"
+	cont "capables de passer"
+	cont "au travers des"
+	cont "défenses des #MON"
+	cont "comme ONIX et"
+	cont "RACAILLOU."
 
-	para "can bypass the"
-	line "defenses of"
-	
-	para "tough #MON like"
-	line "ONIX and GEODUDE."
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "Hey, tu es desseur"
+	line "de #MON?"
 
-	para "If you head to"
-	line "the ACADEMY,"
-
-	para "you might learn"
-	line "something new!"
+	para "J'ai entendu dire"
+	line "que si tu vas à"
+	cont "l'ACADEMIE, tu"
+	cont "apprendras"
+	cont "forcément quelque"
+	cont "chose de nouveau!"
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, from the"
-	line "VIOLET #MON"
+	text "ALBERT de l'ARENE"
+	line "#MON de"
 
-	para "GYM, is a fine"
-	line "trainer!"
+	para "MAUVILLE est un"
+	line "dresseur sympa!"
 
-	para "He inherited his"
-	line "father's gym and"
+	para "Il a hérité de"
+	line "l'ARENE de son"
 
-	para "has done a great"
-	line "job with it."
+	para "père et a fait du"
+	line "bon travail."
 	done
 
 VioletCityYoungsterText:
-	text "I saw a wiggly"
-	line "tree up ahead!"
+	text "J'ai vu un arbre"
+	line "tout cabossé"
+	cont "là-bas!"
 
-	para "If you touch it,"
-	line "it squirms and"
-	cont "dances! Cool!"
+	para "Si on le touche,"
+	line "il gigote et"
+	cont "smurfe en même"
+	cont "temps! Cool!"
 	done
 
 VioletCitySignText:
-	text "VIOLET CITY"
+	text "MAUVILLE"
 
-	para "The City of"
-	line "Nostalgic Scents"
+	para "La ville aux"
+	line "senteurs du passé"
 	done
 
 VioletGymSignText:
-	text "VIOLET CITY"
-	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	text "CHAMPION d'ARENE"
+	line "de MAUVILLE:"
+	cont "ALBERT"
 
-	para "The Elegant Master"
-	line "of Flying #MON"
+	para "Le dresseur de"
+	line "#MON volants"
 	done
 
 SproutTowerSignText:
-	text "SPROUT TOWER"
+	text "TOUR CHETIFLOR"
 
-	para "Experience the"
-	line "Way of #MON"
+	para "Elle est grande,"
+	line "elle est belle et"
+	cont "pleine de #MON"
 	done
 
 EarlsPokemonAcademySignText:
-	text "EARL'S #MON"
-	line "ACADEMY"
+	text "ACADEMIE #MON"
+	line "de THEOPHILE"
 	done
 
 VioletCity_MapEvents:

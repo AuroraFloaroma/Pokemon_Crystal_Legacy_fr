@@ -94,83 +94,94 @@ SeafoamGymGuideScript:
 	end
 
 BlaineIntroText:
-	text "BLAINE: Waaah!"
+	text "AUGUSTE: Waaah!"
 
-	para "My GYM in CINNABAR"
-	line "burned down."
-	
-	para "But I'm back in"
-	line "business as a GYM"
+	para "Mon ARENE de"
+	line "CRAMOIS'ILE a"
+	cont "brûlé."
 
-	para "LEADER here in"
-	line "this cave."
+	para "Moi et mes #MON de"
+	line "feu n'avons"
 
-	para "It's fine though,"
-	line "I have faced"
+	para "plus de maison à"
+	line "cause du volcan."
 
-	para "hardship like"
-	line "this before."
+	para "Mais je suis"
+	line "toujours un"
+	cont "CHAMPION!"
 
-	para "Long ago I was"
-	line "lost in the"
-	
-	para "mountains until"
-	line "a fiery bird"
-	
-	para "#MON appeared"
-	line "to lead me down."
-	
-	para "All these years"
-	line "later and now"
-	
-	para "RED has entrusted"
-	line "me to look over"
+	para "Et je fais la loi"
+	line "dans cette grotte."
 
-	para "that same"
-	line "legendary bird,"
+	para "Les temps sont"
+	line "durs mais j'ai"
+	cont "déjà connu pire."
 
-	para "MOLTRES."
-	
-	para "Ha! You'd better"
-	line "have BURN HEAL,"
-	
-	para "It's even hotter"
-	line "than your mom!"
+	para "Y'a longtemps,"
+	line "j'me suis perdu"
+	cont "dans les montagnes"
+
+	para "jusqu'à ce qu'un"
+	line "oiseau ardent me"
+	cont "guide jusqu'en"
+	cont "bas..."
+
+	para "Eh bah tu sais"
+	line "quoi ? Cet oiseau"
+	cont "c'était SULFURA."
+
+	para "RED m'a confié sa"
+	line "garde, des années"
+	cont "plus tard."
+
+	para "Bats-moi et je te"
+	line "donnerai un BADGE."
+	cont "Promis!"
+
+	para "J'espère que tu as"
+	line "de l'ANTI-BRULE!"
+
+	para "Ca va chauffer et"
+	line "encore plus"
+	cont "qu'avec ta mère"
+	cont "hier soir!"
 	done
 
 BlaineWinLossText:
-	text "BLAINE: Awesome."
-	line "I've burned out…"
+	text "AUGUSTE: Wow, ce"
+	line "combat m'a"
+	cont "refroidi."
 
-	para "You've earned"
-	line "VOLCANOBADGE!"
+	para "T'as bien mérité"
+	line "le BADGE VOLCAN!"
 	done
 
 ReceivedVolcanoBadgeText:
-	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE VOLCAN."
 	done
 
 BlaineAfterBattleText:
-	text "BLAINE: I did lose"
-	line "this time, but I'm"
+	text "AUGUSTE: Je perds"
+	line "cette fois mais la"
 
-	para "going to win the"
-	line "next time."
+	para "prochaine, je"
+	line "serai vainqueur."
 
-	para "When I rebuild my"
-	line "CINNABAR GYM,"
+	para "Je vais recons-"
+	line "truire mon ARENE à"
 
-	para "we'll have to have"
-	line "a rematch."
+	para "CRAMOIS'ILE et"
+	line "nous combattrons à"
+	cont "nouveau."
 	done
 
 BlaineFightDoneText:
-	text "BLAINE: My fire"
-	line "#MON will be"
+	text "AUGUSTE: Mes"
+	line "#MON de feu"
 
-	para "even stronger."
-	line "Just you watch!"
+	para "seront invincibles"
+	line "tu verras!"
 	done
 
 BlaineRematchText:
@@ -205,33 +216,33 @@ Blaine_RematchDefeatText:
 SeafoamGymGuideWinText:
 	text "Yo!"
 
-	para "… Huh? It's over"
-	line "already?"
+	para "Hein? C'est déjà"
+	line "fini?"
 
-	para "Sorry, sorry!"
+	para "Désolé!"
 
-	para "CINNABAR GYM was"
-	line "gone, so I didn't"
+	para "L'ARENE de CRAMOI-"
+	line "S'ILE était fermée"
 
-	para "know where to find"
-	line "you."
+	para "alors je savais"
+	line "pas où te trouver."
 
-	para "But, hey, you're"
-	line "plenty strong even"
+	para "Enfin t'es super"
+	line "balèze même sans"
 
-	para "without my advice."
-	line "I knew you'd win!"
+	para "mes conseils. Je"
+	line "suis très fier!"
 	done
 
 SeafoamGymGuideWinText2:
-	text "A #MON GYM can"
-	line "be anywhere as"
+	text "Une ARENE #MON"
+	line "peut être n'impor-"
 
-	para "long as the GYM"
-	line "LEADER is there."
+	para "te où tant que le"
+	line "CHAMPION est là."
 
-	para "There's no need"
-	line "for a building."
+	para "Pas besoin d'un"
+	line "toit."
 	done
 
 SeafoamGym_MapEvents:

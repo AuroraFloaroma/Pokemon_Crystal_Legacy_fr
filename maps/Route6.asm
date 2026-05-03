@@ -37,56 +37,53 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "La route sera"
+	line "fermée tant que le"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "problème à la"
+	line "CENTRALE ne sera"
+	cont "pas résolu."
 	done
 
 Route6UndergroundPathSignText:
-	text "UNDERGROUND PATH"
+	text "SOUTERRAIN"
 
-	para "CERULEAN CITY -"
-	line "VERMILION CITY"
+	para "AZURIA -"
+	line "CARMIN SUR MER"
 	done
 
 PokefanmRexSeenText:
-	text "My STANTLER is"
-	line "the cutest in"
-	cont "the world."
+	text "Mon CERFROUSSE est"
+	line "le plus beau du"
+	cont "monde."
 	done
 
 PokefanmRexBeatenText:
-	text "My STANTLER!"
+	text "My CERFROUSSE!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Look how adorable"
-	line "my STANTLER acts!"
+	text "Mon CERFROUSSE est"
+	line "trop mimi!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Tu trouves pas?"
 	done
 
 PokefanmAllanSeenText:
-	text "My GRANBULL is"
-	line "the cutest in the"
-	cont "world."
+	text "Mon GRANBULL est"
+	line "le plus beau du"
+	cont "monde."
 	done
 
 PokefanmAllanBeatenText:
-	text "My GRANBULL!"
+	text "Mon GRANBULL!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Look how adorable"
-	line "my GRANBULL acts!"
+	text "Mon GRANBULL est"
+	line "trop mimi!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Tu trouves pas?"
 	done
 
 Route6_MapEvents:

@@ -14,17 +14,15 @@ Route31VioletGateCooltrainerFScript:
 	jumptextfaceplayer Route31VioletGateCooltrainerFText
 
 Route31VioletGateOfficerText:
-	text "Hi there!"
-	line "Did you visit"
-	cont "SPROUT TOWER?"
+	text "Salut toi!"
+	line "As-tu visité la"
+	cont "TOUR CHETIFLOR?"
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "I saw the cutest"
-	line "#MON out there."
-	
-	para "It looked a lot"
-	line "like PIKACHU!"
+	text "Je suis loin de"
+	line "chez moi. Il faut"
+	cont "que j'appelle!"
 	done
 
 Route31VioletGate_MapEvents:
