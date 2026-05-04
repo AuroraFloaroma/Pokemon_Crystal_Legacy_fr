@@ -4,10 +4,10 @@ Vous trouvez dans cette section les différents fichiers que j'ai modifié dans 
 
 Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une faute d'orthographe / formatage, n'hésitez pas à ouvrir une [Issue](https://github.com/AuroraFloaroma/Pokemon_Crystal_Legacy_fr/issues/new) avec le label adéquat.
 
+
 > [!NOTE]
 > Pour rendre le tout le plus compréhensif et accessible, j'essaye de garder la même structure que celle du code source. Voici cependant les différences actuelles avec le code source :
-> - `/maps` ne contient initialement pas de sous-dossiers, ça me permet moi de m'organiser
-> - `/assets` n'existe pas, mon dossier est là stocker mes images modifiées (par exemple `font.png`)
+> - `/maps` ne contient initialement pas de sous-dossiers, ça me permet moi de mieux organiser les fichiers
 
 #### Légendes :
 - ☑️ = Relecture sans réinsertion
