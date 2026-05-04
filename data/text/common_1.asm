@@ -1314,7 +1314,8 @@ _UseAnotherRepelText::
 	text "L'effet du"
 	line "@"
 	text_ram wStringBuffer3
-	line " s'est dissipé."
+	text " s'est"
+	cont "dissipé."
 
 	para "En utiliser"
 	line "un autre ?"

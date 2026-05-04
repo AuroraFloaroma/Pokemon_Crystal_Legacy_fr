@@ -1,8 +1,8 @@
 NAMINGSCREEN_CURSOR     EQU $7e
 
-NAMINGSCREEN_BORDER     EQU "■" ; $60
+NAMINGSCREEN_BORDER     EQU "■" ; $bf
 NAMINGSCREEN_MIDDLELINE EQU "→" ; $eb
-NAMINGSCREEN_UNDERLINE  EQU "<DOT>" ; $f2
+NAMINGSCREEN_UNDERLINE  EQU "☎" ; $c0
 
 _NamingScreen:
 	call DisableSpriteUpdates
@@ -139,8 +139,8 @@ NamingScreen:
 	ret
 
 .NicknameStrings:
-	db "@"
-	db "SURNOM?@"
+	db "'S@"
+	db "NICKNAME?@"
 
 .Player:
 	farcall GetPlayerIcon
@@ -152,7 +152,7 @@ NamingScreen:
 	ret
 
 .PlayerNameString:
-	db "VOTRE NOM?@"
+	db "YOUR NAME?@"
 
 .Rival:
 	ld de, SilverSpriteGFX
@@ -165,7 +165,7 @@ NamingScreen:
 	ret
 
 .RivalNameString:
-	db "NOM DU RIVAL?@"
+	db "RIVAL'S NAME?@"
 
 .Mom:
 	ld de, MomSpriteGFX
@@ -178,7 +178,7 @@ NamingScreen:
 	ret
 
 .MomNameString:
-	db "NOM MERE?@"
+	db "MOTHER'S NAME?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX
@@ -202,7 +202,7 @@ NamingScreen:
 	ret
 
 .BoxNameString:
-	db "NOM BOITE?@"
+	db "BOX NAME?@"
 
 .Tomodachi:
 	hlcoord 3, 2
@@ -868,7 +868,7 @@ LoadNamingScreenGFX:
 	lb bc, BANK(NamingScreenGFX_UnderLine), 1
 	call Get1bpp
 
-	ld de, vTiles2 tile NAMINGSCREEN_BORDER
+	ld de, vTiles0 tile NAMINGSCREEN_BORDER
 	ld hl, NamingScreenGFX_Border
 	ld bc, 1 tiles
 	ld a, BANK(NamingScreenGFX_Border)

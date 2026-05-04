@@ -2813,8 +2813,8 @@ TownMapPals:
 ; Current tile
 	ld a, [hli]
 	push hl
-; The palette map covers tiles $00 to $5f; $60 and above use palette 0
-	cp $60
+; The palette map covers tiles $00 to $67; $68 and above use palette 0
+	cp $68
 	jr nc, .pal0
 
 ; The palette data is condensed to nybbles, least-significant first.

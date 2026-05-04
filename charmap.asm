@@ -40,15 +40,6 @@
 
 ; Actual characters (from gfx/font/font_extra.png)
 
-	charmap "<BOLD_A>",  $60 ; unused
-	charmap "<BOLD_B>",  $61 ; unused
-	charmap "<BOLD_C>",  $62 ; unused
-	charmap "<BOLD_D>",  $63 ; unused
-	charmap "<BOLD_E>",  $64 ; unused
-	charmap "<BOLD_F>",  $65 ; unused
-	charmap "<BOLD_G>",  $66 ; unused
-	charmap "<BOLD_H>",  $67 ; unused
-	charmap "<BOLD_I>",  $68 ; unused
 	charmap "<BOLD_V>",  $69
 	charmap "<BOLD_S>",  $6a
 	charmap "<BOLD_L>",  $6b ; unused
@@ -72,7 +63,6 @@
 	charmap "│",         $7c
 	charmap "└",         $7d
 	charmap "┘",         $7e
-	charmap " ",         $7f
 
 ; Actual characters (from gfx/font/font_battle_extra.png)
 
@@ -88,13 +78,6 @@
 ; Actual characters (from other graphics files)
 
 	charmap " ",         $7f ; gfx/frames/space.png
-	charmap "■",         $60 ; gfx/font/black.2bpp
-	charmap "▲",         $61 ; gfx/font/up_arrow.png
-	charmap "☎",         $62 ; gfx/font/phone_icon.2bpp
-
-	; needed for MagikarpHouseSign (see engine/events/magikarp.asm)
-	charmap "′",         $6e ; gfx/font/feet_inches.png
-	charmap "″",         $6f ; gfx/font/feet_inches.png
 
 	; needed for StatsScreen_PlaceShinyIcon and PrintPartyMonPage1
 	charmap "⁂",         $3f ; gfx/stats/stats_tiles.png, tile 14
@@ -162,50 +145,73 @@
 	charmap "x",         $b7
 	charmap "y",         $b8
 	charmap "z",         $b9
-	charmap "à",         $ba
-	charmap "è",         $bb
 
-	charmap "ù",         $bd
-	charmap "ß",         $be
-	charmap "ç",         $bf
+; French sucks; there are too many accents
 
-	charmap "Ä",         $c0
-	charmap "Ö",         $c1
-	charmap "Ü",         $c2
-	charmap "ä",         $c3
-	charmap "ö",         $c4
-	charmap "ü",         $c5
-	charmap "ë",         $c6
-	charmap "ï",         $c7
-	charmap "â",         $c8
-	charmap "ô",         $c9
-	charmap "û",         $ca
-	charmap "ê",         $cb
-	charmap "î",         $cc
-	charmap "←",         $cf
+	charmap "ï",		 $c7 
+	charmap "â",		 $c8 
+	charmap "ô",		 $c9 
+	charmap "û",		 $ca 
+	charmap "ê",		 $cb 
+	charmap "î",		 $cc 
+	charmap "à",		 $cd 
+	charmap "è",		 $ce
+	charmap "·",		 $cf ; point médian, inclusion
+	charmap "c'",		 $d0
+	charmap "d'",        $d1
+	charmap "j'",        $d2
+	charmap "l'",        $d3
+	charmap "m'",        $d4
+	charmap "n'",        $d5
+	charmap "p'",        $d6
+	charmap "s'",		 $d7
+	charmap "t'",		 $d9
+	charmap "u'",		 $da
+	charmap "y'",		 $db
+	charmap "ù",		 $dc
+	charmap "ç",		 $dd
 
-	charmap "c'",        $d4
-	charmap "d'",        $d5
-	charmap "j'",        $d6
-	charmap "l'",        $d7
-	charmap "m'",        $d8
-	charmap "n'",        $d9
-	charmap "p'",        $da
-	charmap "s'",        $db
-	charmap "'s",        $dc
-	charmap "t'",        $dd
-	charmap "u'",        $de
-	charmap "y'",        $df
+; added by the rom hack
 
+	charmap ">",		 $ba
+	charmap "<",		 $bb
+	charmap "=",		 $bc
+	charmap "+",		 $bd
+	charmap "<%>",		 $be
+
+	charmap "┌",         $c1
+	charmap "─",         $c2
+	charmap "┐",         $c3
+	charmap "│",         $c4
+	charmap "└",         $c5
+	charmap "┘",         $c6
+
+	charmap "<BOLD_A>",  $60
+	charmap "<BOLD_B>",  $61
+	charmap "“",         $62
+	charmap "”",         $63
+	charmap "′",         $64
+	charmap "″",         $65
+
+	charmap "■",         $bf
+	charmap "▲",         $de
+	charmap "☎",        $c0
+	
+	charmap "<COLON>",   $d8 ; colon with tinier dots than ":"
+
+	charmap "←",         $df
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
-	charmap "+",         $e4
+
+	charmap "<PO>",      $e4
+	charmap "<KE>",      $e5
 
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
+	charmap "<DOT>",     $e8 ; decimal point; same as "."
 	charmap "&",         $e9
 
 	charmap "é",         $ea
@@ -216,7 +222,7 @@
 	charmap "♂",         $ef
 	charmap "¥",         $f0
 	charmap "×",         $f1
-	charmap "<DOT>",     $f2 ; decimal point; same as "." in English
+	charmap "…",         $f2 ; ellipsis
 	charmap "/",         $f3
 	charmap ",",         $f4
 	charmap "♀",         $f5
