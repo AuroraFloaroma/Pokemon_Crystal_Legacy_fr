@@ -1,0 +1,6 @@
+Puit Ramoloss
+
+| key | Original                                                                                                                | Traduction                                                                                          | Trad. OG                                                                          |
+| --- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+|     | Hyuck-hyuck-hyuck! Quit taking SLOW- POKETAILS?<br>You're nuts! If we obeyed you,<br>TEAM ROCKET's rep would be ruined! | Gnyak-Gnyak![^1]<br>Arrêter de voler les QUEUES de RAMOLOSS?<br>Et notre réputation, tu y as pensé? | Arrêter de voler les QUEUES de RAMOLOSS?<br>Et notre réputa- tion, tu y as pensé? |
+[^1]: L'ajout du "Gnyak!" est dans le but de donner une phrase de reconnaissance au personnage. Malgré qu'il ne s'agisse que d'un sbire, ce dernier est présent de nombreuses fois au cours de notre aventure.

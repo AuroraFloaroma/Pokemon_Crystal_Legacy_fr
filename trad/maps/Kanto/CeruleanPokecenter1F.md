@@ -4,5 +4,6 @@ Centre Pokémon d'Azuria
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | CeruleanPokecenter1FSuperNerdText_Mobile | Do you battle by mobile phone?<br>If time runs out during a battle, waiting to see who won is really nerve wracking. | Ça t'arrive de combattre par téléphone ? <br>Si le temps est épuisé pendant le combat, attendre de savoir qui a gagné est vraiment angoissant. |
 #### Notes :
-Je n'ai AUCUNE idée de à quoi ce dialogue fait allusion. Dans la traduction originale, le dialogue n'existe même pas. Il est possible que cela soit quelque chose lié aux combats via téléphones (Dispo uniquement japon) mais le dialogue n'est pas annoté comme tel.
-Dans le doute je traduis le dialogue mais il est possible que ce dernier n'apparaisse tout simplement pas en jeu.
+- Je n'ai AUCUNE idée de à quoi ce dialogue fait allusion. 
+  Dans la traduction originale, le dialogue n'existe même pas. Il est possible que cela soit quelque chose lié aux combats via téléphones (Dispo uniquement japon) mais le dialogue n'est pas annoté comme tel. 
+  Dans le doute je le traduis, mais il est possible que ce dernier n'apparaisse tout simplement pas en jeu.
