@@ -146,7 +146,7 @@
 	charmap "y",         $b8
 	charmap "z",         $b9
 
-; French sucks; there are too many accents
+; Characters needed for the French dialogues
 
 	charmap "ï",		 $c7 
 	charmap "â",		 $c8 
@@ -171,7 +171,7 @@
 	charmap "ù",		 $dc
 	charmap "ç",		 $dd
 
-; added by the rom hack
+; added by Crystal Legacy
 
 	charmap ">",		 $ba
 	charmap "<",		 $bb
