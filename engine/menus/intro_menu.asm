@@ -105,7 +105,13 @@ SelectDifficulty::
 	ld c, 0
 	farcall InitMobileProfile ; mobile
 	ret
-	
+
+if DEF(_DEBUG)
+DebugRoom: ; unreferenced
+	farcall _DebugRoom
+	ret
+endc
+
 ResetWRAM:
 	xor a
 	ldh [hBGMapMode], a
@@ -282,9 +288,9 @@ SetDefaultBoxNames:
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
-	ld a, $3
+	ld a, $4
 	ld [hli], a
-	ld a, $6
+	ld a, $1d
 	ld [hli], a
 	ld de, .Ralph
 	call CopyName2
@@ -499,17 +505,17 @@ DisplaySaveInfoOnContinue:
 	call CheckRTCStatus
 	and %10000000
 	jr z, .clock_ok
-	lb de, 2, 8
+	lb de, 0, 8
 	call DisplayContinueDataWithRTCError
 	ret
 
 .clock_ok
-	lb de, 2, 8
+	lb de, 0, 8
 	call DisplayNormalContinueData
 	ret
 
 DisplaySaveInfoOnSave:
-	lb de, 2, 0
+	lb de, 0, 0
 	jr DisplayNormalContinueData
 
 DisplayNormalContinueData:
@@ -545,46 +551,46 @@ Continue_LoadMenuHeader:
 
 .MenuHeader_Dex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 17, 9
+	menu_coords 0, 0, 19, 9 ; taille cadre
 	dw .MenuData_Dex
 	db 1 ; default option
 
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "JOUEUR@"
-	db "BADGES@"
-	db "#DEX@"
-	db "DUREE JEU@"
+	db "NOM: @"
+	db "BADGES: @"
+	db "#DEX: @"
+	db "DUREE JEU: @"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 17, 9
+	menu_coords 0, 0, 19, 9 ; taille cadre
 	dw .MenuData_NoDex
 	db 1 ; default option
 
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "JOUEUR@"
-	db "BADGES@"
-	db " @"
-	db "DUREE JEU@"
+	db "NOM: @"
+	db "BADGES: @"
+	db "#DEX: @"
+	db "DUREE JEU: @"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
 	push hl
-	decoord 15, 4, 0
+	decoord 17, 4, 0 ; Badges
 	add hl, de
 	call Continue_DisplayBadgeCount
 	pop hl
 	push hl
-	decoord 14, 6, 0
+	decoord 16, 6, 0 ; Pokedex Count
 	add hl, de
 	call Continue_DisplayPokedexNumCaught
 	pop hl
 	push hl
-	decoord 10, 2, 0
+	decoord 12, 2, 0 ; Player name
 	add hl, de
 	ld de, .Player
 	call PlaceString
@@ -594,14 +600,14 @@ Continue_DisplayBadgesDexPlayerName:
 .Player:
 	db "<PLAYER>@"
 
-Continue_PrintGameTime:
-	decoord 11, 8, 0
+Continue_PrintGameTime: ; Game time
+	decoord 13, 8, 0
 	add hl, de
 	call Continue_DisplayGameTime
 	ret
 
 Continue_UnknownGameTime:
-	decoord 11, 8, 0
+	decoord 13, 8, 0
 	add hl, de
 	ld de, .three_question_marks
 	call PlaceString
@@ -801,7 +807,7 @@ NamePlayer:
 .Chris:
 	db "CHRIS@@@@@@"
 .Kris:
-	db "KRIS@@@@@@@"
+	db "CHRISTY@@@@"
 
 GSShowPlayerNamingChoices: ; unreferenced
 	call LoadMenuHeader

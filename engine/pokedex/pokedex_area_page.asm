@@ -7,7 +7,7 @@ String_johto_text:
 String_kanto_text:
 	db "KANTO:     @"
 String_swarm_text:
-	db "SWARM:     @"
+	db "ESSAIM:    @"
 
 Pokedex_DetailedArea:
 	xor a
@@ -159,7 +159,7 @@ Pokedex_DetailedArea:
 	xor a
 	ret
 .none_found_text:
-	db "NOT LOCATED@"
+	db "NON TROUVE @"
 
 Dex_FindFirstList:
 ; contest, trees(+rocks), grass swarm, grass, rods, water surf, surf

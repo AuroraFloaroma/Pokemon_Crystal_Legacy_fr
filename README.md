@@ -21,7 +21,7 @@ Pour l'ajout du genre neutre, je me suis beaucoup basé sur le « Manuel d'Écr
 Je sais pertinemment que ce n'est pas un choix qui plaira à tout le monde, mais c'est quelque chose que je trouve important. Malheureusement le français est dépourvu de genre neutre, c'est pourquoi je dois faire appel à l'écriture inclusive.
 Le choix du point médian « · » est une façon pour moi de se détacher des parenthèses qui, selon moi, prennent une place visuelle plus importante, et également une manière de ne pas utiliser le simple point, cela aurait rendu les textes plus difficiles à lire.
 
-### &nbsp&nbspÉléments délibérément non traduits : 
+### Éléments délibérément non traduits : 
 
 > - `gfx/battle/weather/*_icon.png`
 
@@ -33,6 +33,13 @@ Ce sont généralement des entrées qui n'ont pas été traduites en français c
 Aujourd'hui morte, je n'avais aucune raison de consacrer du temps à traduire ces éléments.
 
 ## À faire :
+
+> [!warning] Attention
+> Certains éléments peuvent être buggés !
+> Je fais du mieux que je peux pour correctement adapter les affichages, mais il est fort possible que j'ai laissé passer des erreurs. 
+> 
+> Pour le moment, les problèmes identifiés sont dans le fichier [À faire](trad/À%20faire.md#Code) rubrique "Code".
+
 
 > [Lien vers la to-do list](trad/À%20faire.md)
 

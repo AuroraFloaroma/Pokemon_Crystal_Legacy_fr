@@ -91,7 +91,7 @@ PrintMagikarpLength:
 	ret
 
 CalcMagikarpLength:
-; Return Magikarp's length (in feet and inches) at wMagikarpLength (big endian).
+; Return Magikarp's length (in mm) at wMagikarpLength (big endian).
 ;
 ; input:
 ;   de: wEnemyMonDVs

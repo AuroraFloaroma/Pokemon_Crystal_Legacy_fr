@@ -1236,10 +1236,10 @@ StatStrings:
 	dw .speed
 	dw .special
 
-.health  db "HEALTH@"
-.attack  db "ATTACK@"
+.health  db "VIE@"
+.attack  db "ATTAQUE@"
 .defense db "DEFENSE@"
-.speed   db "SPEED@"
+.speed   db "VITESSE@"
 .special db "SPECIAL@"
 
 GetStatExpRelativePointer:

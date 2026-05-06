@@ -4,21 +4,55 @@ Vous trouvez dans cette section les différents fichiers que j'ai modifié dans 
 
 Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une faute d'orthographe / formatage, n'hésitez pas à ouvrir une [Issue](https://github.com/AuroraFloaroma/Pokemon_Crystal_Legacy_fr/issues/new) avec le label adéquat.
 
-
 > [!NOTE]
 > Pour rendre le tout le plus compréhensif et accessible, j'essaye de garder la même structure que celle du code source. Voici cependant les différences actuelles avec le code source :
-> - `/maps` ne contient initialement pas de sous-dossiers, ça me permet moi de mieux organiser les fichiers
-
+> - `/maps` ne contient initialement pas de sous-dossiers, ça me permet de mieux organiser le dossier.
 #### Légendes :
 - ☑️ = Relecture sans réinsertion
 - ✅ = pareil qu'au dessus + réinsertion dans le code
 - ✔️ = Besoin de revérifier quelque chose
-## Traductions :
+
+### Sommaire :
+- [Traductions textuelles :](#Traductions%20textuelles)
+	- [/data](#/data) - Entrées textuelles générales (dresseurs, paramètres…)
+	- [/engine](#/engine) 
+		- [/items](#/items)
+		- [/menus](#/menus)
+		- [/pokedex](#/pokedex)
+		- [/pokegear](#/pokegear)
+		- [/pokemon](#/pokemon)
+	- [/maps](#/maps) - Entrées textuelles relatives au différentes locations et bâtiments du jeu
+		- [/Johto](#/Johto)
+		- [/Kanto](#/Kanto)
+- [Traductions visuelles :](#Traductions%20visuelles) 
+	- [/gfx](#/gfx) - Textures
+		- [/font](#/font) - Typographie
+		- [/pokedex](#/pokedex) - Interface du Pokédex
+		- [/pokegear](#/pokegear) - PokéMatos
+		- [/title](#/title) - Écran titre
+
+## Traductions textuelles :
+### /engine 
+#### /items
+- [pack](engine/items/pack.md) - Sac
+#### /menus
+- [init_gender](engine/menus/init_gender.md) - Écran de choix de genre (Nvlle partie)
+- [intro_menu](engine/menus/intro_menu.md) - Écran de chargement de partie
+- [save](engine/menus/save.md) - Page Sauvegarde
+#### /pokedex
+- [pokedex](engine/pokedex/pokedex.md) - Pokédex général
+- [pokedex_area_page](engine/pokedex/pokedex_area_page.md) - Onglet zone
+#### /pokegear
+- [pokegear](engine/pokegear/pokegear.md) - PokéMatos
+#### /pokemon
+- [bills_pc](engine/pokemon/bills_pc.md) - PC de Leo
+- [mon_menu](engine/pokemon/mon_menu.md) - Menu Pokémon
+- [stats_screen](engine/pokemon/stats_screen.md) - Écran des statistique (menu équipe)
 ### /data
 - [player_names](data/player_names.md) - Tableau contenant les noms par défaut des personnages
-####  &nbsp; &nbsp; &nbsp; /battle_tower
+#### /battle_tower
 - [trainer_text](data/battle_tower/trainer_text.md) - Dialogues d'intro / fin de combat des dresseurs de la Tour de Combat
-####  &nbsp; &nbsp; &nbsp; /text
+#### /text
 - ☑️ [common_1](data/text/common_1.md) - Fichier commun 1
 - ☑️ [common_2](data/text/common_2.md) - Fichier commun 2
 - ☑️ [common_3](data/text/common_3.md) - Fichier commun 3
@@ -32,7 +66,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 	- ☑️ [KogasRoom](maps/KogasRoom.md) - Salle de Koga
 	- [WillsRoom](maps/WillsRoom.md) - Salle de Clément
 - ☑️[FastShipB1F](maps/FastShipB1F.md) - Bateau Express / Aquaria
-#### &nbsp; &nbsp; &nbsp; /Johto
+#### /Johto
 - ✔️ [AzaleaGym](maps/Johto/AzaleaGym.md) - Arène d'Écorcia
 - ☑️  [BlackthornGym1F](maps/Johto/BlackthornGym1F.md) - Arène d'Ébènelle
 - ☑️ [BurnedTower1F](maps/Johto/BurnedTower1F.md) - Tour cendrée (RDC)
@@ -79,7 +113,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 	- [VioletGym](maps/Johto/VioletGym.md) - Arène
 	- ☑️ [VioletCity](maps/Johto/VioletCity.md)
 - ✅ [WhirlIslandLugiaChamber](maps/Johto/WhirlIslandLugiaChamber.md) - Tourb'îles - Salle de Lugia
-#### &nbsp; &nbsp; &nbsp; /Kanto
+#### /Kanto
 - Céladopole
 	- ☑️ [CeladonGym](maps/Kanto/CeladonGym.md) - Arène
 	- ☑️ [CeladonDeptStore3F](maps/Kanto/CeladonDeptStore3F.md) - Centre commercial (2ème étage)
@@ -94,3 +128,18 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 - [SeafoamGym](maps/Kanto/SeafoamGym.md) - Arène des Îles Écumes
 - ☑️ [SaffronGym](maps/Kanto/SaffronGym.md) - Arène de Safrania
 - ☑️ [ViridianGym](maps/Kanto/ViridianGym.md) - Arène de Jadielle
+
+## Traductions visuelles :
+
+### /gfx
+#### /font
+- [font](gfx/font/font.png) - Fichier de texture des caractères
+- [font_extra](gfx/font/font_extra.png) - Caractères supplémentaires qui ne pouvaient pas rentrer dans `font.png`
+- [font_inversed](gfx/font/font_inversed.png) - `font.png` inversé
+#### /pokedex
+- [pokedex](gfx/pokedex/pokedex.png) - Interface du Pokédex 
+- [rangi_dex_tiles](gfx/pokedex/rangi_dex_tiles.png) - Interface supplémentaire du Pokédex
+#### /pokegear
+- [town_map](gfx/pokegear/town_map.png)
+#### /title
+- [logo](gfx/title/logo.png) - Écran titre du jeu

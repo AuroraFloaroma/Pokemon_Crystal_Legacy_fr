@@ -234,10 +234,10 @@ BillsPCDepositMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "DEPOSIT@"
+	db "STOCKER@"
 	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "RELACHER@"
+	db "RETOUR@"
 
 BillsPCClearThreeBoxes: ; unreferenced
 	hlcoord 0, 0
@@ -487,10 +487,10 @@ BillsPC_Withdraw:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "WITHDRAW@"
+	db "RETIRER@"
 	db "STATS@"
-	db "RELEASE@"
-	db "CANCEL@"
+	db "RELACHER@"
+	db "RETOUR@"
 
 _MovePKMNWithoutMail:
 	ld hl, wOptions
@@ -697,9 +697,9 @@ _MovePKMNWithoutMail:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "MOVE@"
+	db "ORDRE@"
 	db "STATS@"
-	db "CANCEL@"
+	db "RETOUR@"
 
 .PrepInsertCursor:
 	xor a
@@ -1008,7 +1008,7 @@ BillsPC_BoxName:
 	ret
 
 .PartyPKMN:
-	db "PARTY <PK><MN>@"
+	db "EQUIPE<PK><MN>@"
 
 PCMonInfo:
 ; Display a monster's pic and
@@ -1255,7 +1255,7 @@ BillsPC_RefreshTextboxes:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "RETOUR@"
 
 .PlaceNickname:
 	ld a, [de]
@@ -1800,14 +1800,12 @@ DepositPokemon:
 	call Textbox
 	call WaitBGMap
 	hlcoord 1, 16
-	ld de, PCString_Stored
+	ld de, wStringBuffer1
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld de, wStringBuffer1
+	ld de, PCString_Stored
 	call PlaceString
-	ld a, "!"
-	ld [bc], a
 	ld c, 50
 	call DelayFrames
 	and a
@@ -1859,14 +1857,12 @@ TryWithdrawPokemon:
 	call Textbox
 	call WaitBGMap
 	hlcoord 1, 16
-	ld de, PCString_Got
+	ld de, wStringBuffer1
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld de, wStringBuffer1
+	ld de, PCString_Got
 	call PlaceString
-	ld a, "!"
-	ld [bc], a
 	ld c, 50
 	call DelayFrames
 	and a
@@ -1976,7 +1972,7 @@ MovePKMNWithoutMail_InsertMon:
 	ret
 
 .Saving_LeaveOn:
-	db "Saving… Leave ON!@"
+	db "Sauv.:patientez.@"
 
 .Jumptable:
 	dw .BoxToBox
@@ -2220,23 +2216,23 @@ BillsPC_InitGFX:
 PCSelectLZ: INCBIN "gfx/pc/pc.2bpp.lz"
 PCMailGFX:  INCBIN "gfx/pc/pc_mail.2bpp"
 
-PCString_ChooseaPKMN: db "Choose a <PK><MN>.@"
-PCString_WhatsUp: db "What's up?@"
-PCString_ReleasePKMN: db "Release <PK><MN>?@"
-PCString_MoveToWhere: db "Move to where?@"
-PCString_ItsYourLastPKMN: db "It's your last <PK><MN>!@"
-PCString_TheresNoRoom: db "There's no room!@"
-PCString_NoMoreUsablePKMN: db "No more usable <PK><MN>!@"
-PCString_RemoveMail: db "Remove MAIL.@"
-PCString_ReleasedPKMN: db "Released <PK><MN>.@"
-PCString_Bye: db "Bye,@"
-PCString_Stored: db "Stored @"
-PCString_Got: db "Got @"
-PCString_Non: db "Non.@" ; unreferenced
-PCString_BoxFull: db "The BOX is full.@"
-PCString_PartyFull: db "The party's full!@"
-PCString_NoReleasingEGGS: db "No releasing EGGS!@"
-PCString_ReleaseMon: db "Release <PK><MN>.@"
+PCString_ChooseaPKMN: db "Choisir un <PK><MN>.@"
+PCString_WhatsUp: db "Que faire?@"
+PCString_ReleasePKMN: db "Relâcher <PK><MN>?@"
+PCString_MoveToWhere: db "Déplacer où?@"
+PCString_ItsYourLastPKMN: db "Dernier #MON!@"
+PCString_TheresNoRoom: db "Pas de place!@"
+PCString_NoMoreUsablePKMN: db "Plus de <PK><MN> apte!@"
+PCString_RemoveMail: db "Effacer LETTRE.@"
+PCString_ReleasedPKMN: db "<PK><MN> relâché.@"
+PCString_Bye: db "Adieu @"
+PCString_Stored: db " gardé!@"
+PCString_Got: db " obtenu!@"
+PCString_Non: db "Non@" ; unreferenced
+PCString_BoxFull: db "BOITE pleine.@"
+PCString_PartyFull: db "EQUIPE pleine!@"
+PCString_NoReleasingEGGS: db "Impos. jeter OEUFS@"
+PCString_ReleaseMon: db "Relacher <PK><MN>.@"
 
 _ChangeBox:
 	call LoadStandardMenuHeader
@@ -2413,7 +2409,7 @@ BillsPC_PrintBoxName:
 	ret
 
 .Current:
-	db "CURRENT@"
+	db "EN COURS@"
 
 BillsPC_ChangeBoxSubmenu:
 	ld hl, .MenuHeader
@@ -2493,24 +2489,24 @@ BillsPC_ChangeBoxSubmenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "SWITCH@"
-	db "NAME@"
-	db "PRINT@"
-	db "QUIT@"
+	db "CHANG.@"
+	db "NOM@"
+	db "IMPRIM@"
+	db "RETOUR@"
 
 BillsPC_PlaceChooseABoxString:
 	ld de, .ChooseABox
 	jr BillsPC_PlaceChangeBoxString
 
 .ChooseABox:
-	db "Choose a BOX.@"
+	db "Choisir une boîte.@"
 
 BillsPC_PlaceWhatsUpString:
 	ld de, .WhatsUp
 	jr BillsPC_PlaceChangeBoxString
 
 .WhatsUp:
-	db "What's up?@"
+	db "Que faire?@"
 
 BillsPC_PlaceEmptyBoxString_SFX:
 	ld de, .NoMonString
@@ -2523,7 +2519,7 @@ BillsPC_PlaceEmptyBoxString_SFX:
 	ret
 
 .NoMonString:
-	db "There's no #MON.@"
+	db "Pas de #MON!@"
 
 BillsPC_PlaceChangeBoxString:
 	push de

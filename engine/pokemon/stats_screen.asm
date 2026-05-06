@@ -676,20 +676,20 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "STATUS/"
+	db   "STATUT/"
 	next "TYPE/@"
 
 .OK_str:
-	db "OK @"
+	db "OK@"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "PTS EXP.@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "PROCH.NIV.@"
 
 .ToStr:
-	db "TO@"
+	db "▶@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -731,13 +731,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "OBJET/@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "CAPACITE/@"
 
 LoadBluePage:
 	call StatsScreen_PrintHappiness
@@ -795,10 +795,10 @@ LoadBluePage:
 	dw wBufferMonOT
 
 IDNoString:
-	db "<ID>№.@"
+	db "№.<ID>@"
 
 OTString:
-	db "OT/@"
+	db "DO/@"
 
 LoadOrangePage:
 	call StatsScreen_placeCaughtLevel
@@ -832,10 +832,10 @@ StatsScreen_PrintHappiness:
 	db "/255@"
 
 StatsScreen_PrintDVs:
-	hlcoord 1, 12
+	hlcoord 1, 13
 	ld de, .DVstring1
 	call PlaceString
-	hlcoord 1, 13
+	hlcoord 1, 14
 	ld de, .DVstring2
 	call PlaceString
 	; hlcoord 1, 14
@@ -861,7 +861,7 @@ StatsScreen_PrintDVs:
 	push bc
 	ld de, wPokedexStatus
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
-	hlcoord 10, 12
+	hlcoord 10, 13
 	call PrintNum
 
 	; DEF DV
@@ -881,7 +881,7 @@ StatsScreen_PrintDVs:
 	push bc
 	ld de, wPokedexStatus
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
-	hlcoord 17, 12
+	hlcoord 17, 13
 	call PrintNum
 
 	; SPE DV
@@ -902,7 +902,7 @@ StatsScreen_PrintDVs:
 	push bc
 	ld de, wPokedexStatus
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
-	hlcoord 17, 13 ; 1, 5, 9, 13
+	hlcoord 17, 14 ; 1, 5, 9, 13
 	call PrintNum
 
 	; SPC DV
@@ -922,9 +922,9 @@ StatsScreen_PrintDVs:
 	push bc
 	ld de, wPokedexStatus
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
-	hlcoord 10, 13
+	hlcoord 10, 14
 	call PrintNum
-	; hlcoord 18, 15 ; 1, 4, 7, 10, 13 
+	; hlcoord 18, 16 ; 1, 4, 7, 10, 13 
 	; call PrintNum
 
 	; HP
@@ -943,22 +943,22 @@ StatsScreen_PrintDVs:
 	ld [wPokedexStatus], a
 	ld de, wPokedexStatus
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
-	hlcoord 3, 13 ; 1, 4, 7, 10, 13 
+	hlcoord 3, 14 ; 1, 4, 7, 10, 13 
 	call PrintNum
 	ret
 
 .DVstring1:
-	db "DVS: ATK    DEF   @"
+	db "DVs: ATQ    DEF   @"
 .DVstring2:	
-	; db "ATK    DEF@"
-	db "HP   SPC    SPE   @"
+	; db "ATQ    DEF@"
+	db "PV   SPE    VIT   @"
 ; .DVstring3:
-; 	db "SPC    SPE    HP@"
+; 	db "SPE    VIT    HP@"
 
 
 StatsScreen_placeCaughtLocation:
 	ld de, .MetAtMapString
-	hlcoord 1, 9
+	hlcoord 1, 9 					; Rencontré 
 	call PlaceString
 	ld a, [wTempMonCaughtLocation]
 	and CAUGHT_LOCATION_MASK
@@ -970,18 +970,18 @@ StatsScreen_placeCaughtLocation:
 	ld e, a
 	farcall GetLandmarkName
 	ld de, wStringBuffer1
-	hlcoord 2, 10
+	hlcoord 2, 10					; Ville
 	call PlaceString
 	ret	
 .unknown_location:
 	ld de, .MetUnknownMapString
-	hlcoord 2, 10
+	hlcoord 3, 10
 	call PlaceString
 	ret
 .MetAtMapString:
-	db "MET: @"
+	db "Rencontré @"
 .MetUnknownMapString:
-	db "UNKNOWN LOCATION@"
+	db "ZONE INCONNUE@"
 
 StatsScreen_placeCaughtTime:
 	ld a, [wTempMonCaughtTime]
@@ -996,7 +996,7 @@ StatsScreen_placeCaughtTime:
 	ld e, l
 	call CopyName1
 	ld de, wStringBuffer2
-	hlcoord 6, 9
+	hlcoord 11, 9 					; matin/jour/nuit
 	call PlaceString
 	ret
 .unknown_time
@@ -1007,15 +1007,15 @@ StatsScreen_placeCaughtTime:
 	ld e, l
 	call CopyName1
 	ld de, wStringBuffer2
-	hlcoord 6, 9
+	hlcoord 7, 9					; Par échange
 	call PlaceString
 	ret
 .times
-	db "MORN@"
-	db "DAY@"
-	db "NITE@"
+	db "un matin@"
+	db "de jour@"
+	db "de nuit@"
 .unknown_time_text
-	db "TRADE@"
+	db "par échange@"
 
 StatsScreen_placeCaughtLevel:
 	; caught level
@@ -1029,17 +1029,17 @@ StatsScreen_placeCaughtLevel:
 
 .print
 	ld [wTextDecimalByte], a
-	hlcoord 12, 9
+	hlcoord 3, 10					; Niveau
 	ld de, wTextDecimalByte
 	lb bc, PRINTNUM_LEFTALIGN | 1, 3
 	call PrintNum
-	hlcoord 11, 9
+	hlcoord 2, 10					; ":"
 	ld [hl], "<LV>"
 	ret
 
 .unknown_level
 	ld de, .MetUnknownLevelString
-	hlcoord 11, 9
+	hlcoord 12, 9
 	call PlaceString
 	ret   
 .MetUnknownLevelString:
@@ -1542,31 +1542,31 @@ endc
 	ret
 
 EggString:
-	db "EGG@"
+	db "OEUF@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "On entend du bruit"
+	next "à l'intérieur. Il"
+	next "va bientôt éclore!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "Iel se déplace à"
+	next "l'intérieur. Il"
+	next "est sur le point"
+	next "d'éclore!@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "Qu'y a-t-il à"
+	next "l'intérieur?"
+	next "Il faut attendre"
+	next "encore un peu.@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "Cet OEUF va mettre"
+	next "du temps à éclore.@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam

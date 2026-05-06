@@ -633,12 +633,12 @@ Pokegear_UpdateClock:
 	jr .got_tod
 
 .MornStr:
-	db "MORN@"
+	db "MATIN@"
 .DayStr:
-	db "DAY@"
+	db "JOUR@"
 .NiteStr:
-	db "NITE@"
-	; db "NIGHT@"
+	db "NUIT@"
+	; db "NUIT@"
 .FishGrpStr:
 	db "FISH:@"	
 
@@ -1375,9 +1375,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "APPELER"
+	next "EFFACER"
+	next "RETOUR"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1388,8 +1388,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "APPELER"
+	next "RETOUR"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1737,7 +1737,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "CODE DE BUENA@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1870,15 +1870,15 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
-PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+OaksPKMNTalkName:     db "CHRONIQUE<PK><MN> CHEN@"
+PokedexShowName:      db "Show #DEX@"
+PokemonMusicName:     db "Musique #MON@"
+LuckyChannelName:     db "Antenne Chance@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# FLUTE@"
+PlacesAndPeopleName:  db "Socio FM@"
+LetsAllSingName:      db "Chantons un peu@"
+PokeFluteStationName: db "FLUTE #MON@"
 
 _TownMap:
 	ld hl, wOptions
@@ -2304,7 +2304,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "Où?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2616,7 +2616,7 @@ Pokedex_GetArea:
 	ret
 
 .String_SNest:
-	db "'S NEST@"
+	db "NID DE @"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a
