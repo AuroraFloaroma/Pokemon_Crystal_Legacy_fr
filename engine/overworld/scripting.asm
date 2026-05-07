@@ -457,7 +457,7 @@ Script_verbosegiveitem:
 	ld de, wStringBuffer1
 	ld a, STRING_BUFFER_4
 	call CopyConvertedText
-	ld de, wStringBuffer4 + STRLEN("TM##")
+	ld de, wStringBuffer4 + STRLEN("CT##")
 	call AppendTMHMMoveName
 	ld b, BANK(GiveItemScript)
 	ld de, GiveItemScript
@@ -507,7 +507,7 @@ Script_verbosegiveitemvar:
 	ld de, wStringBuffer1
 	ld a, STRING_BUFFER_4
 	call CopyConvertedText
-	ld de, wStringBuffer4 + STRLEN("TM##")
+	ld de, wStringBuffer4 + STRLEN("CT##")
 	call AppendTMHMMoveName
 	ld b, BANK(GiveItemScript)
 	ld de, GiveItemScript

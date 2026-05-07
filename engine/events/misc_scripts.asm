@@ -43,7 +43,7 @@ FindItemInBallScript::
 	call GetItemName
 	ld hl, wStringBuffer3
 	call CopyName2
-	ld de, wStringBuffer3 + STRLEN("TM##")
+	ld de, wStringBuffer3 + STRLEN("CT##")
 	farcall AppendTMHMMoveName
 	ld a, [wItemBallItemID]
 	ld [wCurItem], a

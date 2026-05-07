@@ -21,7 +21,7 @@ HiddenItemScript::
 	end
 
 .append_tmhm_move_name
-	ld de, wStringBuffer3 + STRLEN("TM##")
+	ld de, wStringBuffer3 + STRLEN("CT##")
 	farcall AppendTMHMMoveName
 	ret
 
