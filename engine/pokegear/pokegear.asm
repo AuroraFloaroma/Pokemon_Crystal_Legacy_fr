@@ -602,7 +602,7 @@ Pokegear_UpdateClock:
 	ld a, BANK(FishGroups_Names)
 	hlcoord 8, 10
 	call PlaceFarString
-	hlcoord 3, 10
+	hlcoord 2, 10
 	ld de, .FishGrpStr
 	call PlaceString
 .print_tod
@@ -640,7 +640,7 @@ Pokegear_UpdateClock:
 	db "NUIT@"
 	; db "NUIT@"
 .FishGrpStr:
-	db "FISH:@"	
+	db "PECHE:@"	
 
 .GearTodayText:
 	text_far _GearTodayText
