@@ -52,7 +52,7 @@ _LoadFontsBattleExtra::
 	call Get2bppViaHDMA
 	ld de, FontBattleExtra + 17 tiles ; Starting at the 18th Tile of the FontBattleExtra PNG
 	ld hl, vTiles2 tile $71 ; loading that 18th Tile into Tile $71
-	lb bc, BANK(FontBattleExtra), 4 ; 4 Tiles, left arrow, ID + No. Tiles
+	lb bc, BANK(FontBattleExtra), 5 ; 5 Tiles, left arrow, ID, No. Tiles and "<DE>" used in french HOF
 	call Get2bppViaHDMA
 	jr LoadFrame
 

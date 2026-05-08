@@ -546,7 +546,7 @@ HOF_AnimatePlayerPic:
 	farcall HOF_LoadTrainerFrontpic
 	xor a
 	ldh [hGraphicStartTile], a
-	hlcoord 12, 5
+	hlcoord 12, 3
 	lb bc, 7, 7
 	predef PlaceGraphic
 	ld a, $c0
@@ -558,15 +558,15 @@ HOF_AnimatePlayerPic:
 	call HOF_SlideFrontpic
 	xor a
 	ldh [hBGMapMode], a
-	hlcoord 0, 2
-	lb bc, 8, 9
+	hlcoord 0, 3	
+	lb bc, 7, 9			; encadrement dresseur infos
 	call Textbox
 	hlcoord 0, 12
 	lb bc, 4, 18
 	call Textbox
 
-	hlcoord 31, 0
-	lb bc, 2, 7
+	hlcoord 0, 0
+	lb bc, 1, 18
 	call Textbox
 
 	ld de, ENGINE_HARDCORE_MODE
@@ -584,30 +584,30 @@ HOF_AnimatePlayerPic:
 	jr .NormalMode
 
 .NormalMode:
-	hlcoord 32, 1
-	ld de, .crystal_legacy_1
+	hlcoord 1, 1
+	ld de, .crystal_legacy_1 ; Heritage de Cristal
 	call PlaceString
 
-	hlcoord 32, 2
-	ld de, .crystal_legacy_2
+	hlcoord 11, 10
+	ld de, .crystal_legacy_2 ; Normal mode 
 	call PlaceString
 	jr .EndMode
 .HardMode:
-	hlcoord 32, 1
-	ld de, .crystal_legacy_2
+	hlcoord 31, 1
+	ld de, .crystal_legacy_1 ; Heritage de Cristal
 	call PlaceString
 
-	hlcoord 32, 2
-	ld de, .crystal_legacy_3
+	hlcoord 31, 2
+	ld de, .crystal_legacy_3 ; Difficile
 	call PlaceString
 	jr .EndMode
 .HardcoreMode:
-	hlcoord 32, 1
-	ld de, .crystal_legacy_2
+	hlcoord 31, 1
+	ld de, .crystal_legacy_1 ; Heritage de Cristal
 	call PlaceString
 
-	hlcoord 32, 2
-	ld de, .crystal_legacy_4
+	hlcoord 31, 2
+	ld de, .crystal_legacy_4 ; Hardcore
 	call PlaceString
 .EndMode:
 	hlcoord 2, 4
@@ -643,13 +643,13 @@ HOF_AnimatePlayerPic:
 	db "TEMPS JEU@"
 
 .crystal_legacy_1:
-	db "Crystal@"
-
+	db "Héritage <DE> Cristal@" ; Crystal Legacy translated in french
+								; I used "<de>" to concatenate "de" to save a single tile to fit the name on the screen
 .crystal_legacy_2:
-	db "Legacy@"
+	db "Mode:<LF>  Normal@" ; Normal mode
 
 .crystal_legacy_3:
-	db "Hard@"
+	db "Mode:<LF>Difficile@" ; Hard mode
 
 .crystal_legacy_4:
-	db "HC@"
+	db "Mode:<LF> Hardcore@" ; Hardcore mode

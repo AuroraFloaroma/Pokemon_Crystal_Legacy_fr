@@ -74,6 +74,8 @@
 	charmap "『",         $72 ; Japanese opening quote, unused
 	charmap "<ID>",      $73
 	charmap "№",         $74
+		
+	charmap "<DE>", 	 $75 ; Added to save one tile to fit the french RomHack name translation in HOF
 
 ; Actual characters (from other graphics files)
 
