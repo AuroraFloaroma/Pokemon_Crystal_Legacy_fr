@@ -34,10 +34,10 @@ Aujourd'hui morte, je n'avais aucune raison de consacrer du temps à traduire ce
 
 ## À faire :
 
-> [!warning] Attention
+> [!WARNING]
 > Certains éléments peuvent être buggés !
 > Je fais du mieux que je peux pour correctement adapter les affichages, mais il est fort possible que j'ai laissé passer des erreurs. 
-> 
+>
 > Pour le moment, les problèmes identifiés sont dans le fichier [À faire](trad/À%20faire.md#Code) rubrique "Code".
 
 
