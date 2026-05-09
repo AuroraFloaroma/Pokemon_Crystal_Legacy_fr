@@ -34,15 +34,18 @@ Aujourd'hui morte, je n'avais aucune raison de consacrer du temps à traduire ce
 
 ## À faire :
 
-> [!WARNING]
+> [!WARNING] Attention
 > Certains éléments peuvent être buggés !
 > Je fais du mieux que je peux pour correctement adapter les affichages, mais il est fort possible que j'ai laissé passer des erreurs. 
->
+> 
 > Pour le moment, les problèmes identifiés sont dans le fichier [À faire](trad/À%20faire.md#Code) rubrique "Code".
 
 
 > [Lien vers la to-do list](trad/À%20faire.md)
 
+## Modifications apportées à la Rom Hack :
+- Plusieurs interfaces ont été légèrement modifiées afin de pouvoir correctement inclure les traductions françaises (Pokédex, Pokématos, Panthéon). Le retravail des interfaces est purement esthétique, il ne change aucunement les apports de la Rom Hack.
+- Ajout d'un espace d'un pixel au logo chromatique dans le Pokédex
 ## Ressources :
 
 Liste des différents logiciels que j'ai utilisé pour la traduction :
