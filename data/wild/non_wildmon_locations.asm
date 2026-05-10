@@ -63,61 +63,62 @@ EventWildMons::
 
 ; LoadWildMon Dex Hints, max 18 chars per line
 FridayLapras_Str:
-	db 	 "Appears every"
-	next "FRIDAY, lonely in"
-	next "hidden sea cave.@"
+	db 	 "Ts. les VENDREDIS"
+	next "seul, caché, dans"
+	next "une grt. marine.@"
+
 Trap_Electrode_Str:
-	db 	 "CAUTION:"
-	next "Can be disguised"
-	next "as an item.@"	
+	db 	 "ATTENTION:"
+	next "peut se déguiser"
+	next "en objet.@"	
 SudowoodoEvent_Str:
-	db 	 "Unassuming fake"
-	next "tree. Vengeful if"
-	next "watered. LVL 20.@"
+	db 	 "Se camoufle en"
+	next "arbre. S'énerve"
+	next "si on l'arrose.@"
 ShinyGyarados_Str:
-	db 	 "Unique rampaging"
-	next "Red GYARADOS."
-	next "LVL 30.@"
+	db 	 "Apparition unique"
+	next "du LEVIATOR Rouge"
+	next "Niv 30.@"
 SnorlaxEvent_Str:
-	db 	 "Guaranteed to be"
-	next "holding LEFTOVERS."
-	next "LVL 40.@"
+	db 	 "Tiendra à coup"
+	next "sûr l'obj RESTES"
+	next "Niv 40.@"
 SuicuneEvent_Str:
-	db 	 "CLEAR BELL is the"
-	next "key to the hunt."
-	next "LVL 40.@"
+	db 	 "GLAS TRANSP. est"
+	next "la clé de sa cha-"
+	next "-sse. Niv 40.@"
 CelebiEvent_Str:
-	db 	 "GS BALL, deeply"
-	next "buried in RUINS."
-	next "Offer to SHRINE.@"
+	db 	 "Offrir à l'AUTEL,"
+	next "la GS BALL enter-"
+	next "rée aux RUINES.@"
 LugiaEvent_Str:
-	db 	 "SILVER WING, dull"
-	next "PEWTER sheen. Mis-"
-	next "placed as memento.@"
+	db 	 "ARGENT'AILE."
+	next "L'ARGENTAile a été"
+	next "égarée comme souv.@"
 HoOhEvent_Str:
-	db 	 "RAINBOW WING best-"
-	next "owed to Trainers"
-	next "after FOUR trials.@"
+	db 	 "ARCENCI'AILE, con-"
+	next "fiée aux Dresseurs"
+	next "après 4 épreuves.@"
 ArticunoEvent_Str:
-	db 	 "Waiting surrounded"
-	next "by waves."
-	next "LVL 60.@"
+	db 	 "Attend patiemment,"
+	next "entouré par les"
+	next "vagues. Niv 60.@"
 ZapdosEvent_Str:
-	db 	 "Waiting above"
-	next "electric renewal."
-	next "LVL 60.@"
+	db 	 "Attend au dessus"
+	next "de la Centrale"
+	next "Elec. Niv 60.@"
 MoltresEvent_Str:
-	db 	 "Waiting in the"
-	next "long dark of"
-	next "VICTORY. LVL 60.@"
+	db 	 "Attend dans la"
+	next "longue et sombre"
+	next "VICTOIRE. Niv 60.@"
 MewtwoEvent_Str:
-	db 	 "Not CERULEAN, but"
-	next "RED and SILVER"
-	next "ice. LVL 75.@"
+	db 	 "Pas AZUREE, mais"
+	next "ROUGE et ARGENTEE."
+	next "Niv 75.@"
 MewEvent_Str:
-	db 	 "Meet at nugget"
-	next "bridge, with 251."
-	next "LVL 60.@"
+	db 	 "Avec les 251, att-"
+	next "end au Pont Pépite."
+	next "ABRA non requis.@"
 
 GiftMons::
 ; replace map_id with -1 to hide location but keep hint
@@ -134,34 +135,34 @@ GiftMons::
 
 ; GivePoke Dex Hints, max 18 chars per line
 ShuckieEvent_Str:
-	db 	 "Happiness over 150"
-	next "may inspire change"
-	next "of heart, forever.@"
+	db 	 "Une joie supérieure"
+	next "à 150 pourrait le"
+	next "faire changer.@"
 KenyaEvent_Str:
-	db 	 "Scrappy birb"
-	next "carrying mail"
-	next "for ROUTE 31.@"
+	db 	 "Stupide oiseau. Il"
+	next "transporte un cou-"
+	next "rrier pr ROUTE 31@"
 ExtremespeedDratini_Str:
-	db 	 "EXTREMESPEED is"
-	next "rewarded as a true"
-	next "virtue reflection.@"
+	db 	 "Une GRNDVIT. est"
+	next "récompensée comme"
+	next "véritable vertue.@"
 BillsEevee_Str:
-	db 	 "LVL 20 - Cute"
-	next "baby with un-"
-	next "limited potential.@"
+	db 	 "N20 - Un adorable"
+	next "bout de chou au"
+	next "potent. illimité.@"
 TyrogueEvent_Str:
-	db 	 "Gift from KIYO,"
-	next "Karate Expert."
+	db 	 "Un cadeau du ROI"
+	next "du KARATE."
 	next "@"
 OldAmberEvent_Str:
-	db 	 "Solve mysterious"
-	next "ruins puzzle, then"
-	next "revive fossil.@"
+	db 	 "Résolvez les mys-"
+	next "térieux puzzles,"
+	next "ranimez le foss.@"
 DomeFossil_Str:
-	db 	 "Solve mysterious"
-	next "ruins puzzle, then"
-	next "revive fossil.@"
+	db 	 "Résolvez les mys-"
+	next "térieux puzzles,"
+	next "ranimez le foss.@"
 HelixFossil_Str:
-	db 	 "Solve mysterious"
-	next "ruins puzzle, then"
-	next "revive fossil.@"
+	db 	 "Résolvez les mys-"
+	next "térieux puzzles,"
+	next "ranimez le foss.@"

@@ -1,0 +1,1 @@
+![](attachments/weather_icon_compared.png)

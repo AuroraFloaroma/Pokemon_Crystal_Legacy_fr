@@ -23,10 +23,6 @@ Le choix du point médian « · » est une façon pour moi de se détacher des
 
 ### Éléments délibérément non traduits : 
 
-> - `gfx/battle/weather/*_icon.png`
-
-Je n'ai tout simplement pas réussi à traduire les mots dans l'espace restreint de 6x16 pixels en français (ex: "SUN" -> "SOLEIL"/"ZENITH") Si vous avez une proposition pour ces icônes, n'hésitez pas à faire une pull request!
-
 > - Tout ce qui se rapporte à la fonctionnalité Mobile Adapter GB (plus d'informations [ici](https://www.serebii.net/crystal/mobilesystemgb.shtml)). 
 
 Ce sont généralement des entrées qui n'ont pas été traduites en français car la fonctionnalité n'était disponible qu'au Japon. 
@@ -34,7 +30,7 @@ Aujourd'hui morte, je n'avais aucune raison de consacrer du temps à traduire ce
 
 ## À faire :
 
-> [!WARNING] Attention
+> [!WARNING]
 > Certains éléments peuvent être buggés !
 > Je fais du mieux que je peux pour correctement adapter les affichages, mais il est fort possible que j'ai laissé passer des erreurs. 
 > 

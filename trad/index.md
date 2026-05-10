@@ -14,7 +14,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 
 ### Sommaire :
 - [Traductions textuelles :](#Traductions%20textuelles)
-	- [/data](#/data) - Entrées textuelles générales (dresseurs, paramètres…)
+	- [/data](#/data) - Entrées textuelles générales (dresseurs, paramètres, Pokédex…)
 	- [/engine](#/engine) 
 		- [/items](#/items)
 		- [/menus](#/menus)
@@ -50,6 +50,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 - [stats_screen](engine/pokemon/stats_screen.md) - Écran des statistique (menu équipe)
 ### /data
 - [player_names](data/player_names.md) - Tableau contenant les noms par défaut des personnages
+- [non_wildmon_locations](engine/wild/non_wildmon_locations.md) - Page Rencontre spéciale pokedex
 #### /battle_tower
 - [trainer_text](data/battle_tower/trainer_text.md) - Dialogues d'intro / fin de combat des dresseurs de la Tour de Combat
 #### /text
@@ -143,3 +144,5 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 - [town_map](gfx/pokegear/town_map.png)
 #### /title
 - [logo](gfx/title/logo.png) - Écran titre du jeu
+#### /battle/weather
+- [weather_icons](gfx/battle/weather/weather_icons.md) 
