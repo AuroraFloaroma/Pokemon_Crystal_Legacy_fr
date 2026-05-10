@@ -1020,7 +1020,7 @@ StatsScreen_placeCaughtTime:
 	db "de jour@"
 	db "de nuit@"
 .unknown_time_text
-	db "par échangé@" ; le par est crop
+	db "par échangé@" ; le par est crop, ça fait "rencontré échangé"
 
 StatsScreen_placeCaughtLevel:
 	; caught level

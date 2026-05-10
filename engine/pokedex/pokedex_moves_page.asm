@@ -836,4 +836,4 @@ Pokedex_anymoreMTs:
 ; 	ret
 
 DexEntry_NONE_text:
-	db "NONE@"
+	db "AUCUNE@"
