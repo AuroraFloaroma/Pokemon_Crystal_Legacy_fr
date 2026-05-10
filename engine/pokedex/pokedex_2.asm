@@ -189,11 +189,11 @@ DisplayDexEntry:
 	call GetDexEntryPointer
 	ld a, b
 	push af
-	hlcoord 9, 6
+	hlcoord 9, 7
 	call PlaceFarString ; dex species nickname
 	push bc ; bank?
 	push de ; dex entry ptr
-	hlcoord 9, 7
+	hlcoord 9, 6
 	ld de, String_pokemon
 	call PlaceString
 	pop de ; dex entry ptr
@@ -213,7 +213,6 @@ DisplayDexEntry:
 	inc hl
 	ld a, b
 	push af
-	inc hl
 	inc hl
 	inc hl
 	push hl

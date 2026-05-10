@@ -6,9 +6,9 @@ ENDC
 EXPORT POKEDEX_STATSPAGE_MAX_PAGE_NUM
 
 String_BASE_text:
-	db "BASE       @" ; @ 8, 6
+	db "STATS    @" ; @ 8, 6
 String_STATS_text:
-	db " STATS     @" ; @ 8, 7
+	db " DE BASE   @" ; @ 8, 7
 DisplayDexMonStats::
 	ld a, [wTempSpecies]
 	ld [wCurSpecies], a
@@ -32,6 +32,7 @@ DisplayDexMonStats::
 IF DEF(wBaseHPAtkDefSpdEVs)
 	jr .print_page4
 ENDC	
+
 ; Base Stats, BST, Catch Rate, Growth rate
 .print_page1
 	call Pokedex_GBS_Stats ; 4 lines
@@ -66,7 +67,7 @@ ELSE
 ENDC ; done handling EVs/StatExp differences
 	jp DexEntry_IncPageNum
 .Base_stats_text:
-	db "BASE STATS@"
+	db "STATS DE BASE@"
 
 Pokedex_GBS_Stats:
 	hlcoord 1, 9
@@ -108,9 +109,9 @@ Pokedex_GBS_Stats:
 	ret
 
 .String_abbrv_BS_text1:
-	db "  HP      SPE     @"
+	db "  PV      VIT     @"
 .String_abbrv_BS_text2:
-	db " ATK      DEF     @"
+	db " ATQ      DEF     @"
 .String_abbrv_BS_text3:
 	db " SPA      SPD     @"
 
@@ -176,7 +177,7 @@ Pokedex_BST:
 	ld [wCurDamage + 1], a
 	ret
 .BS_Total_text:
-	db "Base Total:@"
+	db "Total base:@"
 
 Pokedex_Get_Items:
 ; TODO: Add code to differentiate same items in both entries, special cases
@@ -226,7 +227,7 @@ Pokedex_Get_Items:
 .ThreeDashes:
 	db "---@"
 .BS_ITEM_text:
-	db "Wild Held Items:@"
+	db "Obj. Tenus Sauv.:@"
 .BS_ITEM1:
 	db "[23<%>]@"
 .BS_ITEM2:
@@ -250,7 +251,7 @@ ENDC
 	ret
 ;Catch Rate
 .BS_Catchrate:
-	db "Catch Rate: @"
+	db "Taux Capt.: @"
 
 Pokedex_PrintBaseExp:
 ; wBaseExp
@@ -270,7 +271,7 @@ ENDC
 	call PrintNum
 	ret
 .Exp_text:
-	db "EXP Yield:@"
+	db "Rendm. EXP@"
 
 Pokedex_Get_Growth::
 ;Growth rate
@@ -305,17 +306,17 @@ ENDC
 	ret
 
 .growth_Medfast:
-	db "Med. Fast Growth@"
+	db "Moy.Croiss.Rapide@"
 .growth_slightfast
-	db "Sml. Fast Growth@"
+	db "Pet.Croiss.Rapide@"
 .growth_slightslow
-	db "Sml. Slow Growth@"
+	db "Pet.Croiss.Lente@"
 .growth_medslow
-	db "Med. Slow Growth@"
+	db "Moy.Croiss.Lente@"
 .growth_fast
-	db "Fast Growth@"
+	db "Croiss. Rapide@"
 .growth_slow
-	db "Slow Growth@"
+	db "Croiss. Lente@"
 
 Pokedex_EggG_SetUp:
 	ld a, [wBaseEggGroups]
@@ -352,9 +353,9 @@ Pokedex_EggG_SetUp:
 .EggGroups_DONE
 	ret
 .BS_Egg_text1:
-	db "Egg Group: @"
+	db "Groupe d'OEUF: @"
 .BS_Egg_text2:
-	db "Egg Groups: @"
+	db "Groupes d'OEUFS: @"
 
 Pokedex_Get_EggGroup:
 ;; have the fixed group num in 'a' already
@@ -420,31 +421,31 @@ Pokedex_Get_EggGroup:
 	ret
 ;;;Egg Groups
 .EggG_Monster_text:
-	db "Monster@"
+	db "Monstre@"
 .EggG_Amphibian_text:
-	db "Amphibian@"
+	db "Amphibien@"
 .EggG_Bug_text:
-	db "Bug@"
+	db "Insecte@"
 .EggG_Flying_text:
-	db "Flying@"
+	db "Volant@"
 .EggG_Field_text:
-	db "Field@"
+	db "Terrain@"
 .EggG_Fairy_text:
-	db "Fairy@"
+	db "Fée@"
 .EggG_Grass_text:
-	db "Grass@"
+	db "Herbe@"
 .EggG_HumanLike_text:
-	db "Humane-Like@"
+	db "Humanoïde@" ; 
 .EggG_Invertebrate_text:
-	db "Invertebrate@"
+	db "Invertébré@"
 .EggG_Mineral_text:
-	db "Mineral@"
+	db "Minéral@"
 .EggG_Amorphous_text:
-	db "Amorphous@"
+	db "Amorphe@"
 .EggG_Fish_text:
-	db "Fish@"
+	db "Poisson@"
 .EggG_Ditto_text:
-	db "ALL@"
+	db "TOUT@"
 .EggG_Dragon_text:
 	db "Dragon@"
 
@@ -483,11 +484,11 @@ Pokedex_Get_GenderRatio::
 	ret
 
 .GR_Text
-	db "Gender Ratio: @"
+	db "Ratio de genre: @"
 .GR_always_fem:
-	db "♀ Only@"
+	db "Uniq. ♀@"
 .GR_always_male
-	db "♂ Only@"
+	db "Uniq. ♂@"
 .GR_QuarterF
 	db "1♀:4♂@"
 .GR_Equal
@@ -508,7 +509,7 @@ Pokedex_PrintHatchSteps:
 	call PrintNum
 	ret
 .HatchSteps_text:
-	db "Egg Cycles:@"
+	db "Cycle d'OEUF:@"
 
 ; If using EVs instead of StatEXP
 IF DEF(wBaseHPAtkDefSpdEVs)
@@ -610,7 +611,7 @@ Pokedex_PrintBaseEVs:
 	pop hl
 	jr .ev_done
 .EVyield_text:
-	db "EV Yield:@"
+	db "Rendm EV:@"
 
 .prep_stack
 	hlcoord 11, 12
@@ -675,97 +676,52 @@ ENDC
 	push hl ; keep the ptr, for weight
 	ld a, b ; bank
 	push af ; keep bank
-	call GetFarWord
-	ld a, h
-	ld [wPoisonStepCount], a ; weight ptr, 2 bytes
-	ld a, l
-	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
-	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; Print the height, with two of the four digits in front of the decimal point
+; read height (1 byte)
+	call GetFarByte
+	ld [wPoisonStepCount], a
+	xor a
+	ld [wPoisonStepCount + 1], a
+	ld de, wPoisonStepCount
+; print height
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 4, 15
+	hlcoord 2, 15
 ELSE ; using EVs
-	hlcoord 4, 14
+	hlcoord 2, 14
 ENDC
-	lb bc, 2, (2 << 4) | 4
+	lb bc, 1, (2 << 4) | 3
 	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 6, 15
-ELSE ; using EVs
-	hlcoord 6, 14
-ENDC
-	ld [hl], "′"
-; get weight
+	
+;get weight
 	pop af ; bank
 	pop hl ; ptr
-	inc hl
-	inc hl
+	inc hl ; skip 1 octet hauteur
 	call GetFarWord
 	ld a, h
-	ld [wPoisonStepCount], a ; weight ptr, 2 bytes
+	ld [wPoisonStepCount], a
 	ld a, l
-	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
-	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; 2 digit weight (actually 3, but we are cutting off decimal since it's always 0)
-	ld a, h
-	cp 3
-	jr c, .normal_weight
-	cp 4
-	jr nc, .heavy_weight
-	jr z, .heavy_weight
-	ld a, l
-	cp $e8
-	jr c, .normal_weight
-.heavy_weight	
-	
+	ld [wPoisonStepCount + 1], a
+	ld de, wPoisonStepCount
+; print weight
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 14, 15
+	hlcoord 10, 15
 ELSE ; using EVs
-	hlcoord 14, 14
+	hlcoord 10, 15
 ENDC
 	lb bc, 2, (3 << 4) | 4
 	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 17, 15
-ELSE ; using EVs
-	hlcoord 17, 14
-ENDC
-	ld de, .String_pounds
-	call PlaceString
-	jr .done
-; 3 digit weight (actually 4, but we are cutting off decimal since it's always 0)
-.normal_weight	
-	; Print the weight, with 3 of the 4 digits in front of the decimal point
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 13, 15
-ELSE ; using EVs
-	hlcoord 13, 14
-ENDC
-	lb bc, 2, (3 << 4) | 4
-	call PrintNum
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 16, 15
-ELSE ; using EVs
-	hlcoord 16, 14
-ENDC	
-	ld de, .String_pounds
-	call PlaceString
-.done	
 	pop de
 	pop bc
-	pop hl	
+	pop hl
 	ret
 .String_HeightWeight_blank:
-	db "HT     ″ WT       @" ; HT  ?'??"
-.String_pounds:
-	db "lbs@"
+	db "     m        kg@"
 
 BS_HP_text:
-	db " HP@"
+	db " PV@"
 BS_SPEED_text:
-	db "SPE@"
+	db "VIT@"
 BS_ATK_text:
-	db "ATK@"
+	db "ATQ@"
 BS_DEF_text:
 	db "DEF@"
 BS_SPCL_text:

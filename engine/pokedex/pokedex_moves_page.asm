@@ -5,24 +5,21 @@ DEF MAX_NUM_MOVES EQU 7
 ; must fill in spaces to erase other text already printed
 ; top string goes in 8, 6, bottom in 8, 7
 String_LVL_text:
-	db "LVL-UP     @"
+	db " NIV-SUP   @"
 String_FIELD_text:
-	db "FIELD      @"
+	db " TERRAIN   @"
 String_EGG_text:
-	db "EGG        @"		
+	db " OEUF      @"		
 String_MOVES_text:
-	db " MOVES     @"
+	db "CAPACITES @"
 String_TECH_text:
-	db "TECHNICAL  @"
+	db "CAPSULES   @"
 String_MACHINES_text:
-	db " MACHINES  @"
+	db " TECHNQ.   @"
 String_MOVE_text:
-	db "MOVE       @"
+	db "CAPACITES  @"
 String_TUTOR_text:
-	db " TUTOR     @"
-Print_Category_MOVES_text:
-	ld hl, String_MOVES_text
-	jp Print_Category_text
+	db "ENSEIGN.   @"
 
 DisplayDexMonMoves::
 	ld a, [wTempSpecies]
@@ -51,8 +48,9 @@ DisplayDexMonMoves::
 	call DexEntry_NextCategory
 .LvlUpLearnset
 ; place category name
-	ld de, String_LVL_text
-	call Print_Category_MOVES_text
+	ld de, String_MOVES_text
+    ld hl, String_LVL_text   
+    call Print_Category_text
 
 	ld a, DEXENTRY_LVLUP
 	ld [wPokedexEntryType], a
@@ -61,8 +59,9 @@ DisplayDexMonMoves::
 	ret
 .EggMoves
 ; place category name
-	ld de, String_EGG_text
-	call Print_Category_MOVES_text
+	ld de, String_MOVES_text
+    ld hl, String_EGG_text  
+	call Print_Category_text
 
 	ld a, DEXENTRY_EGG
 	ld [wPokedexEntryType], a
@@ -72,8 +71,10 @@ DisplayDexMonMoves::
 	ret
 .Field_Moves
 ; place category name
-	ld de, String_FIELD_text
-	call Print_Category_MOVES_text
+	ld de, String_MOVES_text
+    ld hl, String_FIELD_text  
+	call Print_Category_text
+
 
 	ld a, DEXENTRY_FIELD
 	ld [wPokedexEntryType], a
@@ -96,8 +97,8 @@ DisplayDexMonMoves::
 ; 	ret
 .MTs
 ; place category name
-	ld de, String_MOVE_text
 	ld hl, String_TUTOR_text
+	ld de, String_MOVE_text
 	call Print_Category_text
 
 	ld a, DEXENTRY_MTS

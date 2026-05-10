@@ -201,7 +201,7 @@ if DEF(_DEBUG)
 	jp StatsScreen_JoypadAction
 
 .HatchSoonString:
-	db "▶HATCH SOON!@"
+	db "▶VA BIENTOT ECLORE!@"
 endc
 
 StatsScreen_LoadPage:
@@ -702,7 +702,7 @@ LoadGreenPage:
 	hlcoord 8, 8
 	call PlaceString
 	ld de, .Move
-	hlcoord 0, 10
+	hlcoord 0, 9
 	call PlaceString
 	ld hl, wTempMonMoves
 	ld de, wListMoves_MoveIndicesBuffer
@@ -970,7 +970,10 @@ StatsScreen_placeCaughtLocation:
 	ld e, a
 	farcall GetLandmarkName
 	ld de, wStringBuffer1
-	hlcoord 2, 10					; Ville
+	hlcoord 3, 10					; Ville
+	call PlaceString
+	ld de, .MetA
+	hlcoord 1, 10					; à
 	call PlaceString
 	ret	
 .unknown_location:
@@ -982,6 +985,8 @@ StatsScreen_placeCaughtLocation:
 	db "Rencontré @"
 .MetUnknownMapString:
 	db "ZONE INCONNUE@"
+.MetA:
+	db "à@"
 
 StatsScreen_placeCaughtTime:
 	ld a, [wTempMonCaughtTime]
@@ -1015,7 +1020,7 @@ StatsScreen_placeCaughtTime:
 	db "de jour@"
 	db "de nuit@"
 .unknown_time_text
-	db "par échange@"
+	db "par échangé@" ; le par est crop
 
 StatsScreen_placeCaughtLevel:
 	; caught level
@@ -1029,13 +1034,18 @@ StatsScreen_placeCaughtLevel:
 
 .print
 	ld [wTextDecimalByte], a
-	hlcoord 3, 10					; Niveau
+	hlcoord 16, 11				; Niveau
 	ld de, wTextDecimalByte
 	lb bc, PRINTNUM_LEFTALIGN | 1, 3
 	call PrintNum
-	hlcoord 2, 10					; ":"
+	hlcoord 15, 11				; ":"	
 	ld [hl], "<LV>"
+	ld de, .LevelText
+	hlcoord 5, 11
+	call PlaceString
 	ret
+.LevelText:
+	db "au niveau @"
 
 .unknown_level
 	ld de, .MetUnknownLevelString
@@ -1231,7 +1241,7 @@ StatsScreen_Print_HiddenPow_Info:
 	call PlaceString_UnownFont	
 	ret
 .hidden_pow_text:
-	db "HIDDEN POWER@"
+	db "PUIS. CACHEE@"
 .hp_70_text:
 	db "SEVENTY@"
 .hp_60_text:
@@ -1507,7 +1517,7 @@ if DEF(_DEBUG)
 	jr .placed_push_start
 
 .PushStartString:
-	db "▶PUSH START.@"
+	db "▶PRES. START@"
 
 .placed_push_start
 endc
