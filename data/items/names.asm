@@ -171,7 +171,7 @@ ItemNames::
 	li "PIERRESOLEIL"
 	li "RUBAN A POIS"
 	li "TERU-SAMA"
-	li "EVOLUTOR"
+	li "AMELIORATOR"
 	li "BAIE"
 	li "BAIE DOREE"
 	li "CARAPUCE A O"

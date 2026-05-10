@@ -1704,10 +1704,8 @@ _DayCareManIntroEggText::
 	done
 
 _DayCareLadyIntroText::
-	text "Je suis la femme"
-	line "du type qui"
-	cont "s'occupe de la"
-	cont "PENSION."
+	text "Je suis la dame"
+	line "de la PENSION."
 
 	para "Veux-tu que"
 	line "j'entraîne un"
@@ -1715,11 +1713,10 @@ _DayCareLadyIntroText::
 	done
 
 _DayCareLadyIntroEggText::
-	text "Je suis la femme"
-	line "du type qui"
-	cont "s'occupe de la"
-	cont "PENSION. Connais-"
-	cont "tu les OEUFS?"
+	text "Je suis la dame"
+	line "de la PENSION."
+	cont "Connais-tu les"
+	cont "OEUFS?"
 
 	para "J'élevais des"
 	line "#MON avec"

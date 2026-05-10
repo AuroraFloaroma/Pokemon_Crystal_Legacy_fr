@@ -747,7 +747,7 @@ RadioTower5FDirectorDescribeClearBellText:
 
 	para "Apparemment, il se"
 	line "passe des trucs à"
-	cont "la TOUR FERRAILLE."
+	cont "la TOUR CARILLON."
 
 	para "A mon avis, tu"
 	line "devrais y aller."

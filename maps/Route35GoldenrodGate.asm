@@ -64,7 +64,7 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "ANTRE NOIRE    "
+	db   "ANTRE NOIR    "
 	next "mène autre part@"
 
 GiftSpearowName:

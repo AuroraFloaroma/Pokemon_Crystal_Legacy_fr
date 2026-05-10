@@ -122,7 +122,7 @@ AnthonyHurryText:
 	text "Allô? Quoi? Où"
 	line "est INSOLOURDO?"
 
-	para "ANTRE NOIRE! Vite!"
+	para "ANTRE NOIR! Vite!"
 
 	para "Il n'apparaît pas"
 	line "s'il y a trop de"

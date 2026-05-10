@@ -232,7 +232,7 @@ EcruteakCitySignText:
 	done
 
 TinTowerSignText:
-	text "TOUR FERRAILLE"
+	text "TOUR CARILLON"
 
 	para "Un #MON"
 	line "légendaire y est"

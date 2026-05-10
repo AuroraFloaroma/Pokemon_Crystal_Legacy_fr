@@ -150,7 +150,7 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "La TOUR FERRAILLE"
+	text "La TOUR CARILLON"
 	line "est inaccessible à"
 
 	para "tous ceux qui"
@@ -163,7 +163,7 @@ EcruteakTinTowerEntranceSageText:
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "La TOUR FERRAILLE"
+	text "La TOUR CARILLON"
 	line "est inaccessible à"
 
 	para "tous ceux qui"
@@ -248,7 +248,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "La TOUR FERRAILLE"
+	text "La TOUR CARILLON"
 	line "est d'une pure"
 	cont "beauté."
 
@@ -258,7 +258,7 @@ EcruteakTinTowerEntranceWanderingSageText:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "La TOUR FERRAILLE"
+	text "La TOUR CARILLON"
 	line "tremble! Un #-"
 
 	para "MON doit s'être"

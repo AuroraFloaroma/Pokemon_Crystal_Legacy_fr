@@ -261,7 +261,7 @@ Route31MailRecipientScript:
 	end
 
 ReceivedSpearowMailText:
-	db   "ANTRE NOIRE    "
+	db   "ANTRE NOIR    "
 	next "mène autre part@"
 
 Route31YoungsterScript:
@@ -286,7 +286,7 @@ Route31PokeBall:
 	itemball POKE_BALL
 
 Route31CooltrainerMText:
-	text "ANTRE NOIRE..."
+	text "ANTRE NOIR..."
 
 	para "Si un #MON pou-"
 	line "vait l'éclairer,"
@@ -349,7 +349,7 @@ Text_Route31HandOverMailMon:
 
 Text_Route31ReadingMail:
 	text "Voyons ça... "
-	line "...L'ANTRE NOIRE"
+	line "...L'ANTRE NOIR"
 	cont "mène à un autre"
 	cont "chemin..."
 
@@ -414,7 +414,7 @@ Text_Route31CantTakeLastMon:
 Route31YoungsterText:
 	text "J'ai trouvé un bon"
 	line "#MON dans"
-	cont "l'ANTRE NOIRE."
+	cont "l'ANTRE NOIR."
 
 	para "Je vais l'entraî-"
 	line "ner pour battre"
@@ -433,7 +433,7 @@ Route31SignText:
 	done
 
 DarkCaveSignText:
-	text "ANTRE NOIRE"
+	text "ANTRE NOIR"
 	done
 
 Route31_MapEvents:
