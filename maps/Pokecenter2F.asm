@@ -824,8 +824,8 @@ Text_BattleReceptionistIntro:
 	cont "LINK."
 
 	para "Vous pouvez y"
-	line "affronter un(e)"
-	cont "ami(e)."
+	line "affronter un·e"
+	cont "ami·e."
 
 	para "Voulez-vous"
 	line "combattre?"
@@ -838,7 +838,7 @@ Text_TradeReceptionistIntro:
 	para "Vous pouvez y"
 	line "faire des échanges"
 	cont "de #MON avec"
-	cont "un(e) ami(e)."
+	cont "un·e ami·e."
 
 	para "Voulez-vous"
 	line "échanger?"
@@ -859,8 +859,8 @@ Text_TimeCapsuleReceptionistIntro:
 	done
 
 YourFriendIsNotReadyText:
-	text "Votre ami(e) n'est"
-	line "pas prêt(e)."
+	text "Votre ami·e n'est"
+	line "pas prêt·e."
 	prompt
 
 Text_MustSaveGame:
@@ -879,7 +879,7 @@ Text_LinkTimedOut:
 	cont "fermée."
 
 	para "Contactez votre"
-	line "ami(e) et recom-"
+	line "ami·e et recom-"
 	cont "mencez plus tard."
 	prompt
 
@@ -904,7 +904,7 @@ Text_CantLinkToThePast:
 	prompt
 
 Text_IncompatibleRooms:
-	text "Votre ami(e) a"
+	text "Votre ami·e a"
 	line "choisi une salle"
 	cont "différente."
 	prompt

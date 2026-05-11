@@ -237,8 +237,8 @@ _RetrieveMysteryGiftText::
 	prompt
 
 _YourFriendIsNotReadyText::
-	text "Votre ami(e) n'est"
-	line "pas prêt(e)."
+	text "Votre ami·e n'est"
+	line "pas prêt·e."
 	prompt
 
 _MysteryGiftFiveADayText::
@@ -473,7 +473,7 @@ _AskHeadbuttText::
 _UseRockSmashText::
 	text_ram wStringBuffer2
 	text_start
-	line "lance ECLATE-ROC!"
+	line "utilise ECLATE-ROC!"
 	prompt
 
 _MaySmashText::

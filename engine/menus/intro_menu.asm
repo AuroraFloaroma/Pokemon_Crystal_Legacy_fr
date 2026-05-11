@@ -552,10 +552,10 @@ Continue_LoadMenuHeader:
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "NOM: @"
-	db "BADGES: @"
-	db "#DEX: @"
-	db "DUREE JEU: @"
+	db "NOM:@"
+	db "BADGES:@"
+	db "#DEX:@"
+	db "DUREE JEU:@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
@@ -566,10 +566,10 @@ Continue_LoadMenuHeader:
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "NOM: @"
-	db "BADGES: @"
-	db "#DEX: @"
-	db "DUREE JEU: @"
+	db "NOM:@"
+	db "BADGES:@"
+	db " @"
+	db "DUREE JEU:@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
@@ -584,7 +584,7 @@ Continue_DisplayBadgesDexPlayerName:
 	call Continue_DisplayPokedexNumCaught
 	pop hl
 	push hl
-	decoord 12, 2, 0 ; Player name
+	decoord 13, 2, 0 ; Player name
 	add hl, de
 	ld de, .Player
 	call PlaceString

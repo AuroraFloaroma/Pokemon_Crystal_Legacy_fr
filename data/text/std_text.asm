@@ -174,7 +174,8 @@ WindowText:
 	done
 
 TVText:
-	text "IT'S T.V. TIME!"
+	text "IT'S..."
+	line "T.V. TIME!"
 	done
 
 HomepageText:

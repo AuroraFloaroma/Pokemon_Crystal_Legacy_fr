@@ -26,12 +26,12 @@ _ClockTimeMayBeWrongText::
 	text "L'horloge est"
 	line "peut-être fausse."
 
-	para "Régler l'heure"
-	line "s.v.p."
+	para "Réglez l'heure"
+	line "S.V.P."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Régler avec la"
+	text "Réglez avec la"
 	line "manette."
 
 	para "Choix:   Bouton A"
@@ -64,7 +64,7 @@ _LinkAbnormalMonText::
 	text "Le @"
 	text_ram wStringBuffer1
 	text_start
-	line "de votre ami(e) a"
+	line "de votre ami·e a"
 	cont "l'air bizarre!"
 	prompt
 
@@ -459,68 +459,69 @@ _EvolvingText::
 	done
 
 _EggMoveReminderIntro::
-    text "Hiya, I'm the"
-    line "EGG-MOVE TUTOR!"
+	text "Yo, je suis le"
+	line "CAPACIT-OEUF!"
 
-    para "I can teach your"
-    line "#MON moves they"
+	para "Je suis capable"
+	line "d'enseigner à tes"
+	cont "#MON des capac-"
+	cont "ités qu'ils ne"
+	cont "peuvent initial-"
+	cont "ement qu'apprendre"
+	cont "en tant qu'OEUF."
 
-    para "can normally only"
-    line "learn as an EGG."
-
-	para "Are you"
-    line "interested?"
+	para "Ca t'intéresse?"
     done
 
 _MoveReminderIntro::
-    text "Hiya, I'm the"
-    line "MOVE REMINDER!"
+    text "Salut, je suis le"
+	line "MAITRE DES"
+	cont "CAPACITES!"
 
-    para "I can make #MON"
-    line "rememember moves"
+	para "Je suis capable"
+	line "d'enseigner à tes"
+	cont "#MON une capac-"
+	cont "ité apprise durant"
+	cont "la croissance."
 
-    para "that they learned"
-    line "while growing up."
-
-	para "Shall I make a"
-	line "#MON remember?"
+	para "Ca t'intéresse?"
     done
 
 _MoveReminderWhichMon::
-    text "Which #MON"
-    next "would you like"
-
-    para "to make remember"
-    line "a move?"
+    text "Quel #MON doit"
+	line "se souvenir d'une"
+	cont "capacité?"
     done
 
 _MoveReminderWhichMove::
-    text "Which move should"
-    line "it learn?"
+    text "Quelle capacité"
+	line "doit-il apprendre?"
     done
 
 _MoveReminderCancel::
-    text "Come back anytime."
+    text "Reviens quand tu"
+	line "veux!"
     done
 
 _MoveReminderEgg::
-    text "Hey! What am I"
-    line "supposed to teach"
-    cont "an EGG?"
+    text "Mais! Que suis-je"
+	line "censé enseigner à"
+	cont "un OEUF?!"
     done
 
 _MoveReminderNoMon::
-    text "You don't have a"
-    line "#MON that can"
-    cont "remember a move."
+    text "Mh... Tu n'as"
+	line "aucun #MON qui"
+	cont "peut se souvenir"
+	cont "d'une capacité."
     done
 
 _MoveReminderNoMoves::
-    text "There are no moves"
-    line "for this #MON"
-    cont "to learn."
+    text "Il n'y a aucune"
+	line "capacité à ensei-"
+	cont "gner à ce"
+	cont "#MON."
     done
-
 
 _MartHowManyText::
 	text "Combien?"
@@ -537,16 +538,18 @@ _MartFinalPriceText::
 	done
 
 _HerbShopLadyIntroText::
-	text "Hello, dear."
+	text "Bonjour toi."
 
-	para "I sell rare and"
-	line "valuable stones."
+	para "Je vends des"
+	line "pierres rares et"
+	cont "précieuses."
 
-	para "They've been known"
-	line "to make #MON"
-	cont "change forms."
+	para "Elles sont notam-"
+	line "ment connues pour"
+	cont "altérer la forme"
+	cont "des #MON."
 
-	para "Hehehehe…"
+	para "Héhéhéhéhé..."
 	done
 
 _HerbalLadyHowManyText::
@@ -1156,14 +1159,14 @@ _BTExcuseMeText::
 _ExcuseMeYoureNotReadyText::
 	text "Pardon mais..."
 	line "Vous n'êtes pas"
-	cont "prêt(e)."
+	cont "prêt·e."
 
 	para ""
 	done
 
 _BattleTowerReturnWhenReadyText::
 	text "Revenez une fois"
-	line "prêt(e)."
+	line "prêt·e."
 	done
 
 _NeedAtLeastThreeMonText::

@@ -201,9 +201,9 @@ GetCaughtTime:
 	ret
 
 .times
-	db "MATIN@"
-	db "JOUR@"
-	db "NUIT@"
+	db "Matin@"
+	db "Jour@"
+	db "Nuit@"
 
 UnknownCaughtData:
 	ld hl, .unknown
@@ -212,7 +212,7 @@ UnknownCaughtData:
 	ret
 
 .unknown
-	db "INCONNU@"
+	db "Inconnu@"
 
 GetCaughtLocation:
 	ld a, [wSeerCaughtGender]

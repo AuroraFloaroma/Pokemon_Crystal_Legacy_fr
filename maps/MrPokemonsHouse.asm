@@ -322,7 +322,7 @@ MrPokemonsHouse_OakText1:
 	para "C'est une encyclo-"
 	line "pédie moderne!"
 	
-	para "Ça montre leur"
+	para "Ca montre leur"
 	line "habitat, comment"
 	cont "ils évoluent ainsi"
 	cont "que leurs"
