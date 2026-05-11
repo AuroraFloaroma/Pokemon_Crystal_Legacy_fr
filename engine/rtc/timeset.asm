@@ -53,13 +53,13 @@ InitClock:
 .loop
 	ld hl, OakTimeWhatTimeIsItText
 	call PrintText
-	hlcoord 9, 7
+	hlcoord 9, 7 ; box
 	ld b, 2
-	ld c, 9
+	ld c, 9 ; box
 	call Textbox
-	hlcoord 14, 7
+	hlcoord 11, 7 ; fleche
 	ld [hl], $1
-	hlcoord 14, 10
+	hlcoord 11, 10 ; fleche
 	ld [hl], $2
 	hlcoord 10, 9
 	call DisplayHourOClock
@@ -406,7 +406,7 @@ SetDayOfWeek:
 	call PrintText
 	hlcoord 10, 3
 	ld b, 2
-	ld c, 9
+	ld c, 8
 	call Textbox
 	hlcoord 14, 3
 	ld [hl], TIMESET_UP_ARROW
