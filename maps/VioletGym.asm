@@ -151,7 +151,7 @@ FalknerIntroText:
 
 	para "Je n'autorise per-"
 	line "sonne à insulter"
-	cont "les #MON!"
+	cont "les #MON oiseaux!"
 
 	para "Tu vas subir les"
 	line "terribles attaques"

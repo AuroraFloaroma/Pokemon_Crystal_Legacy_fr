@@ -108,7 +108,7 @@ KogaScript_KogaRematchBeforeText:
 	text "KOGA: Fwahahahaha!"
 
 	para "Te revoilà!"
-	line "Courageux.se"
+	line "Courageux·se"
 	cont "adversaire!"
 
 	para "Mes talents de"
@@ -123,10 +123,9 @@ KogaScript_KogaRematchBeforeText:
 
 	para "Fwahahahaha!"
 
-	para "Montre moi à quel"
+	para "Montre-moi à quel"
 	line "point tu as"
 	cont "progressé!!"
-
 	done
 
 KogaScript_KogaBeforeText:
@@ -160,7 +159,7 @@ KogaScript_KogaBeforeText:
 	done
 
 KogaScript_KogaBeatenText:
-	text "Ah! Tu es un"
+	text "Ah! Tu es un·e"
 	line "adversaire"
 	cont "honorable!"
 	done

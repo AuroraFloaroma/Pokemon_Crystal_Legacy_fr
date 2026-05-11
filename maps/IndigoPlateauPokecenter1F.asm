@@ -269,11 +269,12 @@ PlateauRivalText2:
 PlateauRivalLoseText:
 	text "..."
 
+	para "Fiou..."
+
 	para "Avec mes"
 	line "partenaires, je"
 	cont "vais devenir un"
 	cont "MAITRE!"
-
 	done
 
 TeleportGuyText1:

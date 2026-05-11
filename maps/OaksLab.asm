@@ -110,7 +110,7 @@ OakLabGoodbyeText:
 	done
 
 OakOpenMtSilverText:
-		text "CHEN: Woah! C'est"
+	text "CHEN: Woah! C'est"
 	line "génial, ça!"
 
 	para "Tu as gagné les"
@@ -155,27 +155,26 @@ OakOpenMtSilverText:
 	done
 
 OakBattleKantoE4Text:
-	text "OAK: Wow! That's"
+	text "CHEN: Woah! C'est"
 	line "excellent!"
 
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO,"
+	para "Tu as gagné les"
+	line "BADGES des ARENES"
+	cont "de KANTO!"
 
-	para "but I still don't"
-	line "think you are"
-	cont "ready."
+	para "Mais je doute que"
+	line "tu ne sois encore"
+	cont "prêt·e."
 
-	para "You must return"
-	line "to the ELITE"
-	cont "FOUR..."
+	para "A présent tu dois"
+	line "retourner au CONS-"
+	cont "EIL 4 et vaincre"
+	cont "la LIGUE de KANTO!"
 
-	para "and battle in"
-	line "the KANTO LEAGUE!"
-
-	para "Only then will"
-	line "you truly have"
-	cont "what it takes."
+	para "C'est seulement là"
+	line "que je saurais que"
+	cont "je pourrais"
+	cont "compter sur toi."
 	done
 
 OakNoKantoBadgesText:

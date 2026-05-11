@@ -95,32 +95,33 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenRematchBeforeText:
-	text "KAREN: Ah,"
-	line "it's you again."
+	text "MARION: Alors"
+	line "comme ça te"
+	cont "revoilà…"
 
-    para "I trust you"
-    line "haven't forgotten"
-	cont "my belief:"
+	para "J'espère que tu"
+	line "n'as pas oublié ma"
+	cont "conviction: la"
+	cont "véritable force"
+	cont "émerge du lien qui"
+	cont "unit les dresseurs"
+	cont "et leurs #MON."
 
-    para "True strength"
-    line "arises from trust"
-    cont "in one's #MON."
+	para "Depuis notre"
+	line "dernière"
+	cont "rencontre, notre"
+	cont "lien s'est encore"
+	cont "renforcé."
 
-    para "Since our last"
-    line "encounter, my"
+	para "Es-tu prêt·e à"
+	line "faire face à une"
+	cont "équipe unie par un"
+	cont "lien d'acier?"
 
-	para "bond with my"
-	line "#MON has"
-    cont "deepened further."
-
-    para "Are you ready"
-    line "to face a team"
-    cont "united by an"
-    cont "unbreakable bond?"
-
-    para "Show me the power"
-    line "of the bond with"
-    cont "your #MON."
+	para "Montre moi la"
+	line "puissance de ton"
+	cont "propre lien avec"
+	cont "tes #MON."
 	done
 
 KarenScript_KarenBeforeText:
@@ -148,10 +149,13 @@ KarenScript_KarenBeforeText:
 	done
 
 KarenScript_KarenBeatenText:
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
-	done
+	text "Regardez-moi ça…"
+
+	para "Tu t'en sors bien."
+
+	para "C'est ce que j'ai-"
+	line "me chez les dres-"
+	cont "seur·euse·s."
 
 KarenScript_KarenDefeatText:
 	text "#MON puissants."
@@ -161,10 +165,11 @@ KarenScript_KarenDefeatText:
 	para "Cette vision est"
 	line "faite pour les"
 	cont "simples d'esprit."
-
-	para "Les bons dresseurs"
-	line "gagnent avec leurs"
-	cont "#MON favoris."
+	
+	para "Les bons dresseu-"
+	line "r·euse·s gagnent"
+	cont "avec leurs #MON"
+	cont "favoris."
 
 	para "J'aime ton style."
 	line "Tu as du"

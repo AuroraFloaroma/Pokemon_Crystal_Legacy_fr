@@ -262,40 +262,39 @@ BugsyText_BugMonsAreDeep:
 	line "faudra encore du"
 	cont "temps pour tous"
 	cont "les découvrir."
-	
+
 	para "Etudie-les"
 	line "minutieusement."
 	done
 	
 BugsyRematchText:
-	text "Wow, alors comme"
-	line "ça, tu es CHAMPION"
-	cont "de JOHTO à"
-	cont "présent ?"
-	
+	text "HECTOR: Wow, tu es"
+	line "la·e MAITRE de"
+	cont "JOHTO à présent?"
+
 	para "Tes talents sont"
 	line "vraiment"
-	cont "remarquables."
-	
+	cont "remarquables!"
+
 	para "J'ai été pas mal"
 	line "occupé avec mes"
 	cont "recherches"
 	cont "dernièrement."
-	
-	para "Je suis prêt à"
-	line "te montrer mes"
+
+	para "Je suis prêt à te"
+	line "montrer mes"
 	cont "nouvelles"
 	cont "découvertes."
-	
+
 	para "Ça te dirait une"
-	line "revanche ?"
+	line "revanche avec moi?"
 	done
 
 Bugsy_RematchDefeatText:
-	text "Ça alors… tu dois"
-	line "vraiment être un.e"
-	cont "expert.e."
-	
+	text "Ça alors… Tu dois"
+	line "vraiment être un·e"
+	cont "expert·e."
+
 	para "Mes recherches"
 	line "sont loin d'être"
 	cont "terminées…"
@@ -384,16 +383,15 @@ TwinsAmyandmay1BeatenText:
 
 TwinsAmyandmay1AfterBattleText:
 	text "PIM: Tu es"
-	line "vraiment"
-	cont "redoutable!"
+	line "vraiment très"
+	cont "fort·e!"
 
-	para "Mais tu sais"
-	line "quoi ? HECTOR est"
-	cont "encore plus fort!"
+	para "Mais tu sais quoi"
+	line "? HECTOR l'est"
+	cont "encore plus!"
 
-	para "Le COUPE de son"
-	line "INSECATEUR"
-	cont "inflige quasi tout"
+	para "Son INSECATEUR"
+	line "inflige quasi tout"
 	cont "le temps des coups"
 	cont "critiques!"
 	done
@@ -402,14 +400,14 @@ TwinsAmyandmay2SeenText:
 	text "PAM: Tu veux voir"
 	line "le CHAMPION ?"
 	cont "Bonne chance à"
-	cont "toi !"
+	cont "toi!"
 
 	para "HECTOR est si"
 	line "fort, l'attaque"
 	cont "COUPE de son"
 	cont "INSECATEUR inflige"
 	cont "toujours des coups"
-	cont "critiques !"
+	cont "critiques!"
 	done
 
 TwinsAmyandmay2BeatenText:
@@ -424,11 +422,11 @@ TwinsAmyandmay2AfterBattleText:
 	cont "dommage."
 
 	para "Mais HECTOR lui ne"
-	line "perdra pas ! Son"
+	line "perdra pas! Son"
 	cont "POMDEPIK ne fait"
 	cont "qu'une bouchée des"
 	cont "#MON de type"
-	cont "ROCHE !"
+	cont "ROCHE!"
 	done
 
 AzaleaGymGuideText:
@@ -461,9 +459,7 @@ AzaleaGymGuideText:
 	para "Oh, et n'oublions"
 	line "pas ses"
 	cont "redoutables coups"
-	cont "critiques !"
-	
-	para "Bonne chance !"
+	cont "critiques!"
 	done
 
 AzaleaGymGuideWinText:

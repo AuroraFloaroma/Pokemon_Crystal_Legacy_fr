@@ -105,9 +105,9 @@ BrunosRoom_EnterMovement:
 	step_end
 
 BrunoScript_BrunoRematchBeforeText:
-	text "ALDO: Bon retour,"
+text "ALDO: Bon retour,"
 	line "jeune"
-	cont "guerrier.ère."
+	cont "guerrier·ère."
 
 	para "Grâce à un"
 	line "entraînement"
@@ -120,16 +120,15 @@ BrunoScript_BrunoRematchBeforeText:
 	cont "inébranlable que"
 	cont "jamais."
 
-	para "Es-tu prêt.e à"
+	para "Es-tu prêt·e à"
 	line "relever un défi"
-	cont "encore plus"
-	cont "grand ?"
+	cont "encore plus grand?"
 
 	para "Montre-moi les"
 	line "fruits de ton"
 	cont "entraînement."
 
-	para "COMBAT !"
+	para "COMBAT!"
 	done
 
 BrunoScript_BrunoBeforeText:

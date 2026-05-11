@@ -294,24 +294,25 @@ BlackthornGymClairText_League:
 	done
 
 ClairRematchText:
-	text "Alors comme ça tu"
-	line "l'as fais, ca y"
-	cont "est ? Tu es"
-	cont "MAITRE de"
-	cont "JOHTO ?"
+	text "Alors comme ça y"
+	line "est, tu l'as fait?"
 
-	para "Tu as prouvé ta"
-	line "valeur mais"
+	para "Tu es MAITRE de"
+	line "JOHTO?"
+
+	para "Tu as déjà prouvé"
+	line "ta valeur mais"
 	cont "penses-tu pouvoir"
-	cont "me vaincre une"
-	cont "nouvelle fois ?"
+	cont "me vaincre de"
+	cont "nouveau?"
 
 	para "En tant que reine"
-	line "des dragons je"
-	cont "vais tout donner"
-	cont "cette fois-ci."
-	cont "Prêt.e pour la"
-	cont "revanche ?"
+	line "des dragon je vais"
+	cont "tout donner cette"
+	cont "fois-ci."
+
+	para "Partant·e pour la"
+	line "revanche?"
 	done
 
 Clair_RematchDefeatText:
@@ -401,12 +402,12 @@ BlackthornGymGuideText:
 	para "Ça a été un long"
 	line "voyage, mais on"
 	cont "arrivera bientôt à"
-	cont "son bout ! Compte"
-	cont "sur moi !"
+	cont "son bout! Compte"
+	cont "sur moi!"
 
 	para "Bien que SANDRA"
 	line "admire PETER le"
-	cont "Maître des Dragons,"
+	cont "Maître Dragon,"
 
 	para "elle a su se"
 	line "forger sa propre"
@@ -419,17 +420,16 @@ BlackthornGymGuideText:
 	line "censés être"
 
 	para "faibles face aux"
-	line "attaques de type"
+	line "capacités de type"
 	cont "GLACE,"
 
-	para "mais il te faudra"
-	line "quelques attaques"
-	cont "de type DRAGON"
+	para "mais il t'en"
+	line "faudra"
+	cont "quelques-unes de"
+	cont "type DRAGON si tu"
+	cont "veux gagner."
 
-	para "si tu veux gagner."
-
-	para "Tu peux le faire !"
-
+	para "Tu peux le faire!"
 	done
 
 BlackthornGymGuideWinText:

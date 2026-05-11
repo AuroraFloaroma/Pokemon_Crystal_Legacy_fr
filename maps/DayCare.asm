@@ -110,14 +110,14 @@ DayCareManText_GiveOddEgg:
 	para "J'élevais des #MON"
 	line "avec ma femme..."
 
-	para "Et puis on a trou-"
-	line "vé un OEUF!"
+	para "Et puis on a"
+	line "trouvé un OEUF!"
 
 	para "C'est pas trop"
 	line "dingue, ça?"
 
 	para "Et tu sais, ton"
-	line "#DEX te montre tes"
+	line "#DEX te montre les"
 	cont "groupes d'OEUFS et"
 	cont "combien de temps"
 	cont "ils mettent à"
@@ -127,7 +127,7 @@ DayCareManText_GiveOddEgg:
 	line "cet OEUF? Tu peux"
 	cont "le garder!"
 	done
-
+	
 DayCareText_ComeAgain: ; unreferenced
 	text "A bientôt."
 	done

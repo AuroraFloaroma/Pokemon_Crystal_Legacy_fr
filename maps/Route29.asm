@@ -302,9 +302,9 @@ CatchingTutorialDeclinedText:
 	para "cher pour attraper"
 	line "des #MON."
 
-	para "Ton #DEX te montre"
-	line "où les trouver si"
-	cont "jamais!"
+	para "Ton #DEX te"
+	line "montre où les tro-"
+	cont "uver si jamais!"
 
 	para "Si tu veux en"
 	line "apprendre plus sur"

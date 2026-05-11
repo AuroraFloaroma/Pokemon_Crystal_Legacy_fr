@@ -5,6 +5,7 @@
 - Relire les dialogues des fichiers se rapportant aux sages (Rosalia, Tour Ferraille...) et unifier le vouvoiement[^3]. 
 - ✅- Changer les dialogues de la **Pension Pokémon** pour remplacer la désignation de "*La femme du type de la pension*" en "*La dame de la pension*".
 - ✅- Antre Noire -> Antre Noir[^4]
+- ✅- Inversion des classes de dresseur + nom (ex « *JEAN GAMIN veut se battre* » -> « *GAMIN JEAN veut se battre* »)
 ## Durant la relecture finale :
 - Vérifier que les point ont bien été remplacés par des point médians (« · »).
 - Vérifier tous les noms restants et voir s'il n'y a pas de changement à faire sur la localisation.
@@ -15,28 +16,15 @@
 [^3]: Durant ma relecture de la traduction française, j'ai remarqué que le vouvoiement des "Sages" était inconsistant (voir [EcruteakTinTowerEntrance](maps/Johto/EcruteakTinTowerEntrance.md))
 [^4]: https://www.pokepedia.fr/Antre_Noir
 ### Éléments à revérifier :
-- ✅- Changer les références à **Archer** en **Amos** (ROCKET) ([Source](https://www.pokepedia.fr/Amos))
 - [Boutique Pokémon d'Acajou](maps/Johto/MahoganyMart1F.md)
 	- -> Vérifier si dans la rom hack, le DRACOLOSSE de PETER a été remplacé dans la cutscene par NIDOQUEEN ? Pourtant non présente dans son équipe.
-- relire `data/maps/map_names.asm`
-- « Presser un bouton pour sortir » à corriger
-### Éléments à traduire :
--  [EarlsPokemonAcademy](maps/Johto/EarlsPokemonAcademy.md)
- - [KarensRoom](maps/KarensRoom.md)
- - [common_3](data/text/common_3.md)
- - [OaksLab](maps/Kanto/OaksLab.md) - une fin de phrase
- - [OlivineGoodRodHouse](maps/Johto/OlivineGoodRodHouse.md)
- - `data/trainers/parties.asm` (long et fastidieux)
- - `data/wild/fish.asm` + chercher correspondance
- - `data/wild/non_wildmon_locations.asm`
- - [SeafoamGym](maps/Kanto/SeafoamGym.md)
- - [VioletGym](maps/Johto/VioletGym.md)
+- « Presser un bouton pour sortir » à corriger (?)
+- Lake Of Rage!!!!!!!!!!!
 # Divers :
 ## Code :
 - `constants\credits_constants.asm` -> revoir pour l'équipe fr
 - ~~Plusieurs occurrences de `STRLEN("TM##")`; à voir s'il faut le changer en `STRLEN("CT##")`~~
 	- Lignes remplacées par `CT##`, voir si cela pose problème
-
 ## Textures :
 - (Facultatif) - Voir pour essayer de corriger la palette du titre du jeu
 ## Glitches :

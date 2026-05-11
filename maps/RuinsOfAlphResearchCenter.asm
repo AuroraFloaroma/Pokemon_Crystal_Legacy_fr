@@ -407,7 +407,7 @@ FossilScientistTimeText:
 
 FossilScientistDoneText:
 	text "Où étais-tu"
-	line "passé?!"
+	line "passé·e?!"
 
 	para "Ton fossile est"
 	line "revenu à la vie!"

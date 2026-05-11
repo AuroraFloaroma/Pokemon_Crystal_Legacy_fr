@@ -67,28 +67,36 @@ GiveGoodRodText:
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
+	text "On ne trouve pas"
+	line "seulement des"
 
-	para "They go wherever"
-	line "there is water."
+	para "poissons en mer."
+	line "Ils sont malins et"
+	cont "vont partout où il"
+	cont "y a de l'eau!"
 
-	para "By the way,"
-	line "your #DEX shows"
-	cont "fishing groups for"
-	cont "#MON."
+	para "Tiens d'ailleurs,"
+	line "tu savais que ton"
+	cont "#DEX te montre les"
+	cont "groupes de pêche"
+	cont "des #MON?"
 
-	para "Different spots"
-	line "have similar fish."
+	para "Des spots différ-"
+	line "ents peuvent avoir"
+	cont "des poissons simi-"
+	cont "laires."
 
-	para "The #GEAR shows"
-	line "the fishing group"
-	cont "of where you are"
-	cont "currently."
+	para "Pour ça, le #MATOS"
+	line "entre en jeu. Il"
+	cont "te montre le grou-"
+	cont "pe de pêche pour"
+	cont "l'endroit où tu te"
+	cont "situe."
 
-	para "Check them out to"
-	line "know what you"
-	cont "might catch!"
+	para "N'hésite pas à y"
+	line "jeter un oeil pour"
+	cont "voir ce que tu"
+	cont "pourrais attraper!"
 	done
 
 DontWantGoodRodText:

@@ -193,13 +193,15 @@ BurnedTowerSilver_BeforeText:
 	done
 
 BurnedTowerSilver_WinText:
-	text "…Pfff !"
+	text "…Pfff!"
 
 	para "J'ai perdu"
-	line "uniquement parce-"
-	cont "que mes #MON sont"
-	cont "minables."
-	cont "C'est pathétique."
+	line "uniquement parce"
+	cont "que mes #MON"
+	cont "sont minables."
+	cont "..."
+	
+	para "C'est pitoyable."
 	done
 
 BurnedTowerSilver_AfterText1:
