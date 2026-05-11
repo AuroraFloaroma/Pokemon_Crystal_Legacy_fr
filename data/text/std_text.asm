@@ -70,7 +70,7 @@ NurseReturnPokemonText:
 	done
 
 NurseReturnPokemonShortText:
-	para "Vos #MON sont"
+	text "Vos #MON sont"
 	line "en super forme."
 	done
 
