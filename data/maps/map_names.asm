@@ -1354,4 +1354,4 @@ Cherrygrove_Map_Name9: ; map_const ROUTE_30_BERRY_HOUSE ;  9
 Cherrygrove_Map_Name10: ; map_const MR_POKEMONS_HOUSE ; 10
 	db "MAISON DE<LF>M. POKEMON@"
 Cherrygrove_Map_Name11: ; map_const ROUTE_31_VIOLET_GATE ; 11
-	db "PORTE DE ROSALIA@"
+	db "PORTE DE MAUVILLE@"

@@ -1845,8 +1845,8 @@ _ComeAgainText::
 _CantAcceptFaintedMonText::
 	text "Désolée, mais tu"
 	line "vas devoir soigner"
-	cont "ton #MON avant de"
-	cont "me le confier."
+	cont "ton #MON avant"
+	cont "de me le confier."
 	prompt
 
 _NotYetText::

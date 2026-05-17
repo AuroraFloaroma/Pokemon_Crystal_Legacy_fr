@@ -362,11 +362,11 @@ FossilScientistIntroText:
 	line "important docteur!"
 
 	para "J'étudie les"
-	line "fossiles de #MON"
-	cont "rares!"
+	line "fossiles de #-"
+	cont "MON rares!"
 
 	para "Toi! Aurais-tu un"
-	line "fossile pour moi ?"
+	line "fossile pour moi?"
 	done
 
 MightTakeAWhileText:

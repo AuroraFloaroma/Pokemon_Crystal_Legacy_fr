@@ -958,10 +958,13 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Mot de passe OK."
-	line "Choisir CONTINUER"
-	cont "& réinitialiser"
-	cont "les paramètres."
+	text "L'horloge a été"
+	line "réinitialisée."
+	
+	para "Sélectionnez votre"
+	line "sauvegarde pour"
+	cont "la configurer de"
+	cont "nouveau."
 	prompt
 	prompt
 
