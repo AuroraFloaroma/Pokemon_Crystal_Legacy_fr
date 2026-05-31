@@ -59,12 +59,13 @@ SailorErnestBeatenText:
 	done
 
 SailorErnestAfterBattleText:
-	text "Un CHAMPION n'est"
-	line "pas seulement fort"
+	text "Un·e CHAMPION·NE "
+	line "n'est pas seule-"
+	cont "ment fort·e."
 
-	para "mais il se doit"
+	para "mais iel se doit"
 	line "d'être aussi"
-	cont "compatissant."
+	cont "compatissant·e."
 	done
 
 BirdKeeperDenisSeenText:

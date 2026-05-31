@@ -159,7 +159,7 @@ GruntM15BeatenText:
 	cont "bien qu'c'est pas"
 	cont "tout rose."
 
-	para "Tu sais quoi ?"
+	para "Tu sais quoi?"
 	line "J'en ai ma claque,"
 	cont "j'me casse."
 

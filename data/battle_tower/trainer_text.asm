@@ -279,7 +279,7 @@ _BTLossM18Text:
 	done
 
 _BTWinM18Text:
-	text "Moi, qui je suis ?"
+	text "Moi, qui je suis?"
 	line "Personne..."
 	done
 
@@ -297,7 +297,7 @@ _BTWinM19Text:
 	text "Alors c'est bien"
 	line "toi!"
 
-	para "Respect !"
+	para "Respect!"
 	done
 
 _BTGreetingM20Text:

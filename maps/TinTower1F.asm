@@ -437,7 +437,8 @@ TinTower1FSage5Text1:
 	done
 
 TinTower1FSage5Text2:
-	text "Allez-y, je vous prie."
+	text "Allez-y,"
+	line "je vous prie."
 	done
 
 TinTower1FSage6Text1:

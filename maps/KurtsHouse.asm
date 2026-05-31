@@ -462,7 +462,7 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 
 KurtsHouseKurtGetStartedText:
 	text "Je m'y mets tout"
-	line "de suite !"
+	line "de suite!"
 	done
 
 KurtsHouseKurtMakingBallsMustWaitText:
@@ -708,7 +708,7 @@ KurtsHouseGSBallNoText:
 	para "Tu ne veux pas que"
 	line "je te fasse"
 	cont "d'autres BALLS"
-	cont "avant ?"
+	cont "avant?"
 	done
 
 KurtsHouse_MapEvents:

@@ -405,11 +405,13 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	line "en faisant un re-"
 
 	para "cord, vous pouvez"
-	line "devenir le CHAM-"
-	cont "PION de la SALLE."
+	line "devenir le·a CHAM-"
+	cont "PION·NE de la"
+	cont "SALLE."
 
-	para "Tous les CHAMPIONS"
-	line "seront inscrits"
+	para "Tous les CHAMPI-"
+	line "ON·NE·S seront"
+	cont "inscrit·e·s"
 
 	para "sur les TABLES de"
 	line "l'HONNEUR pour"

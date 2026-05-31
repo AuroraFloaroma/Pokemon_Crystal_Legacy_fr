@@ -294,8 +294,8 @@ SageKojiBeatenText:
 SageKojiAfterBattleQuestionText:
 	text "Etes… Etes-vous la"
 	line "personne que les"
-	cont "#MON légendaires"
-	cont "attendent?"
+	cont "#MON légen-"
+	cont "daires attendent?"
 	done
 
 SageKojiAfterBattleSpeechText:

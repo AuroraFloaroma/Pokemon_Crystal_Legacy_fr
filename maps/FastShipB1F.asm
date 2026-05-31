@@ -392,8 +392,8 @@ SailorKennethAfterBattleText:
 	text "Tant de BADGES!"
 	line "Tu as alors battu"
 
-	para "les CHAMPIONS des"
-	line "ARENES..."
+	para "les CHAMPION·NE·S"
+	line "des ARENES..."
 
 	para "Normal que tu sois"
 	line "balèze!"

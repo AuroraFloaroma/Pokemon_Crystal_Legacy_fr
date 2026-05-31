@@ -211,7 +211,7 @@ EcruteakCityGramps3Text:
 	para "Cette légende est"
 	line "connue de tous les"
 
-	para "CHAMPIONS de"
+	para "CHAMPION·NE·S de"
 	line "ROSALIA."
 
 	para "Moi?"

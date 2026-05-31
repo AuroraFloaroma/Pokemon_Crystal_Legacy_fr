@@ -293,11 +293,12 @@ CooltrainermJakeAfterBattleText:
 	line "plus d'entraîne-"
 	cont "ment."
 
-	para "On dit que ceux"
-	line "du CONSEIL des 4"
+	para "On dit que le"
+	line "CONSEIL des 4"
 
-	para "sont plus forts"
-	line "que les CHAMPIONS."
+	para "est plus fort"
+	line "que les"
+	cont "CHAMPION·NE·S."
 	done
 
 CooltrainermGaven3SeenText:

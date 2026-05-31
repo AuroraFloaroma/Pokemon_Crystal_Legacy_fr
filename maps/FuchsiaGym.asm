@@ -332,10 +332,11 @@ JanineRematchText:
 	text "JEANNINE: Gnah ha"
 	line "ha ha ha!"
 
-	para "Tu l'as fait !"
+	para "Tu l'as fait!"
 
-	para "Tu es MAITRE de"
-	line "KANTO à présent!"
+	para "Tu es MAITRE·SSE"
+	line "de KANTO à pré-"
+	cont "sent!"
 
 	para "Je suis si fière"
 	line "de toi, mais ne"
@@ -345,7 +346,7 @@ JanineRematchText:
 
 	para "Alors, on se la"
 	line "fait cette"
-	cont "revanche ?"
+	cont "revanche?"
 	done
 
 Janine_RematchDefeatText:

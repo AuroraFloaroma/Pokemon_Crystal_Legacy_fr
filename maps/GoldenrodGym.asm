@@ -313,7 +313,7 @@ WhitneyRematchText:
 
 	para "Woah!"
 
-	para "T'es MAITRE de"
+	para "T'es MAITRE·SSE de"
 	line "JOHTO à présent?"
 
 	para "T'es vraiment"
@@ -324,7 +324,7 @@ WhitneyRematchText:
 	cont "fort·e."
 
 	para "Ca te dirait une"
-	line "revanche ?"
+	line "revanche?"
 	done
 
 Whitney_RematchDefeatText:

@@ -296,7 +296,7 @@ GymStatue_CityGymText:
 	done
 
 GymStatue_WinningTrainersText:
-	text "CHAMPION:"
+	text "CHAMPION·NE:"
 	line "@"
 	text_ram wStringBuffer4
 	text_start

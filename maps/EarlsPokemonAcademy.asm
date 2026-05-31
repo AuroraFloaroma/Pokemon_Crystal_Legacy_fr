@@ -175,7 +175,7 @@ AcademyEarlIntroText:
 	para "Que veux-tu"
 	line "savoir?"
 	cont "Comment devenir"
-	cont "MAITRE?"
+	cont "MAITRE·SSE?"
 	done
 
 AcademyEarlTeachHowToWinText:
@@ -240,14 +240,17 @@ AcademyEarlNoMoreToTeachText:
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "Les #MON qui,"
-	line "auparavant"
-	cont "évoluaient au"
-	cont "travers des"
-	cont "échanges, évoluent"
-	cont "à présent en les"
-	cont "faisant monter de"
-	cont "niveau."
+	text "Je vais te réciter"
+	line "ma leçon, t'es"
+	cont "prêt·e?"
+
+	para "Les #MON qui,"
+	line "auparavant évo-"
+	cont "luaient au travers"
+	cont "des échanges, évo-"
+	cont "luent à présent en"
+	cont "les faisant monter"
+	cont "de niveau."
 
 	para "MACHOPEUR et"
 	line "GRAVALANCH"
@@ -259,22 +262,28 @@ EarlsPokemonAcademyYoungster1Text:
 
 	para "Les objets comme"
 	line "PEAU METAL se"
-	cont "retrouvent"
-	cont "désormais à faire"
-	cont "évoluer les"
-	cont "#MON, à l'ins-"
-	cont "tar des pierres"
-	cont "d'évolution."
+	cont "retrouvent désor-"
+	cont "mais à faire évo-"
+	cont "luer les #MON,"
+	cont "à l'instar des"
+	cont "pierres d'évolu-"
+	cont "tion."
 
 	para "Un MORC. BRIQUE"
 	line "donné à DEBUGANT a"
-	cont "mené à la"
-	cont "découverte d'un"
-	cont "nouveau #MON!"
+	cont "mené à la décou-"
+	cont "verte d'un nouveau"
+	cont "#MON!"
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "Le type TENEBRES,"
+	text "Pff... Il y a trop"
+	line "de texte! Je veux"
+	cont "jouer moi…"
+
+	para "Bon..."
+
+	para "Le type TENEBRES,"
 	line "récemment décou-"
 	cont "vert, inflige des"
 	cont "dégâts physiques."
@@ -294,16 +303,18 @@ EarlsPokemonAcademyGameboyKid1Text:
 	done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "A mesure que les"
+	text "Moi aussi j'ai un"
+	line "pavé qui s'est"
+	cont "affiché! Ca dit:"
+
+	para "A mesure que les"
 	line "dresseur·euse·s"
 	cont "perfectionnent"
 	cont "leurs techniques,"
-
-	para "de nombreuses"
-	line "capacités sont"
-	cont "désormais plus"
-	cont "précises qu'aupa-"
-	cont "ravant."
+	cont "de nombreuses cap-"
+	cont "acités sont désor-"
+	cont "mais plus précises"
+	cont "qu'auparavant."
 
 	para "Et certaines qui,"
 	line "autrefois étaient"
@@ -314,76 +325,83 @@ EarlsPokemonAcademyGameboyKid2Text:
 
 	para "Le type INSECTE"
 	line "est maintenant"
-	cont "bien plus perf-"
-	cont "ormant en combat."
+	cont "bien plus perfor-"
+	cont "mant en combat."
 
 	para "Le type COMBAT"
 	line "s'est également"
 	cont "considérablement"
 	cont "amélioré au cours"
-	cont "des trois derni-"
-	cont "ères années."
+	cont "des trois der-"
+	cont "nières années."
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "A mesure que les"
+	text "Regarde, regarde!"
+	line "Je connais tout"
+	cont "par coeur:"
+
+	para "A mesure que les"
 	line "#MON évoluent,"
 	cont "leurs statistiques"
-	cont "augmentent égale-"
-	cont "ment."
+	cont "augmentent égal-"
+	cont "ement."
 
 	para "Tout en restant"
 	line "reconnaissables,"
 	cont "certains #MON,"
 	cont "autrefois jugés"
 	cont "non viables, ont"
-	cont "vu leurs stati-"
-	cont "stiques de base"
-	cont "légèrement augm-"
-	cont "enter de 5 à"
-	cont "20 points."
+	cont "vu leurs statis-"
+	cont "tiques de base"
+	cont "légèrement aug-"
+	cont "menter de 5 à 20"
+	cont "points."
 
-	para "MIGALOS, en"
-	line "particulier, est"
+	para "MIGALOS, en part-"
+	line "iculier, est"
 	cont "devenu beaucoup"
 	cont "plus rapide, avec"
 	cont "une nouvelle stat"
 	cont "de VITESSE de base"
 	cont "à 80."
 
-	para "De nombreux"
-	line "#MON peuvent"
-	cont "désormais appr-"
-	cont "endre des capa-"
+	para "De nombreux #-"
+	line "MON peuvent"
+	cont "désormais ap-"
+	cont "prendre des capa-"
 	cont "cités qu'ils ne"
-	cont "pouvaient pas "
-	cont "apprendre aupa-"
-	cont "ravant."
+	cont "pouvaient pas ap-"
+	cont "prendre aupara-"
+	cont "vant."
 
 	para "Désormais, presque"
 	line "tous les #MON"
 	cont "apprennent plus-"
 	cont "ieurs capacités de"
-	cont "leur type en mon-"
-	cont "tant de niveau."
+	cont "leur type en"
+	cont "montant de niveau."
 
 	para "Beaucoup semblent"
 	line "également"
 	cont "apprendre des"
 	cont "capacités plus"
-	cont "rapidement qu'au-"
-	cont "paravant."
+	cont "rapidement qu'aup-"
+	cont "aravant."
 
-	para "Sachez que vos"
-	line "adversaires util-"
-	cont "isent maintenant"
-	cont "des équipes avec"
-	cont "une meilleure"
-	cont "variété de types,"
-	cont "alors préparez-vous"
-	cont "à un parcours beau-"
-	cont "coup plus"
-	cont "difficile!"
+	para "Vos adversaires"
+	line "utiliseront des"
+	cont "équipes avec une"
+	cont "meilleure variété"
+	cont "de types, alors"
+	cont "préparez-vous à un"
+	cont "parcours beaucoup"
+	cont "plus difficile!"
+
+	para "…"
+
+	para "Pfiou, c'était"
+	line "long."
 	done
 
 AcademyBlackboardText:
@@ -533,7 +551,7 @@ AcademyNotebookText3:
 	line "défier et vaincre"
 
 	para "tous les dresseurs"
-	line "et CHAMPIONS"
+	line "et CHAMPION·NE·S"
 	cont "d'ARENES."
 
 	para "La page suivante"

@@ -87,10 +87,10 @@ SailorTerrellAfterBattleText:
 	cont "OLIVILLE."
 
 	para "Le type des #-"
-	line "MON du CHAMPION"
+	line "MON de l'ARENE"
 
-	para "d'ARENE a changé"
-	line "récemment."
+	para "a changé récem-"
+	line "ment."
 	done
 
 GentlemanPrestonSeenText:

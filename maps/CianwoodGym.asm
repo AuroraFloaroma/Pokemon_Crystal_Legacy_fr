@@ -303,24 +303,25 @@ ChuckAfterText:
 	done
 
 ChuckRematchText:
-	text "WAHAHAH! MAITRE de"
+	text "WAHAHAH!"
+	line "MAITRE·SSE DE"
 	line "JOHTO!"
 
 	para "T'en as pas eu"
-	line "assez hein ?"
+	line "assez hein?"
 
 	para "J'vois bien"
 	line "qu't'en veux"
 	cont "encore."
 
-	para "Prêt.e à voir qui"
+	para "Prêt·e à voir qui"
 	line "c'est l'plus fort?"
 	done
 
 Chuck_RematchDefeatText:
-	text "WAHA hein ? J'ai"
-	line "perdu ?" 
-	cont "Encore ?"
+	text "WAHA hein? J'ai"
+	line "perdu?" 
+	cont "Encore?"
 	done
 
 BlackbeltYoshiSeenText:

@@ -98,7 +98,7 @@ CeladonDeptStore3FDirectoryText:
 	line "      CT"
 
 	text "Rendez vos #MON"
-	line "plus forts !"
+	line "plus forts!"
 	done
 
 CeladonDeptStore3F_MapEvents:

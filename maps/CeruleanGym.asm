@@ -309,8 +309,8 @@ MistyFightDoneText:
 
 MistyRematchText:
 	text "ONDINE: Woah, t'es"
-	line "MAITRE de KANTO à"
-	cont "présent !"
+	line "MAITRE·SSE de"
+	cont "KANTO à présent!"
 
 	para "T'en as fais un"
 	line "long chemin,"
@@ -318,8 +318,8 @@ MistyRematchText:
 	cont "je n'recule jamais"
 
 	para "face à un combat,"
-	line "prêt.e pour ta"
-	cont "revanche ?"
+	line "prêt·e pour ta"
+	cont "revanche?"
 	done
 
 Misty_RematchDefeatText:

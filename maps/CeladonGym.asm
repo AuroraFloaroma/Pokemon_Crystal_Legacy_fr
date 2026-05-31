@@ -212,21 +212,19 @@ ErikaAfterBattleText:
 ErikaRematchText:
 	text "ERIKA: Salut toi."
 	line "Alors comme ça on"
-	cont "est MAITRE de"
-	cont "KANTO ?"
+	cont "est MAITRE·SSE de"
+	cont "KANTO?"
 
 	para "Le chemin pour en"
 	line "arriver là a dû"
-	cont "être si excitant !"
+	cont "être si excitant!"
 	cont "Ça te dirait"
 
-	para "une revanche ?"
+	para "une revanche?"
 	line "Après tout, même"
-	cont "les champions ne"
-	cont "reculent"
-
-	para "pas face à un"
-	line "combat."
+	cont "les champion·ne·s"
+	cont "ne reculent pas"
+	cont "face à un combat."
 	done
 
 Erika_RematchDefeatText:
@@ -268,7 +266,7 @@ PicnickerTanyaBeatenText:
 
 PicnickerTanyaAfterBattleText:
 	text "T'en as plein des"
-	line "BADGES ? Comment"
+	line "BADGES? Comment"
 
 	para "je pouvais gagner,"
 	line "moi?!"

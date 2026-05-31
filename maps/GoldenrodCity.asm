@@ -437,7 +437,7 @@ GoldenrodDeptStoreSignText:
 	done
 
 GoldenrodGymSignText:
-	text "CHAMPION d'ARENE"
+	text "CHAMPIONNE d'ARENE"
 	line "de DOUBLONVILLE:"
 	cont "BLANCHE"
 

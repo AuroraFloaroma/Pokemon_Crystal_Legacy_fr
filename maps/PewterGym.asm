@@ -187,7 +187,7 @@ BrockRematchText:
 
 	para "Ca t'intéresse une"
 	line "revanche contre"
-	cont "moi ?"
+	cont "moi?"
 	done
 
 Brock_RematchDefeatText:
@@ -232,7 +232,7 @@ PewterGymGuideText:
 	line "star! Tu"
 
 	para "affrontes les"
-	line "CHAMPIONS de"
+	line "CHAMPION·NE·S de"
 	cont "KANTO, non?"
 
 	para "Ils sont tout"

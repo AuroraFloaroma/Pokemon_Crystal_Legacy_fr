@@ -1011,7 +1011,7 @@ ElmAfterTheftText5:
 	line "Tu dois avoir les"
 
 	para "épaules pour être"
-	line "MAITRE."
+	line "MAITRE·SSE."
 
 	para "Tu as aussi l'air"
 	line "de bien t'entendre"

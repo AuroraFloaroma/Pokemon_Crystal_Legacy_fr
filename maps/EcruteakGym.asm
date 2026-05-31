@@ -300,7 +300,7 @@ MortyFightDoneText:
 	done
 
 MortyRematchText:
-	text "Ah, MAITRE de"
+	text "Ah, MAITRE·SSE de"
 	line "JOHTO! C'est"
 	cont "gentil de passer"
 	cont "me voir."

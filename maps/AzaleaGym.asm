@@ -269,7 +269,7 @@ BugsyText_BugMonsAreDeep:
 	
 BugsyRematchText:
 	text "HECTOR: Wow, tu es"
-	line "la·e MAITRE de"
+	line "la·e MAITRE·SSE de"
 	cont "JOHTO à présent?"
 
 	para "Tes talents sont"
@@ -398,7 +398,7 @@ TwinsAmyandmay1AfterBattleText:
 
 TwinsAmyandmay2SeenText:
 	text "PAM: Tu veux voir"
-	line "le CHAMPION ?"
+	line "le CHAMPION?"
 	cont "Bonne chance à"
 	cont "toi!"
 

@@ -224,7 +224,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 
 	text "Vous pouvez"
 	line "accéder à la TOUR"
-	cont "FERAILLE."
+	cont "CARILLON."
 
 	para "Allez-y, je vous"
 	line "prie."
@@ -244,7 +244,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 
 	text "Vous pouvez"
 	line "accéder à la TOUR"
-	cont "FERAILLE."
+	cont "CARILLON."
 
 	para "Allez-y, je vous"
 	line "prie."

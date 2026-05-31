@@ -235,7 +235,7 @@ CeruleanCitySignText:
 	done
 
 CeruleanGymSignText:
-	text "CHAMPION d'ARENE"
+	text "CHAMPIONNE d'ARENE"
 	line "d'AZURIA: ONDINE"
 
 	para "Une vraie petite"

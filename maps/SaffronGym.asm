@@ -228,7 +228,7 @@ SabrinaRematchText:
 
 	para "Tu veux une"
 	line "revanche contre"
-	cont "moi ?"
+	cont "moi?"
 	done
 
 Sabrina_RematchDefeatText:

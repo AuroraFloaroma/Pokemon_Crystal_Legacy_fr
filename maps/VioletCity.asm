@@ -211,25 +211,25 @@ VioletCityLassText:
 
 	para "On dit que les"
 	line "capacités de type"
-	cont "SPECTRE sont"
-	cont "capables de passer"
-	cont "au travers des"
-	cont "défenses des #MON"
+	cont "SPECTRE sont capa-"
+	cont "bles de passer au"
+	cont "travers des déf-"
+	cont "enses des #MON"
 	cont "comme ONIX et"
 	cont "RACAILLOU."
-
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, tu es desseur"
-	line "de #MON?"
+	text "Hey, tu es"
+	line "desseur·euse de"
+	cont "#MON?"
 
 	para "J'ai entendu dire"
 	line "que si tu vas à"
 	cont "l'ACADEMIE, tu"
-	cont "apprendras"
-	cont "forcément quelque"
-	cont "chose de nouveau!"
+	cont "pourrais apprendre"
+	cont "quelque chose de"
+	cont "nouveau!"
 	done
 
 VioletCityGrampsText:

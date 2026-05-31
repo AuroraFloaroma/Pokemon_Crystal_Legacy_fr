@@ -188,7 +188,7 @@ CeladonCitySignText:
 	done
 
 CeladonGymSignText:
-	text "CHAMPION d'ARENE"
+	text "CHAMPIONNE d'ARENE"
 	line "de CELADOPOLE:"
 	cont "ERIKA"
 

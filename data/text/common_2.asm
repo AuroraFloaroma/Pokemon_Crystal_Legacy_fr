@@ -473,7 +473,7 @@ _AskHeadbuttText::
 _UseRockSmashText::
 	text_ram wStringBuffer2
 	text_start
-	line "utilise ECLATE-ROC!"
+	line "lance ECLATE-ROC!" ; manque de place pour "utilise"
 	prompt
 
 _MaySmashText::
@@ -689,7 +689,7 @@ _SelectDifficultyNormalText::
 	text "Règles classiques"
 	line "de #MON."
 
-	para "Confirmer ?"
+	para "Confirmer?"
 	done
 
 _SelectDifficultyHardText::
@@ -702,7 +702,7 @@ _SelectDifficultyHardText::
 	para "niveau des arènes"
 	line "plafonnés."
 
-	para "Confirmer ?"
+	para "Confirmer?"
 	done
 
 _SelectDifficultyHardcoreText::
@@ -716,7 +716,7 @@ _SelectDifficultyHardcoreText::
 	line "la dernière"
 	cont "sauvegarde."
 
-	para "Confirmer ?"
+	para "Confirmer?"
 	done
 
 Text_BattleEffectActivate::

@@ -106,7 +106,7 @@ GoldenrodDeptStoreRoofFisherText:
 	text "Pardon? Comment ça"
 	line "un adulte n'a pas"
 	cont "le droit de faire"
-	cont "ça ?"
+	cont "ça?"
 
 	para "Je vais revenir"
 	line "ici tous les jours"

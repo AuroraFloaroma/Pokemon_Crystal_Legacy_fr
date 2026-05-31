@@ -107,9 +107,9 @@ MountMortarB1FKiyoGotTyrogueText:
 	text "DEBUGANT est de"
 	line "type COMBAT."
 
-	para "Il évolue en #MON"
-	line "encore plus rob-"
-	cont "uste."
+	para "Il évolue en"
+	line "#MON encore"
+	cont "plus robuste."
 
 	para "Continue comme ça!"
 

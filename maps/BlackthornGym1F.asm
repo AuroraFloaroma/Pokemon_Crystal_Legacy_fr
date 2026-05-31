@@ -297,8 +297,8 @@ ClairRematchText:
 	text "Alors comme ça y"
 	line "est, tu l'as fait?"
 
-	para "Tu es MAITRE de"
-	line "JOHTO?"
+	para "Tu es MAITRE·SSE"
+	line "de JOHTO?"
 
 	para "Tu as déjà prouvé"
 	line "ta valeur mais"
@@ -316,9 +316,9 @@ ClairRematchText:
 	done
 
 Clair_RematchDefeatText:
-	text "J'ai perdu ?"
+	text "J'ai perdu?"
 
-	para "Encore ?"
+	para "Encore?"
 
 	para "Je… Je n'en"
 	line "reviens pas. Il"
@@ -443,7 +443,8 @@ BlackthornGymGuideWinText:
 
 	para "Tu es sur le"
 	line "point de devenir"
-	cont "MAITRE #MON!"
+	cont "MAITRE·SSE #-"
+	cont "MON!"
 	done
 
 BlackthornGym1F_MapEvents:

@@ -87,7 +87,7 @@ FuchsiaCitySignText:
 	done
 
 FuchsiaGymSignText:
-	text "CHAMPION d'ARENE"
+	text "CHAMPIONNE d'ARENE"
 	line "de PARMANIE:"
 	cont "JEANNINE"
 

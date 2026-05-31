@@ -127,7 +127,7 @@ BlaineIntroText:
 	cont "bas..."
 
 	para "Eh bah tu sais"
-	line "quoi ? Cet oiseau"
+	line "quoi? Cet oiseau"
 	cont "c'était SULFURA."
 
 	para "RED m'a confié sa"

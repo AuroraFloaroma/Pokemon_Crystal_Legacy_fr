@@ -281,7 +281,7 @@ BlackthornCitySignText:
 	done
 
 BlackthornGymSignText:
-	text "CHAMPION d'ARENE"
+	text "CHAMPIONNE d'ARENE"
 	line "d'EBENELLE: SANDRA"
 
 	para "La détentrice de"

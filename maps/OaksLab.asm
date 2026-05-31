@@ -183,7 +183,7 @@ OakNoKantoBadgesText:
 	cont "les BADGES des"
 	cont "ARENES de KANTO?"
 
-	para "Les CHAMPIONS"
+	para "Les CHAMPION·NE·S"
 	line "d'ARENE de KANTO"
 
 	para "sont aussi forts"
