@@ -151,7 +151,8 @@ FalknerIntroText:
 
 	para "Je n'autorise per-"
 	line "sonne à insulter"
-	cont "les #MON oiseaux!"
+	cont "les #MON ois-"
+	cont "eaux!"
 
 	para "Tu vas subir les"
 	line "terribles attaques"
@@ -237,31 +238,34 @@ FalknerFightDoneText:
 	done
 
 FalknerRematchText:
-	text "Congratulations"
-	line "on defeating the"
-	cont "ELITE 4!"
+	text "ALBERT: Mes féli-"
+	line "citations pour"
+	cont "avoir vaincu le"
+	cont "CONSEIL 4!"
 
-	para "I've been training"
-	line "my FLYING-type"
-	cont "#MON even"
-	cont "harder."
+	para "J'ai continué à"
+	line "m'entraîner comme"
+	cont "un dur avec mes"
+	cont "#MON volants."
 
-	para "Think you can take"
-	line "on the power of"
-	cont "the skies again?"
+	para "Tu penses pouvoir"
+	line "prendre de nouveau"
+	cont "l'ascension sur"
+	cont "moi?"
 	done
 
 Falkner_RematchDefeatText:
-	text "Wow…"
-	line "You beat me again."
+	text "Eh bah, tu m'as"
+	line "encore battu."
 
-	para "I'm going to train"
-	line "harder to become"
-
-	para "the greatest bird"
-	line "master!"
+	para "Je vais m'entr-"
+	line "aîner davantage"
+	cont "pour devenir le"
+	cont "plus grand maître"
+	cont "des #MON vol-"
+	cont "ants!"
 	done
-
+	
 BirdKeeperRodSeenText:
 	text "Le mot clé est..."
 	line "Le cran!"
@@ -310,47 +314,48 @@ BirdKeeperAbeAfterBattleText:
 	done
 
 VioletGymGuideText:
-	text "Hey! What's up?"
-	line "I'm no trainer,"
-	
-	para "but I can give"
-	line "some advice!"
+	text "Hé toi!"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "Je ne suis pas un"
+	line "dresseur, mais je"
+	cont "peux te donner"
+	cont "quelques conseils!"
 
-	para "championship dream"
-	line "can come true."
+	para "Pour commencer, si"
+	line "tu ne crois pas en"
+	cont "toi, crois-moi-en"
+	cont "qui croit en toi!"
 
-	para "You believe?"
-	line "Then listen."
-	
-	para "FALKNER's ace"
-	line "is a bulky owl"
-	
-	para "that loves to"
-	line "eat BERRIES."
-	
-	para "While it's not"
-	line "the strongest,"
-	
-	para "it can take a"
-	line "lot of hits."
-	
-	para "You can hurt it"
-	line "with ELECTRIC- and"
-	cont "ROCK-type moves,"
-	
-	para "but watch out for"
-	line "MUD-SLAP!"
-	
-	para "If you want more"
-	line "help, go visit the"
-	cont "#MON ACADEMY."
-	
-	para "The students there"
-	line "really know their"
-	cont "stuff!"
+	para "C'est comme ça que"
+	line "tu réaliseras tes"
+	cont "rêves! Ca y est,"
+	cont "t'y crois?"
+
+	para "Alors écoute bien."
+
+	para "La botte secrète"
+	line "d'ALBERT est son"
+	cont "gros hibou dévo-"
+	cont "reur de BAIES."
+
+	para "Bien qu'il ne soit"
+	line "pas le plus fort,"
+	cont "il peut encaisser"
+	cont "beaucoup de coups."
+
+	para "N'hésite pas à"
+	line "utiliser des capa-"
+	cont "cités de type"
+	cont "ELECTRIQUE et"
+	cont "ROCHE!"
+
+	para "Mais prend garde à"
+	line "son COUD'BOUE."
+
+	para "N'hésite pas à"
+	line "aller à l'ACADEMIE"
+	cont "pour en apprendre"
+	cont "davantage!"
 	done
 
 VioletGymGuideWinText:

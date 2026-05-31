@@ -659,17 +659,17 @@ Dungeons_Map_Name29: ; map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM ; 29
 Dungeons_Map_Name30: ; map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM ; 30
 	db "CHBR. PRIX KABUTO@"
 Dungeons_Map_Name31: ; map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM ; 31
-	db "CHBR. PRIX<LF>AMONITA@"
+	db "CHBR. PRIXAMONITA@"
 Dungeons_Map_Name32: ; map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM ; 32
 	db "CHBR. PRIX PTERA@"
 Dungeons_Map_Name33: ; map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,; 33
-	db "HO-OH WORD ROOM@"
+	db "SALLE MOT<LF>DE HO-OH@"
 Dungeons_Map_Name34: ; map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,; 34
-	db "KABUTO WORD ROOM@"
+	db "SALLE MOT<LF>DE KABUTO@"
 Dungeons_Map_Name35: ; map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,; 35
-	db "OMANYTE WORD ROOM@"
+	db "SALLE MOT<LF>DE AMONITA@"
 Dungeons_Map_Name36: ; map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,; 36
-	db "AERO WORD ROOM@"
+	db "SALLE MOT<LF>DE PTERA@"
 Dungeons_Map_Name37: ; map_const UNION_CAVE_1F,; 37
 	db "CAVES JUMLLS. RDC@"
 Dungeons_Map_Name38: ; map_const UNION_CAVE_B1F,; 38

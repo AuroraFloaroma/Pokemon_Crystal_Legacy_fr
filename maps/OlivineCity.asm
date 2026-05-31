@@ -164,142 +164,142 @@ OlivineCityPlayerStepsAsideBottomMovement:
 	step_end
 
 OlivineCityRivalText:
-	text "…"
+	text ".........."
 
-	para "You again?"
+	para "Encore toi?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "Pas la peine de"
+	line "paniquer, j'ai pas"
+	cont "de temps à perdre"
+	cont "avec des minus"
+	cont "comme toi."
 
-	para "bother with wimps"
-	line "like you."
+	para "En parlant de"
+	line "faiblards, j'ai"
+	cont "entendu dire que"
+	cont "la CHAMPIONNE"
+	cont "d'ARENE, supposée"
+	cont "être meilleure que"
+	cont "FREDO, perd son"
+	cont "temps à s'occuper"
+	cont "d'un #MON"
+	cont "malade au PHARE…"
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "Humph! Bou-hou!"
+	line "Pauvre #MON, on"
+	cont "n'a qu'à les lais-"
+	cont "ser à leur sort."
+	cont "Un #MON incap-"
+	cont "able de combattre"
+	cont "est un #MON"
+	cont "totalement futile!"
 
-	para "GYM LEADER is"
-	line "said by some to be"
-	
-	para "stronger than"
-	line "PRYCE, yet is"
+	para "Pourquoi t'irais"
+	line "pas t'entraîner au"
+	cont "PHARE?"
 
-	para "supposedly taking"
-	line "care of a sick"
-
-	para "#MON at the"
-	line "LIGHTHOUSE."
-
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#MON go!"
-
-	para "A #MON that"
-	line "can't battle is"
-	cont "worthless!"
-	
-	para "Why don't you go"
-	line "train at the"
-	cont "LIGHTHOUSE?"
-	
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
-	
-	para "Maybe then you"
-	line "could at least"
-	
-	para "take on CHUCK"
-	line "or PRYCE!"
+	para "Qui sait, ça te"
+	line "rendra peut-être"
+	cont "moins faible. Et"
+	cont "peut-être que"
+	cont "t'aura enfin le"
+	cont "niveau pour vai-"
+	cont "ncre CHUCK ou"
+	cont "FREDO!"
 	done
 
 OlivineCitySailor1Text:
-	text "Dark roads are"
-	line "dangerous at"
-	cont "night."
+	text "Les routes sombres"
+	line "sont dangereuses"
+	cont "la nuit."
 
-	para "But in the pitch-"
-	line "black of night,"
+	para "Dans la pénombre"
+	line "la plus totale,"
 
-	para "the sea is even"
-	line "more treacherous!"
+	para "la mer est encore"
+	line "plus traître!"
 
-	para "Without the beacon"
-	line "of the LIGHTHOUSE"
+	para "Sans la lumière du"
+	line "PHARE pour les"
 
-	para "to guide it, no"
-	line "ship can sail."
+	para "guider, aucun"
+	line "navire ne peut"
+	cont "naviguer."
 	done
 
 OlivineCityStandingYoungsterPokegearText:
-	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
-	cont "that's cool."
+	text "Le truc que tu as,"
+	line "c'est un #MATOS"
+	cont "pas vrai? Whaou,"
+	cont "c'est cool!"
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, you have a"
-	line "#DEX!"
+	text "Heu, t'as un joli"
+	line "#DEX! C'est"
 
-	para "That is just so"
-	line "awesome."
+	para "vraiment très"
+	line "impressionnant."
 	done
 
 OlivineCitySailor2Text:
-	text "The league has"
-	line "JASMINE pegged"
+	text "La LIGUE a classé"
+	line "JASMINE comme la"
+	cont "6ème plus forte"
+	cont "CHAMPIONNE de"
+	cont "JOHTO."
 
-	para "as the sixth"
-	line "strongest GYM"
-	cont "LEADER!"
-	
-	para "Hah! That's"
-	line "a load of crud."
-	
-	para "There's no way"
-	line "PRYCE could hurt"
-	
-	para "JASMINE's Steel"
-	line "type #MON!"
-	
-	para "Bureaucracy if"
-	line "you ask me."
-	
-	para "She's something"
-	line "to be feared,"
-	cont "That's for sure!"
+	para "Tu sais quoi? Que"
+	line "des conneries si"
+	cont "tu veux mon avis,"
+	cont "des délires de"
+	cont "bureaucrates!"
+
+	para "C'est impossible"
+	line "que FREDO puisse"
+	cont "ne serait-ce qu'"
+	cont "effleurer les"
+	cont "#MON de type"
+	cont "ACIER de JASMINE."
+
+	para "Elle est redou-"
+	line "table, c'est moi"
+	cont "qui te l'dit!"
 	done
 
 OlivineCitySignText:
-	text "OLIVINE CITY"
+	text "OLIVILLE"
 
-	para "The Port Closest"
-	line "to Foreign Lands"
+	para "Le port vers d'au-"
+	line "tres horizons"
 	done
 
 OlivineCityPortSignText:
-	text "OLIVINE PORT"
-	line "FAST SHIP PIER"
+	text "PORT d'OLIVILLE"
+	line "PORT DU BATEAU"
+	cont "EXPRESS"
 	done
 
 OlivineGymSignText:
-	text "OLIVINE CITY"
-	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	text "CHAMPIONNE d'ARENE"
+	line "d'OLIVILLE:"
+	cont "JASMINE"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "La fille aux nerfs"
+	line "d'acier"
 	done
 
 OlivineLighthouseSignText:
-	text "OLIVINE LIGHTHOUSE"
-	line "Also known as the"
-	cont "GLITTER LIGHTHOUSE"
+	text "PHARE d'OLIVILLE"
+	line "Aussi connu sous"
+	cont "le nom de PHARE"
+	cont "SCINTILLANT"
 	done
 
 OlivineCityBattleTowerSignText:
-	text "BATTLE TOWER AHEAD"
-	line "Opening Now!"
+	text "TOUR DE COMBAT"
+	line "Tout droit..."
+	cont "Bienvenue!"
 	done
 
 OlivineCityBattleTowerSignText_NotYetOpen: ; unreferenced
