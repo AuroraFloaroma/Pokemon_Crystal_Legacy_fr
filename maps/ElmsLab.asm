@@ -1210,26 +1210,29 @@ ElmGiveTicketText2:
 	line "d'OLIVILLE."
 
 	para "Mais ça, tu le"
-	line "sais déjà, après"
-	cont "tout, tu as déjà"
-	cont "fait une sacrée"
-	cont "route avec tes"
-	cont "#MON."
+	line "sais déjà,"
+	cont "<PLAY_G>."
+
+	para "Après tout, tu as"
+	line "déjà bien voyagé"
+	cont "avec tes #MON."
 
 	para "Oh, au fait, avant"
 	line "que tu ne partes,"
 	cont "n'hésite pas à"
-	cont "défier les"
-	cont "CHAMPIONS d'ARENE"
-	cont "de JOHTO une"
-	cont "nouvelle fois!"
+	cont "prendre ta"
+	cont "revanche auprès"
+	cont "des CHAMPION·NE·S"
+	cont "d'ARENE de JOHTO!"
 
-	para "Cette fois-ci, ils"
-	line "vont tout donner."
+	para "Cette fois-ci,"
+	line "iels vont tout"
+	cont "donner."
 
 	para "Dis bonjour au"
 	line "PROF.CHEN à KANTO"
 	cont "pour moi!"
+
 	done
 
 ElmsLabMonEggText: ; unreferenced

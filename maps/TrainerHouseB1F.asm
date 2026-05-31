@@ -235,22 +235,29 @@ TrainerHouseB1FCalBeatenText:
 	done
 
 TrainerHouseB1FSmithBeatenText:
-	text "I lost…"
-	line "Not so zesty."
-	done
+	text "J'ai perdu…"
 
+	para "Pas si piquant,"
+	line "finalement."
+	done
+	
 TrainerHouseB1FCraigBeatenText:
-	text "This is good data!"
-	line "I can use this."
+	text "En voilà des"
+	line "données intéres-"
+	cont "santes!"
+
+	para "Je vais pouvoir"
+	line "correctement les"
+	cont "exploiter..."
 	done
 
 TrainerHouseB1FWeebraBeatenText:
-	text "Aw, shucks…"
+	text "Ahhh, crotte."
 
-	para "And I didn't even"
-	line "get to use my"
-	cont "'Essence of"
-	cont "Breaker Style'…"
+	para "Je n'ai même pas"
+	line "pu utiliser mon"
+	cont "'Essence de Style"
+	cont "Breaker'..."
 	done
 
 TrainerHouseB1FCalBeforeText:
@@ -260,22 +267,21 @@ TrainerHouseB1FCalBeforeText:
 	done
 
 TrainerHouseB1FSmithBeforeText:
-	text "Hey, what's up?"
+	text "Yo, ça gaze?"
 	done
 
 TrainerHouseB1FCraigBeforeText:
-	text "I'm trying to"
-	line "gain battle"
-	cont "experience"
-	
-	para "for a game I'm"
-	line "making based on"
-	cont "#MON."
+	text "J'essaye de"
+	line "m'améliorer en"
+	cont "combat pour un jeu"
+	cont "que je concocte"
+	cont "sur les #MON."
 	done
 
 TrainerHouseB1FWeebraBeforeText:
-	text "You look pretty"
-	line "strong, eh?"
+	text "Tu sais que t'as"
+	line "l'air plutôt"
+	cont "fort·e?"
 	done
 
 TrainerHouseB1F_MapEvents:

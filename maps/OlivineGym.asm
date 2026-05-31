@@ -220,19 +220,21 @@ Jasmine_IronTailSpeech:
 	done
 
 Jasmine_GoodLuck:
-	text "Hum... Je ne sais"
-	line "pas comment dire"
-	cont "ça, mais bonne"
-	cont "chance..."
+	text "Hum..."
+
+	para "Je ne sais pas"
+	line "comment dire ça,"
+	cont "mais bonne chance"
+	cont "à toi.."
 	done
 
 JasmineRematchText:
 	text "...Félicitations,"
-	line "MAITRE de JOHTO."
+	line "MAITRE·SSE de"
+	cont "JOHTO."
 
-	para "Tu es devenu.e"
-	line "tellement"
-	cont "fort.e..."
+	para "Tu es devenu·e"
+	line "tellement fort·e…"
 
 	para "Je me demande si,"
 	line "moi aussi, je me"
@@ -240,20 +242,21 @@ JasmineRematchText:
 	cont "depuis."
 
 	para "Ca te dirait de"
-	line "voir ça avec moi ?"
+	line "voir ça avec moi?"
 	cont "Tu accepterais une"
-	cont "revanche ?"
+	cont "revanche?"
 	done
 	
 Jasmine_RematchDefeatText:
-	text "...Tu es un.e"
-	line "meilleur.e"
-	cont "dresseur.euse que"
-	cont "moi, tant dans tes"
-	cont "talents que ta"
+	text "...Tu es un·e"
+	line "meilleur·e dres-"
+	cont "seur·euse que moi,"
+
+	para "autant dans tes"
+	line "talents que par ta"
 	cont "gentillesse."
 	done
-
+	
 OlivineGymGuideText:
 	text "JASMINE utilise le"
 	line "tout nouveau type"
@@ -261,34 +264,36 @@ OlivineGymGuideText:
 
 	para "Elle est connue"
 	line "pour n'avoir pas"
-	cont "un, mais deux as"
-	cont "dans sa manche."
+	cont "un, mais deux"
+	cont "atouts dans son"
+	cont "équipe:"
 
-	para "Le premier est un"
+	para "le premier est un"
 	line "insecte de métal"
 	cont "qui utilise une"
 	cont "capacité qui"
-	cont "augmente son"
-	cont "ATTAQUE."
+	cont "augmente son ATQ."
 
 	para "Bien qu'il soit"
-	line "faible fasse au"
-	cont "feu, il peut"
-	cont "parfois endurer de"
+	line "faible face au"
+	cont "feu, il peut par-"
+	cont "fois endurer de"
 	cont "sacrés chocs!"
 
 	para "Le second est un"
 	line "serpent géant de"
 	cont "métal avec de"
-	cont "puissantes"
-	cont "capacités."
+	cont "puissantes cap-"
+	cont "acités."
 
 	para "Fais bien"
-	line "attention car,"
-	cont "bien qu'il puisse"
-	cont "sembler lent, je"
-	cont "l'ai déjà vu"
-	cont "attaquer en"
+	line "attention à lui"
+	cont "car, bien qu'il"
+	cont "puisse sembler"
+	cont "lent,"
+
+	para "je l'ai déjà vu"
+	line "attaquer en"
 	cont "premier avec une"
 	cont "VITESSE"
 	cont "fulgurante!"

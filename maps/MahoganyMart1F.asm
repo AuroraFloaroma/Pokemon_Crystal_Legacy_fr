@@ -234,7 +234,7 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "???: NIDOQUEEN,"
+	text "PETER: DRACOLOSSE,"
 	line "ULTRALASER."
 	done
 

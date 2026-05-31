@@ -307,23 +307,23 @@ MortyRematchText:
 
 	para "Tu m'as déjà"
 	line "prouvé ta force et"
-	cont "tes capacités mais"
-	cont "t'es-tu amélioré"
-	cont "depuis notre"
-	cont "dernier combat ?"
+	cont "tes capacités,"
+	cont "mais t'es-tu"
+	cont "amélioré·e depuis"
+	cont "notre dernier"
+	cont "combat?"
 
 	para "Je me suis"
 	line "entrainé avec mes"
 	cont "#MON de type"
 	cont "SPECTRE, voyons"
 	cont "voir si tu sauras"
-	cont "surmonter les"
+	cont "braver les"
 	cont "ténèbres une fois"
 	cont "de plus."
 
-	para "Prêt.e pour une"
-	line "revanche ?"
-
+	para "Prêt·e pour une"
+	line "revanche?"
 	done
 
 Morty_RematchDefeatText:
@@ -335,11 +335,11 @@ Morty_RematchDefeatText:
 	line "plus de choses que"
 	cont "moi."
 
-	para "Est-ce de la"
+	para "...Est-ce de la"
 	line "jalousie que"
-	cont "j'éprouve ?"
+	cont "j'éprouve?"
 	done
-
+	
 SageJeffreySeenText:
 	text "J'ai passé tout le"
 	line "printemps avec mes"
@@ -429,12 +429,17 @@ MediumGraceAfterBattleText:
 
 EcruteakGymGuideText:
 	text "Hé! Graine de"
-	line "star! Tu y es"
-	cont "presque !"
+	line "star!" 
+	
+	para "Bientôt la"
+	line "moitié des badges"
+	cont "de JOHTO, continue"
+	cont "comme ça!"
 
 	para "Ici, les dresseurs"
-	line "utilisent des #MON"
-	cont "de type SPECTRE et"
+	line "utilisent des"
+	cont "#MON de type"
+	cont "SPECTRE et"
 	cont "TÉNÈBRES."
 
 	para "MORTIMER est un"
@@ -446,7 +451,7 @@ EcruteakGymGuideText:
 	para "On dit qu'il"
 	line "provoque"
 	cont "d'étranges"
-	cont "cauchemars…"
+	cont "cauchemars..."
 	done
 
 EcruteakGymGuideWinText:
@@ -463,7 +468,7 @@ EcruteakGymClosedText:
 	text "MORTIMER, le CHAM-"
 	line "PION, est absent."
 
-	para "Tu dois partir."
+	para "Vous devez partir."
 
 	para "Hohohoho."
 	done

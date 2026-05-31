@@ -57,8 +57,8 @@ NurseAskHealText:
 	done
 
 NurseTakePokemonText:
-	text "OK, puis-je voir"
-	line "vos #MON?"
+	text "Puis-je voir vos"
+	line "#MON?"
 	done
 
 NurseReturnPokemonText:

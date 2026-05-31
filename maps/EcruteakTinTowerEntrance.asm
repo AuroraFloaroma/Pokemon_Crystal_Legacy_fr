@@ -226,11 +226,13 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	line "accéder à la TOUR"
 	cont "FERAILLE."
 
-	para "Allez-y, je vous prie."
+	para "Allez-y, je vous"
+	line "prie."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Allez-y, je vous prie."
+	text "Allez-y, je vous"
+	line "prie."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
@@ -244,7 +246,8 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	line "accéder à la TOUR"
 	cont "FERAILLE."
 
-	para "Allez-y, je vous prie."
+	para "Allez-y, je vous"
+	line "prie."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:

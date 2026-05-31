@@ -294,9 +294,8 @@ InstructionsNextText:
 CanRunText:
 	text "Oh, et souviens"
 	line "toi, tu peux y"
-	cont "aller plus"
-	cont "rapidement si tu"
-	cont "cours!"
+	cont "aller plus rapid-"
+	cont "ement si tu cours!"
 	done
 
 HurryUpElmIsWaitingText:

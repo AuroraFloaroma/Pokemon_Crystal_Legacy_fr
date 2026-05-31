@@ -62,12 +62,12 @@ MountMortar1FOutsideHiddenHyperPotion:
 MountMortarB1FKiyoIntroText:
 	text "Salut!"
 
-	para "Je suis le ROI DU"
+	para "Je suis le ROI du"
 	line "KARATE!"
 
 	para "Je m'entraîne seul"
-	line "ici, dans"
-	cont "l'obscurité."
+	line "ici, dans l'obs-"
+	cont "curité."
 
 	para "Hé, toi! COMBAT!"
 
@@ -94,11 +94,10 @@ MountMortarB1FTyrogueRewardText:
 
 	para "Pour preuve de ta"
 	line "victoire, je vais"
-	cont "te donner un #MON"
-	cont "rare de type"
-	cont "COMBAT."
+	cont "te donner un"
+	cont "#MON rare de"
+	cont "type COMBAT."
 	done
-
 MountMortarB1FReceiveMonText:
 	text "<PLAYER> obtient"
 	line "DEBUGANT."
@@ -109,14 +108,16 @@ MountMortarB1FKiyoGotTyrogueText:
 	line "type COMBAT."
 
 	para "Il évolue en #MON"
-	line "encore plus"
-	cont "robuste."
+	line "encore plus rob-"
+	cont "uste."
 
 	para "Continue comme ça!"
 
 	para "Je vais reprendre"
 	line "l'entraînement moi"
-	cont "aussi. Adieu!"
+	cont "aussi."
+
+	para "Adieu!"
 	done
 	
 MountMortarB1FKiyoFullPartyText:

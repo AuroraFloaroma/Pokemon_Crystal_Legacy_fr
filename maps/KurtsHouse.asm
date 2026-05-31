@@ -706,7 +706,7 @@ KurtsHouseGSBallNoText:
 	cont "moment..."
 
 	para "Tu ne veux pas que"
-	line "je te fasses"
+	line "je te fasse"
 	cont "d'autres BALLS"
 	cont "avant ?"
 	done

@@ -466,7 +466,7 @@ Executivef1BeatenText:
 	para "J'me bats à fond"
 	line "et je perds..."
 
-	para "J'suis désolé"
+	para "Pardonne-moi"
 	line "GIOVANNI..."
 	done
 
@@ -520,178 +520,203 @@ RadioTower5FRocketBossWinText:
 	done
 
 RadioTower5FRocketBossAfterText:
-	text "How could this be?"
+	text "Impossible! La"
+	line "TEAM ROCKET était"
+	cont "destinée à"
+	cont "renaître..."
 
-	para "TEAM ROCKET was"
-	line "destined to rise"
-	cont "again..."
+	para "Pour GIOVANNI,"
+	line "pour notre"
+	cont "héritage."
 
-	para "For GIOVANNI, for"
-	line "our legacy. We"
-	cont "cannot fall now!"
+	para "On ne peut pas"
+	line "échouer"
+	cont "maintenant!"
 
-	para "You may have won"
-	line "this battle,"
+	para "Tu as peut-être"
+	line "gagné ce combat,"
+	cont "mais la guerre?"
 
-	para "but the war?"
-	line "It's far from over."
-	cont "You'll see."
-	
-	para "Our ambition, our"
-	line "dream will not"
-	cont "fade."
+	para "C'est loin d'être"
+	line "terminé."
 
-	para "The world will "
-	line "fear TEAM ROCKET"
-	cont "once again." 
-	
-	para "This is only"
-	line "a setback!"
+	para "Nos ambitions et"
+	line "nos rêves ne"
+	cont "s'éteindront pas."
+
+	para "Le monde craindra"
+	line "la TEAM ROCKET de"
+	cont "nouveau."
+
+	para "Ce n'est que"
+	line "partie remise!"
 	done
 
 RadioTower5FGiovanniText1:
-	text "???:"
-	line "Such conviction."
+	text "???: Tant de"
+	line "convictions."
 
-	para "Reminds me of a"
-	line "time when I, too,"
-	cont "was so sure."
+	para "Ca me rappelle"
+	line "d'un temps où,"
+	cont "moi-même, j'étais"
+	cont "bien trop sûr de"
+	cont "moi."
 	done
 
 RadioTower5FGiovanniText2:
-	text "You speak of"
-	line "legacy,"
+	text "Tu parles"
+	line "d'héritage, de"
+	cont "prendre la relève…"
 
-	para "of taking"
-	line "over..."
-
-	para "But recall,"
-	line "ARCHER."
-
-	para "Why did I choose"
-	line "to disband it?"
+	para "Mais souviens toi"
+	line "AMOS, pourquoi"
+	cont "ai-je choisi de"
+	cont "dissoudre la TEAM"
+	cont "ROCKET?"
 	done
 
 RadioTower5FGiovanniText3:
-	text "GIOVANNI:"
-	line "It wasn't mere"
-	cont "defeat or whim,"
+	text "GIOVANNI: Ce"
+	line "n'était pas une"
+	cont "simple défaite ou"
+	cont "un caprice,"
+	cont "c'était un éveil."
 
-	para "It was an"
-	line "awakening."
-	
-	para "See the state of"
-	line "this group now."
+	para "Regarde l'état"
+	line "dans lequel ce"
+	cont "groupe se retrouve"
+	cont "aujourd'hui."
 
-	para "Desperate acts,"
-	line "hiding."
+	para "Des actes déses-"
+	line "pérés, dans"
+	cont "l'ombre..."
 
-	para "A far cry from"
-	line "where we once"
-	cont "stood."
+	para "Nous sommes bien"
+	line "loin de là où nous"
+	cont "étions autrefois."
 	done
 
 RadioTower5FGiovanniText4:
-	text "Power isn't just"
-	line "about domination."
+	text "Le pouvoir, ce"
+	line "n'est pas seule-"
+	cont "ment une question"
+	cont "de domination."
 
-	para "It's understanding"
-	line "and respect."
-	
-	para "Is this the legacy"
-	line "you imagined?"
+	para "C'est aussi une"
+	line "question de comp-"
+	cont "réhension, de"
+	cont "respect."
 
-	para "Reduced to"
-	line "skulking in the"
-	cont "shadows?"
+	para "Est-ce là"
+	line "l'héritage que tu"
+	cont "avais imaginé?"
+
+	para "Réduit à te cacher"
+	line "dans l'ombre?"
 	done
 
 RadioTower5FGiovanniText5:
-	text "Rethink this path."
+	text "Réfléchis de"
+	line "nouveau à cette"
+	cont "voie."
 
-	para "Do you truly see a"
-	line "future for this"
+	para "Y vois-tu vraiment"
+	line "un avenir pour la"
 	cont "TEAM ROCKET?"
 	done
 
 RadioTower5FRocketBossDisbandText1:
-	text "ARCHER:"
-	line "I..."
+	text "AMOS: Je... J'ai"
+	line "fait ça pour vous."
 
-	para "I did this for"
-	line "you. For the glory"
-	cont "of TEAM ROCKET."
+	para "Pour la gloire de"
+	line "la TEAM ROCKET."
 
-	para "All my efforts,"
-	line "all these"
-	cont "sacrifices."
+	para "Tous mes efforts"
+	line "et sacrifices..."
 
-	para "And you just..."
+	para "Et vous... Vous"
+	line "voulez dire que"
+	cont "tout ce que j'ai"
+	cont "fait était en"
+	cont "vain?"
 
-	para "Was it all in"
-	line "vain?"
-
-	para "Did I"
-	line "misunderstand"
-	cont "our purpose?"
+	para "Ai-je mal compris"
+	line "notre but?"
 	done
 
 RadioTower5FRocketBossDisbandText2:
-	text "You left."
+	text "Vous êtes parti."
 
-	para "You vanished"
-	line "without a word."
+	para "Vous avez disparu"
+	line "sans piper mot."
 
-	para "We were lost."
-	line "I tried to carry"
-	cont "your legacy."
+	para "Nous étions tous"
+	line "perdus."
+
+	para "J'ai essayé de"
+	line "perpétuer votre"
+	cont "héritage."
 	done
 
 RadioTower5FRocketBossDisbandText3:
-	text "You were the"
-	line "leader,"
+	text "Vous étiez notre"
+	line "leader, vous étiez"
+	cont "le visionnaire."
 
-	para "the visionary."
+	para "Et je..."
 
-	para "And I..."
-
-	para "I'm just..."
+	para "Je suis juste..."
 	done
-
+	
 RadioTower5FRocketBossDisbandText4:
-	text "Was I a mere"
-	line "puppet?"
+	text "N'étais-je qu'un"
+	line "simple pantin?"
 
-	para "Chasing a dream"
-	line "you never shared?"
+	para "À courir après un"
+	line "rêve que vous"
+	cont "n'aviez jamais"
+	cont "partagé?"
 	done
-
+	
 RadioTower5FRocketBossDisbandText5:
-	text "But... but I can't"
-	line "just let go. Not"
-	cont "after everything."
+	text "Mais…"
 
-	para "Do you expect me"
-	line "to just walk away,"
+	para "Mais je ne peux"
+	line "pas juste lâcher"
+	cont "prise."
 
-	para "to abandon our"
-	line "cause?"
+	para "Pas après..."
+
+	para "Pas après tout ce"
+	line "que j'ai fait!"
+
+	para "Vous vous atten-"
+	line "diez vraiment à ce"
+	cont "que je parte?"
+
+	para "Et abandonner"
+	line "notre cause?"
 	done
 
 RadioTower5FRocketBossDisbandText6:
-	text "I... I need time."
-	line "I need to get out"
-	cont "of here."
+	text "J-j'ai besoin de"
+	line "temps."
+
+	para "J'ai besoin de"
+	line "partir d'ici."
 	done
 
 RadioTower5FRocketBossDisbandText7:
-	text "But know this,"
-	line "GIOVANNI. Even if"
-	cont "the path was"
-	cont "wrong..."
+	text "Mais sachez une"
+	line "chose, GIOVANNI."
 
-	para "My intentions were"
-	line "true!"
+	para "Même si les"
+	line "méthodes n'étaient"
+	cont "peut-être pas les"
+	cont "bonnes, mes inten-"
+	cont "tions, elles,"
+	cont "étaient sincères!"
 	done
 
 RadioTower5FDirectorThankYouText:

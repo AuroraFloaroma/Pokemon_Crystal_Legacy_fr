@@ -71,7 +71,7 @@ PokemaniacMillerSeenText:
 
 PokemaniacMillerBeatenText:
 	text "J'ai perdu face à"
-	line "un.e gosse?"
+	line "un·e gosse?"
 	done
 
 PokemaniacMillerAfterBattleText:

@@ -234,8 +234,8 @@ WhitneyShouldntBeSoSeriousText:
 
 	text "...Waaaaaaah!"
 
-	para "T'es méchant! Tu"
-	line "ne devrais pas"
+	para "T'es méchant·e!"
+	line "Tu ne devrais pas"
 	cont "tout prendre au"
 	cont "sérieux!"
 
@@ -321,7 +321,7 @@ WhitneyRematchText:
 
 	para "J'ai envie de voir"
 	line "à quel point tu es"
-	cont "fort.e."
+	cont "fort·e."
 
 	para "Ca te dirait une"
 	line "revanche ?"
@@ -347,7 +347,6 @@ LassCarrieSeenText:
 	line "mignons mais ils"
 	cont "peuvent te mettre"
 	cont "la pâtée!"
-
 	done
 
 LassCarrieBeatenText:
@@ -357,8 +356,8 @@ LassCarrieBeatenText:
 	done
 
 LassCarrieAfterBattleText:
-	text "Do my #MON"
-	line "think I'm cute?"
+	text "Et moi, j'suis"
+	line "mimi?"
 	done
 
 LassBridgetSeenText:
@@ -465,8 +464,9 @@ GoldenrodGymGuideText:
 
 	para "Va voir sur la"
 	line "ROUTE 34 si tu as"
-	cont "besoin d'un #MON"
-	cont "de type COMBAT."
+	cont "besoin d'un"
+	cont "#MON de type"
+	cont "COMBAT."
 	done
 
 GoldenrodGymGuideWinText:

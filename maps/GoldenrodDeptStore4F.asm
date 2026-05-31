@@ -55,32 +55,33 @@ GoldenrodDeptStore4FBugCatcherText:
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Tu sais quoi ?"
+	text "Tu sais quoi?"
 
 	para "J'ai entendu des"
 	line "rumeurs qui disent"
-	cont "que certains #MON"
-	cont "n'évoluent que"
-	cont "s'ils sont"
+	cont "que certains"
+	cont "#MON n'évoluent"
+	cont "que s'ils sont"
 	cont "échangés via le"
 	cont "câble Game Link."
 
 	para "Mais c'est"
-	line "n'importe quoi"
+	line "n'importe quoi…"
 	cont "Par exemple"
-	cont "MACHOPEUR, KADABRA"
-	cont "et SPECTRUM, ils"
+	
+	para "MACHOPEUR, KADABRA"
+	line "et SPECTRUM, ils"
 	cont "évoluent en les"
 	cont "faisant monter de"
-	cont "niveaux ! Ah, il y"
-	cont "a aussi"
-	cont "GRAVALANCH."
+	cont "niveaux!"
+	
+	para "Ah, il y a aussi"
+	line "GRAVALANCH."
 
 	para "Ton #DEX te"
 	line "montreras comment"
-	cont "les #MON évoluent"
-	cont "vraiment!"
-
+	cont "les #MON"
+	cont "évoluent vraiment!"
 	done
 
 GoldenrodDeptStore4FDirectoryText:

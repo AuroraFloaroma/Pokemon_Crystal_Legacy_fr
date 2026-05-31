@@ -147,24 +147,25 @@ GruntM15SeenText:
 	done
 
 GruntM15BeatenText:
-	text "Gnyak! T'es trop"
-	line "fort.e! Tu sais"
-	cont "quoi ?"
+	text "Gnyak Gnyak! T'es"
+	line "trop fort·e!"
 
-	para "C'délire de TEAM"
-	line "ROCKET c'est juste"
+	para "Tu sais quoi?"
+	line "C'délire de TEAM"
+	cont "ROCKET c'est juste"
 	cont "un job comme un"
 	cont "autre pour moi,"
-	cont "mais j'vois bien"
-	cont "qu'c'est pas tout"
-	cont "rose."
+	cont "mais bon, j'vois"
+	cont "bien qu'c'est pas"
+	cont "tout rose."
 
-	para "C'est bon, j'en ai"
-	line "ma claque j'me"
-	cont "casse."
+	para "Tu sais quoi ?"
+	line "J'en ai ma claque,"
+	cont "j'me casse."
 
 	para "Merci beaucoup et"
-	line "pardon GIOVANNI!"
+	line "pardonne-moi"
+	cont "GIOVANNI!"
 	done
 
 GruntM15AfterBattleText:

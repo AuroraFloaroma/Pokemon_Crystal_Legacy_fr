@@ -591,7 +591,7 @@ Mahogany_Map_Name2: ; map_const MAHOGANY_GYM ;  2
 Mahogany_Map_Name3: ; map_const MAHOGANY_POKECENTER_1F ;  3
 	db "ACAJOU<LF>CENTRE <PKMN>@"
 Mahogany_Map_Name4: ; map_const ROUTE_42_ECRUTEAK_GATE ;  4
-	db "ROUTE 42 GATE@"
+	db "PORTE DE ROSALIA@"
 Mahogany_Map_Name5: ; map_const ROUTE_42,  ;  5
 	db "ROUTE 42@"
 Mahogany_Map_Name6: ; map_const ROUTE_44, ;  6

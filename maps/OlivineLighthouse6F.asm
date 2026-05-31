@@ -220,7 +220,9 @@ JasmineThankYouText:
 	text "JASMINE: Oh, je"
 	line "suis si soulagée!"
 
-	para "C'est... C'est"
+	para "C'est..."
+
+	para "C'est"
 	line "fantastique..."
 
 	para "Merci beaucoup,"
@@ -230,9 +232,12 @@ JasmineThankYouText:
 	line "à l'ARENE..."
 
 	para "Oh, et aussi je te"
-	line "préviens, le type"
-	cont "ACIER est"
-	cont "redoutable."
+	line "préviens: le type"
+	cont "ACIER est redou-"
+	cont "table."
+
+	para "J'ai hâte de"
+	line "t'affronter!"
 	done
 
 JasmineISeeText:

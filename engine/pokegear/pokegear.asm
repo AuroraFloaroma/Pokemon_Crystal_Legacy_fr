@@ -613,7 +613,7 @@ Pokegear_UpdateClock:
 	jr z, .Day
 	ld de, .NiteStr
 .got_tod		
-	hlcoord 14, 6
+	hlcoord 13, 6
 	call PlaceString
 
 	hlcoord 11, 0
@@ -2591,12 +2591,12 @@ Pokedex_GetArea:
 	ld a, $07
 	call ByteFill
 	ld [hl], $17
-	call GetPokemonName
 	hlcoord 2, 0
-	call PlaceString
-	ld h, b
-	ld l, c
 	ld de, .String_SNest
+	call PlaceString
+	push bc
+	call GetPokemonName
+	pop hl
 	call PlaceString
 ; add blurb to let people know they can press select to see current location
 	hlcoord 1, 2

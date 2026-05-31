@@ -15,6 +15,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 ### Sommaire :
 - [Traductions textuelles :](#Traductions%20textuelles)
 	- [/data](#/data) - Entrées textuelles générales (dresseurs, paramètres, Pokédex…)
+		- [/maps/map_names](data/maps/map_names.md)
 	- [/engine](#/engine) 
 		- [/items](#/items)
 		- [/menus](#/menus)
@@ -69,47 +70,49 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 - ✅[FastShipB1F](maps/FastShipB1F.md) - Bateau Express / Aquaria
 #### /Johto
 - ✅ [AzaleaGym](maps/Johto/AzaleaGym.md) - Arène d'Écorcia
-- ✅  [BlackthornGym1F](maps/Johto/BlackthornGym1F.md) - Arène d'Ébènelle
-- ✅  [BurnedTower1F](maps/Johto/BurnedTower1F.md) - Tour cendrée (RDC)
+- ✅ [BlackthornGym1F](maps/Johto/BlackthornGym1F.md) - Arène d'Ébènelle
+- ✅ [BurnedTower1F](maps/Johto/BurnedTower1F.md) - Tour cendrée (RDC)
 - ✅ [DayCare](maps/Johto/DayCare.md) - Pension Pokémon
-- ✅ [DragonShrine](maps/Johto/DragonShrine.md) - L'Antre du Dragon
+- ✅[DragonShrine](maps/Johto/DragonShrine.md) - L'Antre du Dragon
 - ✅[EarlsPokemonAcademy](maps/Johto/EarlsPokemonAcademy.md) - École des dresseurs
 - Rosalia
-	- ☑️ [EcruteakGym](maps/Johto/EcruteakGym.md) - Arène
-	- ☑️ [EcruteakTinTowerEntrance](maps/Johto/EcruteakTinTowerEntrance.md) - Entrée de la Tour Feraille (Tour Carillon)
-- ☑️ [ElmsLab](maps/Johto/ElmsLab.md) - Laboratoire du Professeur Orme
+	- ✅ [EcruteakGym](maps/Johto/EcruteakGym.md) - Arène
+	- ✅ [EcruteakTinTowerEntrance](maps/Johto/EcruteakTinTowerEntrance.md) - Entrée de la Tour Feraille (Tour Carillon)
+	- ✅ [WiseTrioRoom](maps/Johto/WiseTrioRoom.md) - Salle du trio des sages
+- ✅ [ElmsLab](maps/Johto/ElmsLab.md) - Laboratoire du Professeur Orme
 - ✅ [GoldenrodCity](maps/Johto/GoldenrodCity.md) - Doublonville
 	- Centre Commercial
-		- ☑️ [GoldenrodDeptStore4F](maps/Johto/GoldenrodDeptStore4F.md) - 3ème étage
+		- ✅ [GoldenrodDeptStore4F](maps/Johto/GoldenrodDeptStore4F.md) - 3ème étage
 		- ✅ [GoldenrodDeptStore6F](maps/Johto/GoldenrodDeptStore6F.md) - 5ème étage
-		- ☑️ [GoldenrodDeptStoreRoof](maps/Johto/GoldenrodDeptStoreRoof.md) - Toit
-	- ☑️ [GoldenrodFlowerShop](maps/Johto/GoldenrodFlowerShop.md) - Fleuriste
-	- ☑️ [GoldenrodGym](maps/Johto/GoldenrodGym.md) - Arène
-	- ☑️ [GoldenrodUndergroundWarehouse](maps/Johto/GoldenrodUndergroundWarehouse.md) - Entrepôt souterrain
-	- ☑️ [RadioTower5F](maps/Johto/RadioTower5F.md) - Tour radio 4eme etage
-- ☑️ [KurtsHouse](maps/Johto/KurtsHouse.md) - Maison de Fargas
-- [LakeOfRage](maps/Johto/LakeOfRage.md) - Lac Colère
+		- ✅ [GoldenrodDeptStoreRoof](maps/Johto/GoldenrodDeptStoreRoof.md) - Toit
+	- ✅ [GoldenrodFlowerShop](maps/Johto/GoldenrodFlowerShop.md) - Fleuriste
+	- ✅ [GoldenrodGym](maps/Johto/GoldenrodGym.md) - Arène
+	- ✅ [GoldenrodUndergroundWarehouse](maps/Johto/GoldenrodUndergroundWarehouse.md) - Entrepôt souterrain
+	- ✅ [RadioTower5F](maps/Johto/RadioTower5F.md) - Tour radio 4eme etage
+- ✅ [KurtsHouse](maps/Johto/KurtsHouse.md) - Maison de Fargas
+- ✅ [LakeOfRage](maps/Johto/LakeOfRage.md) - Lac Colère
 *  Acajou
-	- ☑️ [MahoganyGym](maps/Johto/MahoganyGym.md) - Arène
-	- ✔️ [MahoganyMart1F](maps/Johto/MahoganyMart1F.md) - Boutique Pokémon
+	- ✅ [MahoganyGym](maps/Johto/MahoganyGym.md) - Arène
+	- ✅ [MahoganyMart1F](maps/Johto/MahoganyMart1F.md) - Boutique Pokémon
 - Mont Creuset
-	- ☑️ [MountMortar1FInside](maps/Johto/MountMortar1FInside.md) - RDC, 
-	- [MountMortar1FOutside](maps/Johto/MountMortar1FOutside.md) - RDC, extérieur
-	- ☑️ [MountMortar2FInside](maps/Johto/MountMortar2FInside.md) 1er étage (intérieur)
-- [NationalParkBugContest](maps/Johto/NationalParkBugContest.md) - Parc naturel - Concours
-- ☑️ [MrPokemonHouse](maps/Johto/MrPokemonHouse.md) - Maison de M.Pokemon
+	- ✅ [MountMortar1FInside](maps/Johto/MountMortar1FInside.md) - RDC, 
+	- ✅ [MountMortar1FOutside](maps/Johto/MountMortar1FOutside.md) - RDC, extérieur
+	- ✅ [MountMortar2FInside](maps/Johto/MountMortar2FInside.md) 1er étage (intérieur)
+- ✅ [NationalParkBugContest](maps/Johto/NationalParkBugContest.md) - Parc naturel - Concours
+- ✅ [MrPokemonHouse](maps/Johto/MrPokemonHouse.md) - Maison de M.Pokemon
 - Oliville
-	- ☑️ [OlivineGym](maps/Johto/OlivineGym.md) - Arène
-	- [OlivineGoodRodHouse](maps/Johto/OlivineGoodRodHouse.md) - Maison du pêcheur
-	- ☑️ [OlivineLighthouse6F](maps/Johto/OlivineLighthouse6F.md) - Phare (5ème étage)
-- ☑️ [PlayersHouse1F](maps/Johto/PlayersHouse1F.md) - Maison du joueur (RDC)
+	- ✅ [Olivine](maps/Johto/Olivine.md) 
+	- ✅ [OlivineGym](maps/Johto/OlivineGym.md) - Arène
+	- ✅[OlivineGoodRodHouse](maps/Johto/OlivineGoodRodHouse.md) - Maison du pêcheur
+	- ✅ [OlivineLighthouse6F](maps/Johto/OlivineLighthouse6F.md) - Phare (5ème étage)
+- ✅ [PlayersHouse1F](maps/Johto/PlayersHouse1F.md) - Maison du joueur (RDC)
 - Ruines d'Alpha
-	- ☑️ [RuinsOfAlphResearchCenter](maps/Johto/RuinsOfAlphResearchCenter.md) - Centre de recherche
+	- ✅ [RuinsOfAlphResearchCenter](maps/Johto/RuinsOfAlphResearchCenter.md) - Centre de recherche
 	- ✅ [RuinsOfAlphInnerChamber](maps/Johto/RuinsOfAlphInnerChamber.md) - Chambre intérieure
-- [TrainerHouseB1F](maps/Johto/TrainerHouseB1F.md) Maison des dresseurs
+- ✅ [TrainerHouseB1F](maps/Johto/TrainerHouseB1F.md) Maison des dresseurs
 - ✅ [TinTower1F](maps/Johto/TinTower1F.md) - Tour Ferraille RDC 
-- ☑️ [SlowpokeWellB1F](maps/Johto/SlowpokeWellB1F.md) - Puit Ramoloss
-- ☑️ [VictoryRoad](maps/Johto/VictoryRoad.md) - Route Victoire
+- ✅ [SlowpokeWellB1F](maps/Johto/SlowpokeWellB1F.md) - Puit Ramoloss
+- ✅ [VictoryRoad](maps/Johto/VictoryRoad.md) - Route Victoire
 - Mauville
 	- [VioletGym](maps/Johto/VioletGym.md) - Arène
 	- ☑️ [VioletCity](maps/Johto/VioletCity.md)

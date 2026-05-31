@@ -309,7 +309,7 @@ PryceText_CherishYourPokemon:
 	done
 
 PryceRematchText:
-	text "Ah, MAITRE de"
+	text "Ah, MAITRE·SSE de"
 	line "JOHTO!"
 
 	para "Tes talents sont"
@@ -324,13 +324,12 @@ PryceRematchText:
 
 	para "Moi, FREDO, le"
 	line "dresseur du froid,"
-	cont "garde toujours"
+	cont "possède encore"
 	cont "quelques tours"
-	cont "dans ma manche."
+	cont "dans la manche."
 
 	para "Ca te dirait une"
-	line "revanche avec"
-	cont "moi ?"
+	line "revanche avec moi?"
 	done
 
 Pryce_RematchDefeatText:

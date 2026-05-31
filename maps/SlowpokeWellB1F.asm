@@ -252,7 +252,7 @@ TrainerGruntM1WhenTalkText:
 	done
 
 GruntM2SeenText:
-	text "Gnyak!"
+	text "Gnyak-Gnyak!"
 
 	para "Arrêter de voler"
 	line "les QUEUES de"

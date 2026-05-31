@@ -324,9 +324,18 @@ MrPokemonsHouse_OakText1:
 	
 	para "Ca montre leur"
 	line "habitat, comment"
-	cont "ils évoluent ainsi"
-	cont "que leurs"
-	cont "capacités."
+	cont "ils évoluent,"
+
+	para "les capacités qu'"
+	line "ils vont pouvoir"
+	cont "apprendre durant"
+	cont "leur croissance et"
+	cont "bien plus encore!"
+
+	para "N'hésite pas à"
+	line "jeter un oeil aux"
+	cont "différents"
+	cont "onglets!"
 	done
 
 MrPokemonsHouse_GetDexText:
