@@ -1318,7 +1318,7 @@ _UseAnotherRepelText::
 	cont "dissipé."
 
 	para "En utiliser"
-	line "un autre ?"
+	line "un autre?"
 	done
 
 _PlayerFoundItemText::

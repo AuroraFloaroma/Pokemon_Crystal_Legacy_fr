@@ -66,7 +66,7 @@ PokefanmRexAfterBattleText:
 	text "Mon CERFROUSSE est"
 	line "trop mimi!"
 
-	para "Tu trouves pas?"
+	para "Tu ne trouves pas?"
 	done
 
 PokefanmAllanSeenText:

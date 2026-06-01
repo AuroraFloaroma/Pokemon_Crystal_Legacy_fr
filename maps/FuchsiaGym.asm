@@ -345,8 +345,8 @@ JanineRematchText:
 	cont "pour autant."
 
 	para "Alors, on se la"
-	line "fait cette"
-	cont "revanche?"
+	line "fait cette rev-"
+	cont "anche?"
 	done
 
 Janine_RematchDefeatText:
@@ -355,7 +355,7 @@ Janine_RematchDefeatText:
 	cont "aussi bien!"
 
 	para "Aucun doute, tu"
-	line "l'as bien mérité"
+	line "l'as bien méritée"
 	cont "cette victoire…"
 	done
 

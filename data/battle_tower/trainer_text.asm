@@ -324,8 +324,8 @@ _BTGreetingM21Text:
 	done
 
 _BTLossM21Text:
-	text "T'as vu? Mes #MON"
-	line "étaient trop"
+	text "T'as vu? Mes #-"
+	line "MON étaient trop"
 	cont "forts!"
 	done
 

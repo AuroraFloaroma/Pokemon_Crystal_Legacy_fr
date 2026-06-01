@@ -212,9 +212,10 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "RETOUR@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "Je voulais QULBUTOKE"
-	line "mais il me manque"
-	cont "100 jetons..."
+	text "Je voulais"
+	line "QULBUTOKE mais il"
+	cont "me manque 100"
+	cont "jetons..."
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:

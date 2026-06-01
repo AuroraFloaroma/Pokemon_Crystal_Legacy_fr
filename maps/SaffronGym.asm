@@ -214,7 +214,8 @@ SabrinaFightDoneText:
 
 SabrinaRematchText:
 	text "MORGANE : Ah,"
-	line "MAITRE de KANTO."
+	line "MAITRE·SSE de"
+	cont "KANTO."
 
 	para "J'ai senti ton"
 	line "retour."
@@ -224,7 +225,8 @@ SabrinaRematchText:
 	cont "accrue."
 
 	para "Même maintenant,"
-	line "je sens ton aura."
+	line "j'arrive à res-"
+	cont "sentir ton aura."
 
 	para "Tu veux une"
 	line "revanche contre"
@@ -237,22 +239,22 @@ Sabrina_RematchDefeatText:
 
 	para "a encore une fois"
 	line "bouleversé mes"
-	cont "pouvoirs"
-	cont "psychiques…"
+	cont "pouvoirs psych-"
+	cont "iques…"
 	done
 
 MediumRebeccaSeenText:
 	text "Que la puissance"
-	line "de tous tes"
-	cont "précédents"
-	cont "adversaires soit"
-	cont "avec moi!"
+	line "de tous tes pré-"
+	cont "cédent·e·s adver-"
+	cont "saires soit avec"
+	cont "moi!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Fort.e... Tu es"
+	text "Fort·e... Tu es"
 	line "beaucoup trop"
-	cont "fort.e..."
+	cont "fort·e..."
 	done
 
 MediumRebeccaAfterBattleText:

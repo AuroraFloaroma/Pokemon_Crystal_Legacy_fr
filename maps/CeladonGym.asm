@@ -233,9 +233,10 @@ Erika_RematchDefeatText:
 	cont "un goût amer en"
 	cont "bouche..."
 
-	para "Mais combattre un"
-	line "bon adversaire est"
-	cont "stimulant."
+	para "Mais combattre"
+	line "un·e bon·ne adver-"
+	cont "saire reste"
+	cont "stimulant…"
 	done
 
 LassMichelleSeenText:
@@ -266,7 +267,7 @@ PicnickerTanyaBeatenText:
 
 PicnickerTanyaAfterBattleText:
 	text "T'en as plein des"
-	line "BADGES? Comment"
+	line "BADGES. Comment"
 
 	para "je pouvais gagner,"
 	line "moi?!"

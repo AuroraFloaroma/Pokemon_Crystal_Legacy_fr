@@ -314,17 +314,17 @@ MistyRematchText:
 
 	para "T'en as fais un"
 	line "long chemin,"
-	cont "<PLAYER>. Mais"
-	cont "je n'recule jamais"
+	cont "<PLAYER>."
 
-	para "face à un combat,"
-	line "prêt·e pour ta"
-	cont "revanche?"
+	para "Mais je n'recule"
+	line "jamais face à un"
+	cont "combat, prêt·e"
+	cont "pour la revanche?"
 	done
 
 Misty_RematchDefeatText:
 	text "ONDINE: T'es"
-	line "vraiment fort.e…"
+	line "vraiment fort·e…"
 	done
 
 SwimmerfDianaSeenText:

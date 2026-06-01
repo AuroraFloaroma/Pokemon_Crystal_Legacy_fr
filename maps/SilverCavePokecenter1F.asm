@@ -18,7 +18,7 @@ SilverCavePokecenter1FGrannyText:
 	line "recherchent le"
 
 	para "pouvoir grimpent"
-	line "le MONT ARGENT"
+	line "le MONT ARGENTE"
 	cont "malgré ses nom-"
 	cont "breux dangers."
 

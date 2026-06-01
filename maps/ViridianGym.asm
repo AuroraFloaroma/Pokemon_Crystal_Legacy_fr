@@ -168,29 +168,40 @@ LeaderBlueEpilogueText:
 	done
 
 BlueRematchText:
-	text "BLUE: Well, well."
-	line "KANTO CHAMPION!"
+	text "BLUE: Bien bien"
+	line "bien..."
 
-	para "Looks like you've"
-	line "come a long way."
+	para "Bon. MAITRE·SSE de"
+	line "KANTO!"
 
-	para "I used to have"
-	line "that title too,"
-	cont "you know. But I"
-	cont "won't go easy."
+	para "T'en as bavé pour"
+	line "arriver jusqu'ici"
+	cont "hein?"
 
-	para "Let's see if you"
-	line "can keep it up."
+	para "Moi aussi, autre-"
+	line "fois, j'ai arboré"
+	cont "ce titre..."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "…Même si RED me"
+	line "l'a retiré quel-"
+	cont "ques secondes"
+	cont "après, mais là"
+	cont "n'est pas le"
+	cont "propos!"
+
+	para "T'es là pour une"
+	line "revanche pas vrai?"
+
+	para "Voyons si tu tiens"
+	line "toujours!"
 	done
 
 Blue_RematchDefeatText:
-	text "BLUE: What?"
+	text "BLUE: Hein?"
 
-	para "How the heck did I"
-	line "lose again?"
+	para "Mais comment j'ai"
+	line "fait pour perdre"
+	cont "une fois de plus?!"
 	done
 
 ViridianGymGuideText:

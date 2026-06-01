@@ -100,18 +100,17 @@ BlaineIntroText:
 	line "CRAMOIS'ILE a"
 	cont "brûlé."
 
-	para "Moi et mes #MON de"
-	line "feu n'avons"
+	para "Moi et mes #MON"
+	line "de feu n'avons"
+	cont "plus de maison à"
+	cont "cause du volcan."
 
-	para "plus de maison à"
-	line "cause du volcan."
+	para "Mais je suis tou-"
+	line "jours un CHAMPION!"
 
-	para "Mais je suis"
-	line "toujours un"
-	cont "CHAMPION!"
-
-	para "Et je fais la loi"
-	line "dans cette grotte."
+	para "Et c'est moi qui"
+	line "fais la loi dans"
+	cont "cette grotte."
 
 	para "Les temps sont"
 	line "durs mais j'ai"
@@ -120,19 +119,20 @@ BlaineIntroText:
 	para "Y'a longtemps,"
 	line "j'me suis perdu"
 	cont "dans les montagnes"
-
-	para "jusqu'à ce qu'un"
-	line "oiseau ardent me"
+	cont "jusqu'à ce qu'un"
+	cont "oiseau ardent me"
 	cont "guide jusqu'en"
 	cont "bas..."
 
 	para "Eh bah tu sais"
-	line "quoi? Cet oiseau"
-	cont "c'était SULFURA."
+	line "quoi?"
 
-	para "RED m'a confié sa"
-	line "garde, des années"
-	cont "plus tard."
+	para "Cet oiseau c'était"
+	line "SULFURA."
+
+	para "RED m'en a confié"
+	line "sa garde, des ann-"
+	cont "ées plus tard."
 
 	para "Bats-moi et je te"
 	line "donnerai un BADGE."
@@ -142,15 +142,15 @@ BlaineIntroText:
 	line "de l'ANTI-BRULE!"
 
 	para "Ca va chauffer et"
-	line "encore plus"
-	cont "qu'avec ta mère"
-	cont "hier soir!"
+	line "encore plus qu'"
+	cont "avec ta mère hier"
+	cont "soir!"
 	done
 
 BlaineWinLossText:
 	text "AUGUSTE: Wow, ce"
-	line "combat m'a"
-	cont "refroidi."
+	line "combat m'a refr-"
+	cont "oidi."
 
 	para "T'as bien mérité"
 	line "le BADGE VOLCAN!"
@@ -185,32 +185,32 @@ BlaineFightDoneText:
 	done
 
 BlaineRematchText:
-	text "BLAINE: Whoa!"
+	text "AUGUSTE: Wow!"
 
-	para "I see you've"
-	line "become the"
-	cont "KANTO CHAMPION!"
+	para "J'vois qu'on est"
+	line "MAITRE·SSE de"
+	cont "KANTO?"
 
-	para "That's blazing!"
+	para "Ca en jette comme"
+	line "titre!"
 
-	para "Your skills are"
-	line "top-notch."
+	para "Je suppose que tu"
+	line "es au top de ta"
+	cont "forme, et moi j'ai"
+	cont "envie d'une revan-"
+	cont "che."
 
-	para "I'm always"
-	line "up for a battle."
-
-	para "Want to have a"
-	line "rematch with me?"
+	para "T'es partant·e?"
 	done
 
 Blaine_RematchDefeatText:
-	text "BLAINE: Your"
-	line "skills are truly"
-	cont "fiery!"
+	text "AUGUSTE: Tes"
+	line "talents sont"
+	cont "exceptionnels!!"
 
-	para "You've burned"
-	line "right through"
-	cont "my defenses."
+	para "Tu m'as clairement"
+	line "fumé, c'est le cas"
+	cont "de le dire!"
 	done
 
 SeafoamGymGuideWinText:

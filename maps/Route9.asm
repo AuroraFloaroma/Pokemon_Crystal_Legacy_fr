@@ -158,11 +158,11 @@ PicnickerEdnaAfterBattleText:
 
 HikerTimSeenText:
 	text "Elle descend du"
-	line "MONT ARGENT à"
+	line "MONT ARGENTE à"
 	cont "cheval..."
 	cont "La la la la la..."
 
-	para "Le MONT ARGENT est"
+	para "Le MONT ARGENTE est"
 	line "à JOHTO, non?"
 	done
 

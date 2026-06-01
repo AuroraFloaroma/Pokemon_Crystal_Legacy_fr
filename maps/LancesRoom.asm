@@ -273,264 +273,270 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceRematchBattleIntroText:
-	text "LANCE: "
-	line "Welcome back!"
+	text "Heureux de te"
+	line "revoir!"
 
-    para "You've proven"
-    line "yourself in JOHTO,"
-	
-	para "acquiring all 8"
-    line "badges and even"
-    cont "besting me once."
+	para "Tu as déjà prouvé"
+	line "ta valeur à JOHTO"
+	cont "en obtenant les 8"
+	cont "badges puis en me"
+	cont "battant une prem-"
+	cont "ière fois."
 
-    para "But now, you're"
-    line "in the big"
-	cont "leagues."
+	para "Mais à présent, tu"
+	line "es dans la cour"
+	cont "des grands."
 
-	para "The KANTO LEAGUE!"
-	
-	para "A region with its"
-    line "own trials and"
-    cont "champions."
-	
-	para "Here, I am the"
-    line "final challenge,"
+	para "La LIGUE de KANTO!"
 
-    para "with a team "
-    line "stronger than ever"
-	cont "before."
+	para "Une région"
+	line "différente avec"
+	cont "ses propres épr-"
+	cont "euves et champ-"
+	cont "ion·ne·s."
 
-    para "This is the true"
-    line "test,"
-	
-	para "a battle to"
-    line "determine the"
-    cont "CHAMPION of KANTO."
+	para "Et nous voici de"
+	line "nouveau, je serais"
+	cont "ton épreuve fin-"
+	cont "ale, avec une"
+	cont "équipe encore plus"
+	cont "forte qu'aupara-"
+	cont "vant."
 
-    para "Are you ready to"
-    line "rise to this new"
-    cont "challenge?" 
-	
-	para "To prove yourself"
-    line "once more?"
+	para "Il s'agit ici de"
+	line "ta dernière épreu-"
+	cont "ve, mettant en jeu"
+	cont "mon titre de"
+	cont "MAITRE de KANTO."
 
-    para "Show me the"
-    line "strength that"
-	cont "conquered JOHTO,"
-    cont "CHAMPION."
-    done
+	para "Es-tu prêt·e à"
+	line "relever ce nouveau"
+	cont "défi? A prouver ta"
+	cont "valeur, une fois"
+	cont "de plus?"
+
+	para "Montre-moi cette"
+	line "force que tu as"
+	cont "déjà arborée"
+	cont "autrefois pour ton"
+	cont "titre de MAIT-"
+	cont "RE·SSE de JOHTO!"
+	done
 
 LanceBattleIntroText:
-	text "LANCE: I've been"
-	line "waiting for you."
+	text "PETER:"
+	line "Je t'attendais..."
 
 	para "<PLAY_G>!"
 
-	para "I knew that you,"
-	line "with your skills,"
+	para "Je savais que tu"
+	line "allais finir par"
+	cont "arriver jusqu'ici."
 
-	para "would eventually"
-	line "reach me here."
-	
-	para "Three years ago"
-	line "a trainer"
-	
-	para "just like you"
-	line "stood before me."
-	
-	para "That trainer would"
-	line "go on to become"
-	
-	para "the strongest in"
-	line "both our regions."
-	
-	para "He has entrusted"
-	line "me to uphold the"
-	cont "LEAGUE, and to"
-	
-	para "take care of"
-	line "the legendary"
-	
-	para "lightning bird,"
-	line "ZAPDOS."
+	para "Il y a 3 ans, un"
+	line "dresseur, tout"
+	cont "comme toi, se"
+	cont "tenait ici avant"
+	cont "moi."
 
-	para "There's no need"
-	line "for any more"
-	cont "words now."
+	para "Ce dresseur est"
+	line "parti en quête de"
+	cont "devenir le plus"
+	cont "fort des deux ré-"
+	cont "gions…"
 
-	para "We will battle to"
-	line "determine who is"
+	para "Mais avant ça, il"
+	line "m'a accordé sa"
+	cont "confiance et m'a"
+	cont "confié la garde de"
+	cont "la LIGUE et celle"
+	cont "de ELECTHOR, l'oi-"
+	cont "seau légendaire de"
+	cont "la foudre."
 
-	para "the stronger of"
-	line "the two of us."
+	para "Je pense que nous"
+	line "avons assez parlé"
+	cont "à présent."
 
-	para "As the #MON"
-	line "LEAGUE CHAMPION…"
+	para "Il est temps de"
+	line "déterminer qui de"
+	cont "nous deux est le·a"
+	cont "plus fort·e."
 
-	para "I, LANCE the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "En tant que MAITRE"
+	line "de la LIGUE…"
+
+	para "Moi,"
+
+	para "PETER le maître"
+	line "des dragon, ac-"
+	cont "cepte de relever"
+	cont "ce défi!"
 	done
 
 LanceBattleWinText:
-	text "…It's over."
+	text "...C'est fini."
 
-	para "But it's an odd"
-	line "feeling."
+	para "Je me sens..."
+	line "Bizarre..."
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "Je ne suis pas"
+	line "fâché mais..."
+	cont "Plutôt heureux."
 
-	para "Happy that I"
-	line "witnessed the rise"
+	para "Heureux d'être le"
+	line "témoin de la nais-"
 
-	para "of a great new"
-	line "CHAMPION!"
+	para "sance d'un·e"
+	line "nouvelle·au"
+	cont "MAITRE·ESSE!"
 	done
 
 LanceBattleAfterText:
-	text "…Whew."
+	text "...Fouiii!"
 
-	para "You have become"
-	line "truly powerful,"
-	cont "<PLAY_G>."
+	para "Tu as fait de gros"
+	line "progrès, <PLAY_G>."
 
-	para "Your #MON have"
-	line "responded to your"
+	para "Toi et tes #MON"
+	line "êtes en parfaite"
 
-	para "strong and up-"
-	line "standing nature."
+	para "harmonie."
+	line "C'est bien, ça."
 
-	para "As a trainer, you"
-	line "will continue to"
-
-	para "grow strong with"
-	line "your #MON."
+	para "Je suis sûr que tu"
+	line "continueras à"
+	cont "progresser."
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARY: Oh, no!"
-	line "It's all over!"
+	text "LULA: Oh, non!"
+	line "C'est fini! PROF."
 
-	para "PROF.OAK, if you"
-	line "weren't so slow…"
+	para "CHEN, vous êtes"
+	line "trop lent..."
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.OAK: Ah,"
-	line "<PLAY_G>!"
+	text "CHEN: Ah, <PLAY_G>!"
+	line "Ca faisait bien"
+	cont "longtemps."
 
-	para "It's been a long"
-	line "while."
+	para "Tu as changé, ma"
+	line "parole."
 
-	para "You certainly look"
-	line "more impressive."
+	para "Ta victoire sur la"
+	line "LIGUE est ma foi"
+	cont "impressionnante!"
 
-	para "Your conquest of"
-	line "the JOHTO LEAGUE"
-	cont "is just fantastic!"
+	para "Ton amour et ton"
+	line "dévouement pour"
 
-	para "Your dedication,"
-	line "trust and love for"
+	para "tes #MON en"
+	line "sont la cause."
 
-	para "your #MON made"
-	line "this happen."
+	para "Tes #MON ont"
+	line "aussi fait du beau"
+	cont "boulot."
 
-	para "Your #MON were"
-	line "outstanding too."
+	para "Ils ont reconnu"
+	line "en toi un être"
 
-	para "Because they be-"
-	line "lieved in you as a"
+	para "et un dresseur"
+	line "d'exception."
 
-	para "trainer, they per-"
-	line "severed."
-
-	para "Congratulations,"
+	para "Encore bravo,"
 	line "<PLAY_G>!"
 	done
 
 LancesRoomRematchOakCongratulationsText:
-	text "PROF.OAK: Ah,"
-    line "<PLAY_G>!"
+	text "PROF.CHEN: Ah,"
+	line "<PLAY_G>!"
 
-	para "I've been following"
-    line "your progress"
-    cont "since PROF."
-    cont "ELM sent you on"
-	cont "your way."
+	para "Tu sais, j'ai"
+	line "suivi ta progres-"
+	cont "sion depuis que le"
+	cont "PROF.ORME ta en-"
+	cont "voyé à l'aventure."
 
-    para "You've certainly"
-    line "become more"
-	cont "impressive."
+	para "Et je dois dire,"
+	line "tu es devenu·e"
+	cont "impressionnant·e!"
 
-    para "Conquering both"
-    line "the JOHTO and now"
-    cont "the KANTO LEAGUE"
-    cont "is no small feat."
+	para "Conquérir la LIGUE"
+	line "de JOHTO et de"
+	cont "KANTO ce n'est pas"
+	cont "rien, tu t'es"
+	cont "clairement sur-"
+	cont "passé·e!"
+
+	para "Il est claire que"
+	line "tes #MON éprou-"
+	cont "vent une immense"
+	cont "confiance envers"
+	cont "toi, et que ce"
+	cont "lien est la fon-"
+	cont "dation même de"
+	cont "votre succès."
 	
-	para "You've truly"
-    line "outdone yourself!"
+	para "Mais garde en tête"
+	line "que le voyage"
+	cont "d'un·e dresseur-"
+	cont "·euse n'est jamais"
+	cont "vraiment terminé."
 
-    para "It's clear that"
-    line "your #MON trust"
-    cont "you immensely,"
-	
-	para "and that trust has"
-    line "been the"
-    cont "foundation of your"
-	cont "success."
+	para "Quand tu auras un"
+	line "moment, viens me"
+	cont "rendre visite à"
+	cont "mon laboratoire."
 
-    para "But remember, a"
-    line "trainer's journey"
-    cont "is never truly"
-	cont "over."
+	para "Il y a quelque"
+	line "chose dont j'aime-"
+	cont "rais discuter avec"
+	cont "toi."
 
-    para "When you have a"
-    line "moment, do visit"
-    cont "me in my lab."
-	
-	para "There's something"
-    line "I'd like to"
-    cont "discuss with you."
-
-    para "Congratulations on"
-    line "your victory,"
+	para "Et bien évidem-"
+	line "ment, féliciations"
+	cont "pour ta victoire,"
 	cont "<PLAY_G>!"
 	done
 
 LancesRoomMaryInterviewText:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "JOHTO CHAMPION!"
+	text "LULA: Faisons une"
+	line "interview du"
+	cont "nouvelle·au"
+	cont "MAITRE·SSE!"
 	done
 
 LancesRoomRematchMaryInterviewText:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "KANTO CHAMPION!"
+	text "LULA: Faisons une"
+	line "interview du le·a"
+	cont "nouvelle·au MAIT-"
+	cont "RE·SSE!"
 	done
 
 LancesRoomNoisyText:
-	text "LANCE: This is"
-	line "getting to be a"
-	cont "bit too noisy…"
+	text "PETER: Tout ça est"
+	line "trop bruyant pour"
+	cont "moi..."
 
-	para "<PLAY_G>, could you"
-	line "come with me?"
+	para "<PLAY_G>,"
+	line "suis-moi."
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARY: Oh, wait!"
-	line "We haven't done"
-	cont "the interview!"
+	text "LULA: Attendez!"
+	line "On n'a pas encore"
+	cont "fait l'interview!"
 	done
 
 LancesRoomRematchMaryNoInterviewText:
-	text "MARY: Come on!"
-	line "You can't blow off"
-	cont "the interview"
-	cont "AGAIN!"
+	text "LULA:"
+	line "Sérieusement?"
+
+	para "Tu peux pas me"
+	line "lais- ser tomber!"
+	cont "ENCORE!"
 	done
 
 LancesRoom_MapEvents:

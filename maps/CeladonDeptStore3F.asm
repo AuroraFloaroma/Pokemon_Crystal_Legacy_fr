@@ -97,8 +97,8 @@ CeladonDeptStore3FDirectoryText:
 	text "2EME: MARCHE AUX"
 	line "      CT"
 
-	text "Rendez vos #MON"
-	line "plus forts!"
+	text "Rendez vos #-"
+	line "MON plus forts!"
 	done
 
 CeladonDeptStore3F_MapEvents:

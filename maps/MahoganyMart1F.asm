@@ -136,12 +136,13 @@ GiovanniLeavesMovement:
 	step_end
 
 MahoganyMart1FGioLeavesText:
-	text "I have to" 
-	line "leave..."
-	
-	para "You two can"
-	line "handle this,"
-	cont "right?"
+	text "Je vais devoir"
+	line "partir."
+
+	para "Vous êtes capable"
+	line "de gérer ça vous"
+	cont "deux, n'est-ce"
+	cont "pas?"
 	done
 
 MahoganyMart1FGrannyScript:
@@ -228,7 +229,7 @@ MahoganyMart1FBlackBeltText:
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Gueuhhh..."
 
-	para "Les #MON dragon"
+	para "Les #MON"
 	line "de ce type sont"
 	cont "super forts..."
 	done

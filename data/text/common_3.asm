@@ -1117,7 +1117,7 @@ _PokegearAskWhoCallText::
 	done
 
 _PokegearPressButtonText::
-	text "Presser un bouton"
+	text "Pressez un bouton"
 	line "pour sortir."
 	done
 

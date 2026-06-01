@@ -77,7 +77,7 @@ VictoryRoadGateEightBadgesText:
 
 VictoryRoadGateLeftBlackBeltText:
 	text "Cette route mène"
-	line "au MONT ARGENT."
+	line "au MONT ARGENTE."
 
 	para "Tu y verras des"
 	line "#MON affreu-"

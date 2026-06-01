@@ -188,148 +188,161 @@ MoltresScript:
 	end
 
 MoltresBattleText:
-	text "Gyaoo!"
+	text "Sulfuuu!"
 	done
 
 VictoryRoadRivalBeforeText:
-	text "Hold it."
+	text "Minute."
 
-	para "…Are you going to"
-	line "take the #MON"
-	cont "LEAGUE challenge?"
+	para "Tu vas relever le"
+	line "défi de la LIGUE"
+	cont "#MON?"
 
-	para "…Don't make me"
-	line "laugh."
+	para "…Me fais pas rire."
 
-	para "You're so much"
-	line "weaker than I am."
-	
-	para "Even so, I've"
-	line "realized there"
+	para "T'es tellement"
+	line "plus faible que"
+	cont "moi."
 
-	para "is more to it"
-	line "than power."
-	
-	para "I've begun to"
-	line "understand what"
+	para "Et même si t'étais"
+	line "meilleur·e, bah tu"
+	cont "sais quoi?"
 
-	para "that dragon master"
-	line "said to me…"
+	para "J'ai réalisé qu'il"
+	line "y avait bien plus"
+	cont "encore."
 
-	para "Love, friendship.."
-	line "it's what the"
-	cont "elders in the"
+	para "J'commence enfin à"
+	line "comprendre ce que"
+	cont "la reine des dra-"
+	cont "gons m'a dit la"
+	cont "dernière fois..."
 	
-	para "DRAGON'S DEN"
-	line "said too."
-	
-	para "I need to care"
-	line "for my team."
-	
-	para "They've been with"
-	line "me through it all"
-	
-	para "and I have treated"
-	line "them like pawns."
-	
-	para "But I promise!"
-	line "I will care for"
-	cont "all of you."
-	
-	para "Together, we"
-	line "will become"
-	cont "unstoppable."
-	
-	para "What? PUPITAR"
-	line "is evolving!"
+	para "Amour, amitié…"
+	line "c'est ce que les"
+	cont "anciens ont aussi"
+	cont "dit dans l'ANTRE"
+	cont "du DRAGON."
+
+	para "Il faut que je"
+	line "prenne soin de"
+	cont "cette équipe, ap-"
+	cont "rès tout ce que"
+	cont "l'on a traversé"
+	cont "ensemble alors que"
+	cont "je ne les traitais"
+	cont "que comme de sim-"
+	cont "ples pions..."
+
+	para "Mais c'est"
+	line "terminé. Et ça, je"
+	cont "vous le promets."
+
+	para "Je vais prendre"
+	line "soin de vous à"
+	cont "présent."
+
+	para "Ensemble, on sera"
+	line "imbattable."
+
+	para "Quoi? YMPHECT?"
+	line "T'es en train"
+	cont "de..."
 	
 	para "............"
 	line "............"
-	
-	para "Congratulations!"
-	line "Your PUPITAR"
 
-	para "evolved into"
-	line "TYRANITAR?"
-	
-	para ".....What?"
-	line "TYRANITAR?"
-	
-	para "But......."
-	line "level....."
-	
-	para "Ah no, I see."
-	line "I've heard of"
-	
-	para "rare instances"
-	line "of early evol-"
-	cont "ution."
-	
-	para "Some say that"
-	line "through love,"
-	
-	para "the dragon"
-	line "master was able"
-	
-	para "to do such a"
-	line "thing too."
-	
-	para "Perhaps it was"
-	line "the ROCKETs"
-	cont "radio signal."
-	
-	para "It matters not."
-	line "Let's battle."
-	
-	para "My friends will"
-	line "beat you and then"
-	cont "the ELITE FOUR."
+	para "Félicitations!"
+	line "Votre YMPHECT"
 
-	para "<PLAYER>!"
-	line "I challenge you!"
+	para "a évolué en"
+	line "TYRANOCIF."
+
+	para "............"
+	line "............"
+	
+	para "Mais… Tu n'es"
+	line "pourtant pas au"
+	cont "niv-…"
+
+	para "Je vois..."
+
+	para "C'est comme ça que"
+	line "la reine des dra-"
+	cont "gons est arrivée à"
+	cont "faire de grandes"
+	cont "choses."
+
+	para "J'ai déjà entendu"
+	line "parler qu'à trav-"
+	cont "ers l'amour que"
+	cont "l'on porte à ses"
+	cont "#MON, il est"
+	cont "parfois possible"
+	cont "d'assister à ce"
+	cont "genre de phéno-"
+	cont "mènes."
+
+	para "…Ou alors c'est à"
+	line "cause du signal"
+	cont "radio de la TEAM"
+	cont "ROCKET."
+
+	para "Bref, peu importe."
+
+	para "Je te défie en"
+	line "duel <PLAYER>!"
+
+	para "Mes amis et moi,"
+	line "on va t'éclater et"
+	cont "ensuite ça sera au"
+	cont "tour de la LIGUE"
+	cont "#MON!"
 	done
 
 VictoryRoadRivalDefeatText:
-	text "…I couldn't win…"
+	text "..."
 
-	para "I gave it every-"
-	line "thing I had…"
+	para "Je ne pouvais pas"
+	line "gagner..."
 
-	para "What you possess,"
-	line "and what I lack…"
+	para "Je me suis donné à"
+	line "fond..."
+
+	para "Ce que tu poss-"
+	line "èdes, et ce dont"
+	cont "je manque…"
 	done
 
 VictoryRoadRivalAfterText:
-	text "…I haven't given up"
-	line "on becoming the"
-	cont "greatest trainer…"
+	text "...Je n'ai pas"
+	line "oublié mon rêve de"
+	cont "devenir le plus"
+	cont "grand des dres-"
+	cont "seurs..."
 
-	para "But that's okay,"
-	line "I will one day"
+	para "Mais ça ira, je"
+	line "reviendrais plus"
+	cont "fort. Et quand ça"
+	cont "sera le moment, je"
+	cont "te défierai de"
+	cont "nouveau… et ça"
+	cont "sera ta fête."
 
-	para "return and"
-	line "become stronger."
-
-	para "When I do, I will"
-	line "challenge you."
-
-	para "And I'll beat you"
-	line "down with all my"
-	cont "power."
-
-	para "Come on guys!"
-	line "let's go!"
+	para "Allez les potes,"
+	line "on y va."
 	done
 
 VictoryRoadRivalVictoryText:
-	text "What power!"
+	text "Quelle puissance!"
 
-	para "When it comes down"
-	line "to it, nothing can"
-	cont "beat friendhship."
+	para "Quand on y pense,"
+	line "rien ne peut venir"
+	cont "à bout de"
+	cont "l'amitié."
 
-	para "I don't need any-"
-	line "thing else."
+	para "Je n'ai besoin de"
+	line "rien d'autre."
 	done
 
 VictoryRoad_MapEvents:

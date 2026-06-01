@@ -115,66 +115,64 @@ OakOpenMtSilverText:
 
 	para "Tu as gagné les"
 	line "BADGES de KANTO et"
-	cont "est devenu.e"
-	cont "MAITRE des LIGUES"
+	cont "est devenu·e MAIT-"
+	cont "RE·SSE des LIGUES"
 	cont "de KANTO et de"
 	cont "JOHTO!"
 
 	para "J'ai bien fait de"
-	line "te faire"
-	cont "confiance."
+	line "te faire confian-"
+	cont "ce."
 
 	para "Dans ce cas,"
-	line "<PLAY_G>, je vais"
+	line "<PLAY_G>,"
 
-	para "faire en sorte que"
-	line "tu puisses aller"
-	cont "au MONT ARGENT."
+	para "je vais faire en"
+	line "sorte que tu puis-"
+	cont "ses aller au MONT"
+	cont "ARGENTE."
 
-	para "Le MONT ARGENT est"
-	line "une montagne où"
-
-	para "vivent beaucoup de"
-	line "#MON sauvages."
+	para "Le MONT ARGENTE"
+	line "est une montagne"
+	cont "où vivent beaucoup"
+	cont "de #MON sauv-"
+	cont "ages."
 
 	para "Cet endroit est"
 	line "trop dangereux"
-
-	para "pour le dresseur"
-	line "lambda, mais nous"
-
-	para "pouvons faire une"
-	line "exception pour"
-	cont "toi, <PLAY_G>."
+	cont "pour le dresseur"
+	cont "lambda, mais nous"
+	cont "pouvons faire une"
+	cont "exception pour toi"
+	cont "<PLAY_G>."
 
 	para "Va au PLATEAU"
 	line "INDIGO. Tu pourras"
-
-	para "accéder ensuite au"
-	line "MONT ARGENT."
+	cont "accéder ensuite au"
+	cont "MONT ARGENTE."
 	done
 
 OakBattleKantoE4Text:
 	text "CHEN: Woah! C'est"
-	line "excellent!"
-
-	para "Tu as gagné les"
-	line "BADGES des ARENES"
-	cont "de KANTO!"
-
-	para "Mais je doute que"
-	line "tu ne sois encore"
+	line "excellent! Tu as"
+	cont "gagné les BADGES"
+	cont "des ARENES de"
+	cont "KANTO! Mais je"
+	cont "doute que tu ne"
+	cont "sois encore"
 	cont "prêt·e."
 
 	para "A présent tu dois"
-	line "retourner au CONS-"
-	cont "EIL 4 et vaincre"
-	cont "la LIGUE de KANTO!"
+	line "retourner au"
+	cont "CONSEIL 4 et"
+	cont "vaincre la LIGUE"
+	cont "de KANTO!"
 
 	para "C'est seulement là"
-	line "que je saurais que"
-	cont "je pourrais"
-	cont "compter sur toi."
+	line "que je saurai si"
+	cont "je peux t'octroyer"
+	cont "l'accès à un lieu"
+	cont "spécial."
 	done
 
 OakNoKantoBadgesText:

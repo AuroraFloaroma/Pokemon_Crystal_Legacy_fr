@@ -555,7 +555,8 @@ Text_PlayerGotDeco:
 	para "@"
 	text_ram wPlayerName
 	text " envoyé dans la"
-	line "maison de décoration."
+	line "maison de décorat-"
+	line "ion."
 	done
 
 Text_YourPackIsStuffedFull:

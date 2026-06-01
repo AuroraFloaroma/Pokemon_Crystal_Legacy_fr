@@ -176,9 +176,10 @@ BrockRematchText:
 	line "<PLAYER>!"
 
 	para "J'ai eu vent que"
-	line "tu es MAITRE de"
-	cont "KANTO à présent,"
-	cont "c'est génial!"
+	line "tu es désormais"
+	cont "MAITRE·SSE de"
+	cont "KANTO, c'est"
+	cont "génial!"
 
 	para "Tu dois être"
 	line "encore plus"
@@ -189,14 +190,15 @@ BrockRematchText:
 	line "revanche contre"
 	cont "moi?"
 	done
-
+	
 Brock_RematchDefeatText:
-	text "PIERRE: Tes #MON"
-	line "ont su, une fois"
-	cont "de plus, surpasser"
-	cont "ma défense dure"
-	cont "comme le roc..."
-
+	text "PIERRE: Tes"
+	line "#MON ont su,"
+	cont "une fois de plus,"
+	cont "surpasser ma déf-"
+	cont "ense pourtant"
+	cont "réputée dure comme"
+	cont "le roc..."
 	done
 
 CamperJerrySeenText:
