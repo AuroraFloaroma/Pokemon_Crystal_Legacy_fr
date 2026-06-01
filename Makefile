@@ -128,7 +128,7 @@ $(foreach obj, $(pokecrystal_vc_obj), $(eval $(call DEP,$(obj),$(obj:_vc.o=.asm)
 
 # Dependencies for VC files that need to run scan_includes
 %.constants.sym: %.constants.asm $(shell tools/scan_includes %.constants.asm) $(preinclude_deps) | rgbdscheck.o
-	$(RGBASM) $(RGBASMFLAGS) $< > $@
+	$(RGBASM) $< > $@
 
 endif
 
@@ -186,10 +186,9 @@ gfx/pokemon/girafarig/front.animated.tilemap: gfx/pokemon/girafarig/front.2bpp g
 
 ### Misc file-specific graphics rules
 
-gfx/pokemon/%/back.2bpp: rgbgfx += -h -c embedded
-gfx/pokemon/%/front.2bpp: rgbgfx += -c embedded
+gfx/pokemon/%/back.2bpp: rgbgfx += -h
 
-gfx/trainers/%.2bpp: rgbgfx += -h -c embedded
+gfx/trainers/%.2bpp: rgbgfx += -h
 
 gfx/pokemon/egg/unused_front.2bpp: rgbgfx += -h
 
@@ -292,7 +291,7 @@ gfx/mobile/stadium2_n64.2bpp: tools/gfx += --trim-whitespace
 		tools/gfx $(tools/gfx) -d1 -o $@ $@)
 
 %.gbcpal: %.png
-	$(RGBGFX) -c embedded -p $@ $<
+	$(RGBGFX) -p $@ $<
 
 %.dimensions: %.png
 	tools/png_dimensions $< $@
