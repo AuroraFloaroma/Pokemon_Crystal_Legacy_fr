@@ -67,6 +67,7 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 	- ✅ [KarensRoom](maps/KarensRoom.md) - Salle de Marion
 	- ✅ [KogasRoom](maps/KogasRoom.md) - Salle de Koga
 	- ✅ [WillsRoom](maps/WillsRoom.md) - Salle de Clément
+	- ✅ [LancesRoom](maps/LancesRoom.md) - Salle de Peter
 - ✅[FastShipB1F](maps/FastShipB1F.md) - Bateau Express / Aquaria
 #### /Johto
 - ✅ [AzaleaGym](maps/Johto/AzaleaGym.md) - Arène d'Écorcia
@@ -92,8 +93,8 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 - ✅ [KurtsHouse](maps/Johto/KurtsHouse.md) - Maison de Fargas
 - ✅ [LakeOfRage](maps/Johto/LakeOfRage.md) - Lac Colère
 *  Acajou
+	* ✅ [MahoganyMart1F](maps/Johto/MahoganyMart1F.md) - Boutique
 	- ✅ [MahoganyGym](maps/Johto/MahoganyGym.md) - Arène
-	- ✅ [MahoganyMart1F](maps/Johto/MahoganyMart1F.md) - Boutique Pokémon
 - Mont Creuset
 	- ✅ [MountMortar1FInside](maps/Johto/MountMortar1FInside.md) - RDC, 
 	- ✅ [MountMortar1FOutside](maps/Johto/MountMortar1FOutside.md) - RDC, extérieur
@@ -114,24 +115,24 @@ Si vous avez la moindre proposition de traduction, remarque vis-à-vis d'une fau
 - ✅ [SlowpokeWellB1F](maps/Johto/SlowpokeWellB1F.md) - Puit Ramoloss
 - ✅ [VictoryRoad](maps/Johto/VictoryRoad.md) - Route Victoire
 - Mauville
-	- [VioletGym](maps/Johto/VioletGym.md) - Arène
-	- ☑️ [VioletCity](maps/Johto/VioletCity.md)
+	- ✅ [VioletGym](maps/Johto/VioletGym.md) - Arène
+	- ✅ [VioletCity](maps/Johto/VioletCity.md)
 - ✅ [WhirlIslandLugiaChamber](maps/Johto/WhirlIslandLugiaChamber.md) - Tourb'îles - Salle de Lugia
 #### /Kanto
 - Céladopole
-	- ☑️ [CeladonGym](maps/Kanto/CeladonGym.md) - Arène
-	- ☑️ [CeladonDeptStore3F](maps/Kanto/CeladonDeptStore3F.md) - Centre commercial (2ème étage)
+	- ✅ [CeladonGym](maps/Kanto/CeladonGym.md) - Arène
+	- ✅ [CeladonDeptStore3F](maps/Kanto/CeladonDeptStore3F.md) - Centre commercial (2ème étage)
 - Azuria
-	- ☑️ [CeruleanGym](maps/Kanto/CeruleanGym.md) - Arène
-	- ☑️ [CeruleanPokecenter1F](maps/Kanto/CeruleanPokecenter1F.md) - Centre Pokémon (RDC)
-- ☑️ [FuchsiaGym](maps/Kanto/FuchsiaGym.md) - Arène de Parmanie
-- [OaksLab](maps/Kanto/OaksLab.md) - Laboratoire du Prof. Chen
-- ☑️ [PewterGym](maps/Kanto/PewterGym.md) - Arène d'Argenta
-- ☑️ [Route6](maps/Kanto/Route6.md) - Route 6
-- [VermilionGym](maps/Kanto/VermilionGym.md) - Arène de Jadielle
-- [SeafoamGym](maps/Kanto/SeafoamGym.md) - Arène des Îles Écumes
-- ☑️ [SaffronGym](maps/Kanto/SaffronGym.md) - Arène de Safrania
-- ☑️ [ViridianGym](maps/Kanto/ViridianGym.md) - Arène de Jadielle
+	- ✅ [CeruleanGym](maps/Kanto/CeruleanGym.md) - Arène
+	- ✅ [CeruleanPokecenter1F](maps/Kanto/CeruleanPokecenter1F.md) - Centre Pokémon (RDC)
+- ✅ [FuchsiaGym](maps/Kanto/FuchsiaGym.md) - Arène de Parmanie
+- ✅ [OaksLab](maps/Kanto/OaksLab.md) - Laboratoire du Prof. Chen
+- ✅ [PewterGym](maps/Kanto/PewterGym.md) - Arène d'Argenta
+- ✅ [Route6](maps/Kanto/Route6.md) - Route 6
+- ✅ [VermilionGym](maps/Kanto/VermilionGym.md) - Arène de Jadielle
+- ✅ [SeafoamGym](maps/Kanto/SeafoamGym.md) - Arène des Îles Écumes
+- ✅ [SaffronGym](maps/Kanto/SaffronGym.md) - Arène de Safrania
+- ✅ [ViridianGym](maps/Kanto/ViridianGym.md) - Arène de Jadielle
 
 ## Traductions visuelles :
 

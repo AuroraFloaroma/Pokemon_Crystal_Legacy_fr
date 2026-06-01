@@ -5,7 +5,7 @@
 ---
 
 # Pokémon - L'héritage de Cristal
-W.I.P d'une **tentative** de traduction de la Rom Hack Crystal Legacy réalisée par [TheSmithPlays](https://www.youtube.com/@TheSmithPlays).
+W.I.P d'une de traduction de la Rom Hack Crystal Legacy réalisée par [TheSmithPlays](https://www.youtube.com/@TheSmithPlays).
 
 Je suis tombé·e sur cette Rom Hack en cherchant une version reprenant le jeu de base tout en ajoutant quelques fonctionnalités permettant de rendre le jeu plus agréable et plus abouti. Cependant, elle n'est disponible qu'en anglais et bien que je n'ai pas de difficulté avec la langue, je préfère avoir les noms français des Pokémon. 
 
@@ -20,14 +20,6 @@ J'ai également pris la peine de modifier certains textes pour X ou Y raison, **
 Pour l'ajout du genre neutre, je me suis beaucoup basé sur le « Manuel d'Écriture Inclusive ». Vous pouvez le retrouver à [cette adresse](https://web.lmd.jussieu.fr/~crisi/egalite_diversite/Manuel-decriture.pdf).
 Je sais pertinemment que ce n'est pas un choix qui plaira à tout le monde, mais c'est quelque chose que je trouve important. Malheureusement le français est dépourvu de genre neutre, c'est pourquoi je dois faire appel à l'écriture inclusive.
 Le choix du point médian « · » est une façon pour moi de se détacher des parenthèses qui, selon moi, prennent une place visuelle plus importante, et également une manière de ne pas utiliser le simple point, cela aurait rendu les textes plus difficiles à lire.
-
-### Éléments délibérément non traduits : 
-
-> - Tout ce qui se rapporte à la fonctionnalité Mobile Adapter GB (plus d'informations [ici](https://www.serebii.net/crystal/mobilesystemgb.shtml)). 
-
-Ce sont généralement des entrées qui n'ont pas été traduites en français car la fonctionnalité n'était disponible qu'au Japon. 
-Aujourd'hui morte, je n'avais aucune raison de consacrer du temps à traduire ces éléments.
-
 ## À faire :
 
 > [!WARNING]
@@ -39,9 +31,11 @@ Aujourd'hui morte, je n'avais aucune raison de consacrer du temps à traduire ce
 
 > [Lien vers la to-do list](trad/À%20faire.md)
 
-## Modifications apportées à la Rom Hack :
+## Modifications apportées à la Rom Hack originale:
 - Plusieurs interfaces ont été légèrement modifiées afin de pouvoir correctement inclure les traductions françaises (Pokédex, Pokématos, Panthéon). Le retravail des interfaces est purement esthétique, il ne change aucunement les apports de la Rom Hack.
 - Ajout d'un espace d'un pixel au logo chromatique dans le Pokédex
+- Traduction de certains éléments en fonction de leurs nouveaux noms dans HGSS 
+	- (Mont Argent -> Mont Argenté; Évolutor -> Améliorator…)
 ## Ressources :
 
 Liste des différents logiciels que j'ai utilisé pour la traduction :
