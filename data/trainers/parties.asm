@@ -3851,7 +3851,7 @@ GruntFGroup:
 	db -1 ; end
 
 	; GRUNTF (5)
-	db "SBIRE@", TRAINERTYPE_MOVES
+	db "SBIRE@", TRAINERTYPE_NORMAL
 	db 28, ARBOK, 
 	db 28, SNEASEL,      
 	db -1 ; end
