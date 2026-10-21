@@ -440,7 +440,7 @@ EcruteakGymGuideText:
 	line "utilisent des"
 	cont "#MON de type"
 	cont "SPECTRE et"
-	cont "TÉNÈBRES."
+	cont "TENEBRES."
 
 	para "MORTIMER est un"
 	line "expert du type"

@@ -349,6 +349,26 @@ WillGroup:
 			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db SCOPE_LENS
             db DOUBLE_EDGE, EARTHQUAKE, HIDDEN_POWER, REFLECT
+        db 67, SLOWKING
+			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db LEFTOVERS
+            db FLAMETHROWER, SURF, REST, SLEEP_TALK
+        db 67, EXEGGUTOR
+			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
+			db MIRACLEBERRY
+            db ANCIENTPOWER, SLEEP_POWDER, DREAM_EATER, SOFTBOILED
+        db 67, NINETALES
+			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
+			db CHARCOAL
+            db FIRE_BLAST, SHADOW_BALL, CONFUSE_RAY, IRON_TAIL
+        db 66, SLOWBRO
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db QUICK_CLAW
+            db FLAMETHROWER, CURSE, EARTHQUAKE, ROCK_SMASH
+        db 68, XATU
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db LEFTOVERS
+            db FUTURE_SIGHT, FLY, CONFUSE_RAY, PROTECT
 	db -1 ; end
 
 PKMNTrainerGroup:
@@ -402,6 +422,36 @@ PKMNTrainerGroup:
 				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 				db MINT_BERRY
 				db BATON_PASS, GROWTH, THUNDERBOLT, HIDDEN_POWER
+		db 70, MEGANIUM
+				db "@MEGANIUM@"
+				db $df, $df ; atk|def, spd|spc
+				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+				db LEFTOVERS
+				db GIGA_DRAIN, LIGHT_SCREEN, LEECH_SEED, SYNTHESIS
+		db 70, AERODACTYL
+				db "@AERODACTYL@"
+				db PERFECT_DV, $fd ; atk|def, spd|spc
+				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+				db GOLD_BERRY
+				db CURSE, EARTHQUAKE, ANCIENTPOWER, SUBSTITUTE
+		db 70, MISDREAVUS
+				db "@MISDREAVUS@"
+				db $df, $df ; atk|def, spd|spc
+				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+				db MIRACLEBERRY
+				db MEAN_LOOK, PERISH_SONG, PROTECT, SING
+		db 70, SUICUNE
+				db "@SUICUNE@"
+				db $df, PERFECT_DV ; atk|def, spd|spc
+				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+				db MYSTIC_WATER
+				db SURF, ICE_BEAM, REST, SLEEP_TALK
+		db 70, ARCANINE
+				db "@FURBALL@"
+				db $ee, PERFECT_DV ; atk|def, spd|spc
+				dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+				db CHARCOAL
+				db FIRE_BLAST, EXTREMESPEED, CURSE, HIDDEN_POWER
 	db -1 ; end
 
 BrunoGroup:
@@ -420,6 +470,26 @@ BrunoGroup:
 			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db QUICK_CLAW
             db CRUNCH, EARTHQUAKE, EXPLOSION, IRON_TAIL
+        db 68, POLIWRATH
+			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db SCOPE_LENS
+            db SUBMISSION, BLIZZARD, HYDRO_PUMP, PSYCHIC_M
+        db 67, HERACROSS
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db QUICK_CLAW
+            db CROSS_CHOP, MEGAHORN, REVERSAL, EARTHQUAKE
+        db 68, DONPHAN
+			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db SCOPE_LENS
+            db CURSE, EARTHQUAKE, ANCIENTPOWER, ROCK_SMASH
+        db 67, GRANBULL
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db LEFTOVERS
+            db HIDDEN_POWER, CRUNCH, REST, SNORE
+        db 68, MACHAMP
+			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
+			db LEFTOVERS
+            db ROCK_SLIDE, EARTHQUAKE, BODY_SLAM, CROSS_CHOP
 	db -1 ; end
 	
 KarenGroup:
@@ -439,6 +509,31 @@ KarenGroup:
 			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db MIRACLEBERRY
             db GROWTH, SHADOW_BALL, HIDDEN_POWER, BATON_PASS
+        db 67, GENGAR
+			db $dc, $dd
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db SCOPE_LENS
+            db SHADOW_BALL, PSYCHIC_M, GIGA_DRAIN, DESTINY_BOND
+        db 68, PERSIAN
+			db $dc, $dd
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db SCOPE_LENS
+            db SLASH, CUT, IRON_TAIL, HYPNOSIS
+        db 68, MURKROW
+			db $dc, $dd
+			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db SHARP_BEAK
+            db SKY_ATTACK, PURSUIT, SWAGGER, PSYCH_UP
+        db 67, BLISSEY
+			db $dc, $dd
+			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db LEFTOVERS
+            db PSYCHIC_M, SOFTBOILED, ATTRACT, ZAP_CANNON
+        db 69, HOUNDOOM
+			db $fc, $dd
+			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
+			db CHARCOAL
+            db FLAMETHROWER, CRUNCH, IRON_TAIL, HIDDEN_POWER
 	db -1 ; end
 
 KogaGroup:
@@ -457,6 +552,26 @@ KogaGroup:
 			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db MINT_BERRY
             db WATERFALL, BLIZZARD, GIGA_DRAIN, REST
+        db 67, MUK
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db LEFTOVERS
+            db MINIMIZE, FIRE_BLAST, SLUDGE_BOMB, TOXIC
+        db 67, GLIGAR
+			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db SCOPE_LENS
+            db IRON_TAIL, SLUDGE_BOMB, EARTHQUAKE, FAINT_ATTACK
+        db 67, NIDOKING
+			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db QUICK_CLAW
+            db LOVELY_KISS, FIRE_BLAST, SURF, EARTHQUAKE
+        db 67, HYPNO
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db BRIGHTPOWDER
+            db FIRE_PUNCH, THUNDER_WAVE, PSYCHIC_M, SHADOW_BALL
+        db 68, CROBAT
+			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
+			db LEFTOVERS
+            db PROTECT, FLY, TOXIC, CONFUSE_RAY
 	db -1 ; end
 
 ChampionGroup:
@@ -477,6 +592,31 @@ ChampionGroup:
 			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
 			db MAGNET
             db CRUNCH, ROCK_SLIDE, EARTHQUAKE, THUNDERBOLT
+        db 68, DRAGONITE
+			db $dc, $dd
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db MIRACLEBERRY
+            db BLIZZARD, FIRE_BLAST, THUNDER, REST
+        db 69, GYARADOS
+			db $cf, $dd
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db QUICK_CLAW
+            db HIDDEN_POWER, HYPER_BEAM, HYDRO_PUMP, FIRE_BLAST
+        db 68, CHARIZARD
+			db $dc, $dd
+			dw $01FE, $01FE, $01FE, $01FE, $01FE ; hp, atk, def, spd, spc
+			db LEFTOVERS
+            db FIRE_BLAST, CRUNCH, EARTHQUAKE, SWORDS_DANCE
+        db 69, AERODACTYL
+			db $dc, $dd
+			dw $80BE, $80BE, $80BE, $80BE, $80BE ; hp, atk, def, spd, spc
+			db SCOPE_LENS
+            db SKY_ATTACK, ROCK_SLIDE, EARTHQUAKE, IRON_TAIL
+        db 70, DRAGONITE
+			db $dc, $dd
+			dw $007F, $007F, $007F, $007F, $007F ; hp, atk, def, spd, spc
+			db PINK_BOW
+            db IRON_TAIL, CURSE, EXTREMESPEED, HYPER_BEAM
 	db -1 ; end
 
 BrockGroup:
@@ -1306,7 +1446,7 @@ CooltrainerFGroup:
 	db -1 ; end
 
 	; COOLTRAINERF (18)
-	db "ELLA@", TRAINERTYPE_ITEM_MOVES
+	db "ELLA@", TRAINERTYPE_MOVES
 	db 55, RAPIDASH,   STOMP, FIRE_SPIN, FURY_ATTACK, AGILITY
 	db 55, AMPHAROS,   SWIFT, THUNDERPUNCH, THUNDER_WAVE, COTTON_SPORE
 	db 55, MILTANK,    ROLLOUT, ATTRACT, STOMP, MILK_DRINK
@@ -1527,7 +1667,7 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (2)
-	db "SBIRE@", TRAINERTYPE_NORMAL
+	db "ETO@", TRAINERTYPE_NORMAL
 	db  11, ELEKID
 	db  11, MAGBY
 	db  11, SMOOCHUM
@@ -1610,7 +1750,7 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (15)
-	db "SBIRE@", TRAINERTYPE_NORMAL
+	db "ETO@", TRAINERTYPE_NORMAL
 	db 36, POLIWRATH
 	db 36, MAGMAR
 	db 36, JYNX
@@ -1686,7 +1826,7 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (28)
-	db "SBIRE@", TRAINERTYPE_NORMAL
+	db "ETO@", TRAINERTYPE_NORMAL
 	db 28, JYNX
 	db 28, POLIWHIRL
 	db 28, MAGMAR
@@ -3851,7 +3991,7 @@ GruntFGroup:
 	db -1 ; end
 
 	; GRUNTF (5)
-	db "SBIRE@", TRAINERTYPE_MOVES
+	db "SBIRE@", TRAINERTYPE_NORMAL
 	db 28, ARBOK, 
 	db 28, SNEASEL,      
 	db -1 ; end

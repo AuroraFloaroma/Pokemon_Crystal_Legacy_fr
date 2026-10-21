@@ -399,7 +399,7 @@ BlackthornGymGuideText:
 	text "Hé! Graine de"
 	line "star!"
 
-	para "Ça a été un long"
+	para "Ca a été un long"
 	line "voyage, mais on"
 	cont "arrivera bientôt à"
 	cont "son bout! Compte"

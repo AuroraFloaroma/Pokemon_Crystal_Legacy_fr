@@ -36,7 +36,7 @@ CeruleanPokecenter1FSuperNerdText:
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Ça t'arrive de"
+	text "Ca t'arrive de"
 	line "combattre par"
 	cont "téléphone?"
 

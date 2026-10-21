@@ -156,12 +156,13 @@ KarenScript_KarenBeatenText:
 	para "C'est ce que j'ai-"
 	line "me chez les dres-"
 	cont "seur·euse·s."
+	done
 
 KarenScript_KarenDefeatText:
 	text "#MON puissants."
 
 	para "#MON faibles."
-
+	
 	para "Cette vision est"
 	line "faite pour les"
 	cont "simples d'esprit."

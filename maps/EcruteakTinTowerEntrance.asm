@@ -222,7 +222,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 
 	para "Vous…"
 
-	text "Vous pouvez"
+	para "Vous pouvez"
 	line "accéder à la TOUR"
 	cont "CARILLON."
 
@@ -242,7 +242,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 
 	para "Vous…"
 
-	text "Vous pouvez"
+	para "Vous pouvez"
 	line "accéder à la TOUR"
 	cont "CARILLON."
 

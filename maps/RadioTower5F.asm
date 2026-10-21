@@ -673,7 +673,7 @@ RadioTower5FRocketBossDisbandText4:
 	text "N'étais-je qu'un"
 	line "simple pantin?"
 
-	para "À courir après un"
+	para "A courir après un"
 	line "rêve que vous"
 	cont "n'aviez jamais"
 	cont "partagé?"

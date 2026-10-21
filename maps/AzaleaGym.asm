@@ -286,12 +286,12 @@ BugsyRematchText:
 	cont "nouvelles"
 	cont "découvertes."
 
-	para "Ça te dirait une"
+	para "Ca te dirait une"
 	line "revanche avec moi?"
 	done
 
 Bugsy_RematchDefeatText:
-	text "Ça alors… Tu dois"
+	text "Ca alors… Tu dois"
 	line "vraiment être un·e"
 	cont "expert·e."
 

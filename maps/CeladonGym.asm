@@ -218,7 +218,7 @@ ErikaRematchText:
 	para "Le chemin pour en"
 	line "arriver là a dû"
 	cont "être si excitant!"
-	cont "Ça te dirait"
+	cont "Ca te dirait"
 
 	para "une revanche?"
 	line "Après tout, même"

@@ -1704,7 +1704,7 @@ _DayCareManIntroEggText::
 	done
 
 _DayCareLadyIntroText::
-	text "Je suis la dame"
+	text "Je suis la DAME"
 	line "de la PENSION."
 
 	para "Veux-tu que"
@@ -1713,7 +1713,7 @@ _DayCareLadyIntroText::
 	done
 
 _DayCareLadyIntroEggText::
-	text "Je suis la dame"
+	text "Je suis la DAME"
 	line "de la PENSION."
 	cont "Connais-tu les"
 	cont "OEUFS?"
