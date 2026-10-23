@@ -60,13 +60,15 @@ CreditsStringsPointers:
 	dw .HideyukiHashimoto
 	dw .SatoshiYamato
 	dw .ShigeruMiyamoto
-	dw .GailTilden
-	dw .NobOgasawara
-	dw .SethMcMahill
-	dw .HirotoAlexander
-	dw .TeresaLillygren
-	dw .ThomasHertzog
-	dw .ErikJohnson
+	dw .KaiZeh
+	dw .HiroyukiUesugi
+	dw .TanjaBaar
+	dw .KaiNeumann
+	dw .MauriceTisdale
+	dw .JulienBardakoff
+	dw .NicolasRobert
+	dw .PatrickThieret
+	dw .FrenchTestingTeam
 	dw .HiroNakamura
 	dw .TerukiMurakawa
 	dw .KazuyoshiOsawa
@@ -100,10 +102,11 @@ CreditsStringsPointers:
 	dw .MobileStadiumDir
 	dw .Coordination
 	dw .Copyright
-	dw .UsVersionStaff
-	dw .UsCoordination
-	dw .TextTranslation
-	dw .PaadTesting
+	dw .EquipeFrance
+	dw .CoordinationEurope
+	dw .TextesFrancais
+	dw .TestProduit
+	dw .Relecture
 	dw .CreatedBy
 	dw .SmithPlaysPokemons
 	dw .Dev
@@ -158,6 +161,8 @@ CreditsStringsPointers:
 	dw .Pokecrystal14
 	dw .Pokecrystal
 	dw .NayruThanksText
+	dw .TraductionPar
+	dw .AuroraFloaroma
 	assert_table_length NUM_CREDITS_STRINGS
 
 .SatoshiTajiri:       db "   SATOSHI TAJIRI@"         ; "たじり　さとし@"
@@ -223,59 +228,62 @@ CreditsStringsPointers:
 .ShigeruMiyamoto:     db "  SHIGERU MIYAMOTO@"        ; "みやもと　しげる@"
 .End:                 db "        END@"               ; "おしまい@"
 .Unknown:             db "      ????????@"            ; "？？？？？？？？@"
-.GailTilden:          db "    GAIL TILDEN@"
-.NobOgasawara:        db "   NOB OGASAWARA@"
-.SethMcMahill:        db "   SETH McMAHILL@"
-.HirotoAlexander:     db "  HIROTO ALEXANDER@"
-.TeresaLillygren:     db "  TERESA LILLYGREN@"
-.ThomasHertzog:       db "   THOMAS HERTZOG@"
-.ErikJohnson:         db "    ERIK JOHNSON@"
+.KaiZeh:              db "      KAI ZEH@"
+.HiroyukiUesugi:      db "  HIROYUKI UESUGI@"
+.TanjaBaar:           db "     TANJA BAAR@"
+.KaiNeumann:          db "    KAI NEUMANN@"
+.MauriceTisdale:      db "  MAURICE TISDALE@"
+.JulienBardakoff:     db "  JULIEN BARDAKOFF@"
+.NicolasRobert:       db "   NICOLAS ROBERT@"
+.PatrickThieret:      db "  PATRICK THIERET@"
+.FrenchTestingTeam:   db "FRENCH TESTING TEAM@"
 .HiroNakamura:        db "   HIRO NAKAMURA@"
 .TerukiMurakawa:      db "  TERUKI MURAKAWA@"
 .KazuyoshiOsawa:      db "  KAZUYOSHI OSAWA@"
 .KimikoNakamichi:     db "  KIMIKO NAKAMICHI@"
 .Staff:               db "      #MON"                 ; "ポケットモンスター"
                     next "   CRYSTAL LEGACY"          ; "　　クりスタル　バージョン"
-                    next "       STAFF@"              ; "　　　　スタッフ@"
-.Director:            db "      DIRECTOR@"            ; "エグゼクティブ　ディレクター@"
-.CoDirector:          db "    CO-DIRECTOR@"           ; "ディレクター@"
-.Programmers:         db "    PROGRAMMERS@"           ; "プログラム@"
-.GraphicsDirector:    db " GRAPHICS DIRECTOR@"        ; "グラフィック　ディレクター@"
-.MonsterDesign:       db "   MONSTER DESIGN@"         ; "#　デザイン@"
-.GraphicsDesign:      db "  GRAPHICS DESIGN@"         ; "グラフィック　デザイン@"
-.Music:               db "       MUSIC@"              ; "おんがく@"
-.SoundEffects:        db "   SOUND EFFECTS@"          ; "サウンド　エフェクト@"
-.GameDesign:          db "    GAME DESIGN@"           ; "ゲームデザイン@"
-.GameScenario:        db "   GAME SCENARIO@"          ; "シナりオ@"
-.ToolProgramming:     db "  TOOL PROGRAMMING@"        ; "ツール　プログラム@"
-.ParametricDesign:    db " PARAMETRIC DESIGN@"        ; "パラメーター　せってい@"
-.ScriptDesign:        db "   SCRIPT DESIGN@"          ; "スクりプト　せってい@"
-.MapDataDesign:       db "  MAP DATA DESIGN@"         ; "マップデータ　せってい@"
-.MapDesign:           db "     MAP DESIGN@"           ; "マップ　デザイン@"
-.ProductTesting:      db "  PRODUCT TESTING@"         ; "デバッグプレイ@"
-.SpecialThanks:       db "   SPECIAL THANKS@"         ; "スぺシャルサンクス@"
-.Producers:           db "     PRODUCERS@"            ; "プロデューサー@"
-.ExecutiveProducer:   db " EXECUTIVE PRODUCER@"       ; "エグゼクティブ　プロデューサー@"
-.PokemonAnimation:    db " #MON ANIMATION@"           ; "#　アニメーション@"
-.PokedexText:         db "    #DEX TEXT@"             ; "ずかん　テキスト@"
-.MobilePrjLeader:     db " MOBILE PRJ. LEADER@"       ; "モバイルプロジェクト　りーダー@"
-.MobileSystemAd:      db " MOBILE SYSTEM AD.@"        ; "モバイル　システムアドバイザー@"
-.MobileStadiumDir:    db "MOBILE STADIUM DIR.@"       ; "モバイルスタジアム　ディレクター@"
-.Coordination:        db "    COORDINATION@"          ; "コーディネーター@"
-.UsVersionStaff:      db "  US VERSION STAFF@"
-.UsCoordination:      db "  US COORDINATION@"
-.TextTranslation:     db "  TEXT TRANSLATION@"
-.PaadTesting:         db "    PAAD TESTING@"
-.CreatedBy:		 	  db "    CREATED BY@"
+                    next "       Equipe@"             ; "　　　　スタッフ@"
+.Director:            db "     Directeur@"            ; "エグゼクティブ　ディレクター@"
+.CoDirector:          db "   Sous-directeur@"         ; "ディレクター@"
+.Programmers:         db "    Programmeurs@"          ; "プログラム@"
+.GraphicsDirector:    db "Directeur graphique@"       ; "グラフィック　ディレクター@"
+.MonsterDesign:       db "  Design monstres@"         ; "#　デザイン@"
+.GraphicsDesign:      db " Design graphiques@"        ; "グラフィック　デザイン@"
+.Music:               db "      Musique@"             ; "おんがく@"
+.SoundEffects:        db "   Effets sonores@"         ; "サウンド　エフェクト@"
+.GameDesign:          db "     Design jeu@"           ; "ゲームデザイン@"
+.GameScenario:        db "      Scénario@"            ; "シナりオ@"
+.ToolProgramming:     db " Programme config@"         ; "ツール　プログラム@"
+.ParametricDesign:    db " Design paramètres@"        ; "パラメーター　せってい@"
+.ScriptDesign:        db "   Design script@"          ; "スクりプト　せってい@"
+.MapDataDesign:       db "Design donnée carte@"       ; "マップデータ　せってい@"
+.MapDesign:           db "    Design carte@"          ; "マップ　デザイン@"
+.ProductTesting:      db "    Test Produit@"          ; "デバッグプレイ@"
+.SpecialThanks:       db "  Un grand merci à@"        ; "スぺシャルサンクス@"
+.Producers:           db "    Producteurs@"           ; "プロデューサー@"
+.ExecutiveProducer:   db "Producteur exécutif@"       ; "エグゼクティブ　プロデューサー@"
+.PokemonAnimation:    db " Animation #MON@"           ; "#　アニメーション@"
+.PokedexText:         db "   Texte #DEX@"             ; "ずかん　テキスト@"
+.MobilePrjLeader:     db "@"                          ; "モバイルプロジェクト　りーダー@"
+.MobileSystemAd:      db "@"                          ; "モバイル　システムアドバイザー@"
+.MobileStadiumDir:    db "@"                          ; "モバイルスタジアム　ディレクター@"
+.Coordination:        db "    Coordination@"          ; "コーディネーター@"
+.EquipeFrance:        db "   Equipe France@"
+.CoordinationEurope:  db "Coordination Europe@"
+.TextesFrancais:      db "  Textes Français@"
+.TestProduit:         db "    Test Produit@"
+.Relecture:           db "     Relecture@"
+.CreatedBy:		 	  db "      CREE PAR@"
 .SmithPlaysPokemons:  db " SMITHPLAYSPOKEMON@"
-.Dev:				  db "     DEVELOPER@"
+.Dev:				  db "    DEVELOPPEURS@"
 .TheSmithPlays: 	  db "  THE SMITH PLAYS@"
 .cRzShadows: 		  db "    CRZ SHADOWS@"
-.Editor:			  db "      EDITOR@"
+.Editor:			  db "      EDITEUR@"
 .Weebra: 		      db "      WEEBRA@"
-.DiscordAdmin:		  db "   DISCORD ADMIN@"
+.DiscordAdmin:		  db "   ADMIN DISCORD@"
 .Jaas:				  db "    JAASHOOUHH@"
-.Moderators:		  db "    MODERATORS@"
+.Moderators:		  db "    MODERATEURS@"
 .Mod1:				  db "       REGI@"
 .Mod2:				  db "       AERO@"
 .Mod3:				  db "       DAILY@"
@@ -293,7 +301,7 @@ CreditsStringsPointers:
 .Tester10:			  db "      TALOS-8@"
 .Tester11:			  db "    WOOTONMAJR@"
 .Tester12:			  db "       BRICE@"
-.SpriteArtists:		  db "  SPRITE ARTISTS@"
+.SpriteArtists:		  db "  ARTISTES SPRITE@"
 .SpriteArtist1:		  db "       KATT@"
 .SpriteArtist2:		  db "      CHAMBER@"
 .SpriteArtist3:		  db "     SOLOO993@"
@@ -303,7 +311,7 @@ CreditsStringsPointers:
 .SpriteArtist7:		  db "     PIKACHU25@"
 .SpriteArtist8:		  db "     TOM WANG@"
 .SpriteArtist9:		  db "      SEASICK@"
-.Tutorials:			  db "     TUTORIALS@"
+.Tutorials:			  db "     TUTORIELS@"
 .Nayru: 		      db "      NAYRU62@"
 .Pokecrystal2: 		  db "      RANGI42@"
 .Pokecrystal3: 		  db "       IDAIN@"
@@ -318,13 +326,15 @@ CreditsStringsPointers:
 .Pokecrystal12: 	  db "    NOBODYSOCIETY@"
 .Pokecrystal13: 	  db "     LUTHER7718@"
 .Pokecrystal14: 	  db "      MAUVRE@"
-.Pokecrystal:         db "  THANK YOU TO THE"
-					next " PRET TEAM FOR THE"
-					next "    POKECRYSTAL"
-					next "    DISASSEMBLY@"
-.NayruThanksText:     db "   IMPROVED DEX"
-					next " POKEMON DVS SCREEN"
-					next "      MADE BY@"
+.Pokecrystal:         db "  MERCI A LA TEAM"
+					next "   PRET POUR LA"
+					next "     DECOMPILATION "
+					next "    POKECRYSTAL@"
+.NayruThanksText:     db "    DEX AMELIORE"
+					next "  ECRAN DVS POKEMON"
+					next "     REALISE PAR@"
+.TraductionPar:		  db "  Rom traduite par@"
+.AuroraFloaroma:	  db "   AuroraFloaroma@"
 
 .Copyright:
 	;    (C) 1  9  9  5 - 2  0  0  1     N  i  n  t  e  n  d  o

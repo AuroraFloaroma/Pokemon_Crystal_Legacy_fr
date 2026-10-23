@@ -1525,13 +1525,13 @@ _DeleterAskWhichMonText::
 	prompt
 
 _DSTIsThatOKText::
-	text_start
-	line "OK?"
+	text ", c'est"
+	line "bien ça?"
 	done
 
 _TimeAskOkayText::
-	text ","
-	line "OK?"
+	text ", c'est"
+	line "bien ça?"
 	done
 
 _TimesetAskDSTText::
