@@ -7,5 +7,5 @@
 	next "des ailes, il peut"
 
 	page "rester en l'air"
-	next "pour être prêt de"
-	next "son dresseur.@"
+	next "pour être près de"
+	next "sa·on Dres.@"

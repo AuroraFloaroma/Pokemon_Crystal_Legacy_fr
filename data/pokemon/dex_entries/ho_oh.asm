@@ -3,8 +3,8 @@
 	dw 1990 ; weight
 
 	db   "Il ne se montre"
-	next "qu'à un dresseur"
-	next "au coeur pur en"
+	next "qu'aux Dres. au"
+	next "coeur pur en"
 
 	page "dévoilant ses"
 	next "magnifiques ailes"

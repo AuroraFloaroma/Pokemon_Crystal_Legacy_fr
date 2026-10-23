@@ -6,6 +6,6 @@
 	next "même heure chaque"
 	next "jour."
 
-	page "Certains dresseurs"
+	page "Certain·e·s Dres."
 	next "s'en servent comme"
 	next "réveil.@"

@@ -300,8 +300,8 @@ GymStatue_WinningTrainersText:
 	line "@"
 	text_ram wStringBuffer4
 	text_start
-	para "DRESSEURS"
-	line "VAINQUEURS:"
+	para "DRESSEUR·EUSE·S"
+	line "VAINQUEUR·E·S:"
 	cont "<PLAYER>"
 	done
 

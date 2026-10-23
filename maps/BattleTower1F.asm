@@ -382,8 +382,9 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	cont "combats de"
 	cont "#MON."
 
-	para "Les dresseurs du"
-	line "monde entier y"
+	para "Les dresseur·eu-"
+	line "se·s du monde"
+	cont "entier y"
 
 	para "viennent pour"
 	line "s'affronter dans"
@@ -444,37 +445,67 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 
 Text_BattleTowerIntroduction_2:
 	text "La TOUR DE COMBAT"
-	line "a été construite"
-	cont "pour les matches"
-	cont "de #MON."
+	line "est dédiée aux"
+	cont "combats de"
+	cont "#MON.Les"
+	cont "dresseur·eu- se·s"
+	cont "du monde entier y"
 
-	para "Divers dresseurs"
-	line "viennent s'y af-"
+	para "viennent pour"
+	line "s'affronter dans"
 
-	para "fronter dans les"
-	line "SALLES DE COMBAT"
-	cont "spéciales."
+	para "des SALLES DE"
+	line "COMBAT."
 
-	para "Il existe beaucoup"
-	line "de SALLES diffé-"
-	cont "rentes."
+	para "Il existe une mul-"
+	line "titude de SALLES"
+	cont "DE COMBAT."
 
-	para "Chaque SALLE ren-"
-	line "ferme 7 dresseurs."
+	para "Chaque SALLE con-"
+	line "tient 7 dresseur-"
+	cont "·euse·s."
 
-	para "Il faut tous les"
-	line "battre pour gagner"
-	cont "un prix."
+	para "Si vous venez à"
+	line "bout des 7 dres-"
+
+	para "seur·euse·s d'une"
+	line "SALLE en faisant"
+	cont "un re-"
+
+	para "cord, vous pouvez"
+	line "devenir le·a CHAM-"
+	cont "PION·NE de la"
+	cont "SALLE."
+
+	para "Tous les CHAMPI-"
+	line "ON·NE·S seront"
+	cont "inscrit·e·s"
+
+	para "sur les TABLES de"
+	line "l'HONNEUR pour"
+	cont "l'éternité."
+
+	para "Vous pouvez péné-"
+	line "trer dans 5 SALLES"
+
+	para "DE COMBAT par"
+	line "jour."
+
+	para "Toutefois, vous ne"
+	line "pouvez combattre"
+
+	para "que dans une seule"
+	line "SALLE par jour."
 
 	para "Pour arrêter une"
-	line "session, il faut"
+	line "session vous"
 
-	para "SAUVER. Dans le"
-	line "cas contraire, on"
+	para "devez SAUVER,"
+	line "sinon vous ne"
 
-	para "ne peut pas re-"
-	line "prendre le défi"
-	cont "d'une SALLE."
+	para "pourrez pas con-"
+	line "tinuer le défi"
+	cont "d'une salle."
 
 	para ""
 	done
@@ -482,8 +513,9 @@ Text_BattleTowerIntroduction_2:
 Text_ReceivedAListOfLeadersOnTheHonorRoll:
 	text "Vous avez reçu une"
 	line "liste des CHAM-"
-	cont "PIONS sur les TA-"
-	cont "BLES de l'HONNEUR."
+	cont "PION·NE·S sur les"
+	cont "TABLES de l'HON-"
+	cont "NEUR."
 
 	para ""
 	done
@@ -507,7 +539,7 @@ Text_BeatenAllTheTrainers_Mobile: ; unreferenced
 
 	para "Vous avez battu"
 	line "tous les dres-"
-	cont "seurs!"
+	cont "seur·euse·s!"
 
 	para "Votre prouesse"
 	line "sera notée,"
@@ -515,7 +547,7 @@ Text_BeatenAllTheTrainers_Mobile: ; unreferenced
 	para "<PLAYER>. Vous"
 	line "avez une chance"
 
-	para "d'être CHAMPION"
+	para "d'être CHAMPION·NE"
 	line "de SALLE."
 
 	para ""
@@ -523,9 +555,10 @@ Text_BeatenAllTheTrainers_Mobile: ; unreferenced
 
 Text_CongratulationsYouveBeatenAllTheTrainers:
 	text "Félicitations! "
-	line "Tous les dresseurs"
+	line "Toustes les dres-"
+	cont "seur·euse·s ont"
 
-	para "ont été vaincus! "
+	para "été vaincus! "
 	line "Et hop! Cadeau!"
 	prompt
 

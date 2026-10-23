@@ -675,8 +675,8 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Etes-vous un gar-"
-	line "çon ou une fille?"
+	text "Quelle apparence"
+	line "préférerez-vous?"
 	done
 
 _SelectDifficultyText::

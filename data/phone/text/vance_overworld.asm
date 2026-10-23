@@ -14,8 +14,8 @@ VanceAskNumber1Text:
 
 VanceAskNumber2Text:
 	text "Je veux affronter"
-	line "les meilleurs"
-	cont "dresseurs!"
+	line "les meilleur·e·s"
+	cont "dresseur·euse·s!"
 
 	para "Je peux avoir ton"
 	line "numéro?"

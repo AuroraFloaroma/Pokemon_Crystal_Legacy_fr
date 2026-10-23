@@ -269,7 +269,7 @@ BugsyText_BugMonsAreDeep:
 	
 BugsyRematchText:
 	text "HECTOR: Wow, tu es"
-	line "la·e MAITRE·SSE de"
+	line "le·a MAITRE·SSE de"
 	cont "JOHTO à présent?"
 
 	para "Tes talents sont"

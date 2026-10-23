@@ -119,7 +119,7 @@ ManiaText_AskLookAfterShuckle:
 	cont "s'il revient?"
 
 	para "Tu as l'air"
-	line "fort. Peux-tu"
+	line "fort·e. Peux-tu"
 
 	para "t'occuper de"
 	line "mon #MON"

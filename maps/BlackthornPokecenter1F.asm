@@ -24,15 +24,14 @@ BlackthornPokecenter1FCooltrainerMScript:
 BlackthornPokecenter1FGentlemanText:
 	text "Au fin fond du"
 	line "PLATEAU INDIGO se"
+	cont "trouve la LIGUE"
+	cont "#MON."
 
-	para "trouve la LIGUE"
-	line "#MON."
-
-	para "On dit que seuls"
-	line "les meilleurs"
-
-	para "dresseurs du coin"
-	line "y vivent."
+	para "On dit que"
+	line "seul·e·s les"
+	cont "meilleur·e·s"
+	cont "dresseur·euse·s du"
+	cont "coin y vivent."
 	done
 
 BlackthornPokecenter1FTwinText:

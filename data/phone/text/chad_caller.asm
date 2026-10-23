@@ -123,16 +123,14 @@ ChadKurtGossipText:
 ChadLeagueGossipText:
 	text "La LIGUE #MON"
 	line "est le centre le"
-	cont "plus visité par"
-
-	para "des dresseurs en"
-	line "quête de victoire."
+	cont "plus visité des"
+	cont "dresseur·euse·s en"
+	cont "quête de victoire."
 
 	para "Le PROF.CHEN est"
 	line "un consultant aux"
-
-	para "quartiers généraux"
-	line "de la LIGUE."
+	cont "quartiers généraux"
+	cont "de la LIGUE."
 
 	para "Il est si"
 	line "merveilleux."

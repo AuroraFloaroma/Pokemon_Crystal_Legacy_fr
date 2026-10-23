@@ -356,7 +356,7 @@ Route27FisherText:
 
 CooltrainermBlakeSeenText:
 	text "Tu as l'air"
-	line "fort."
+	line "fort·e."
 	cont "COMBAAAT!"
 	done
 

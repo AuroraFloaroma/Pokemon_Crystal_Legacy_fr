@@ -210,7 +210,7 @@ StartMenu::
 
 .PokegearDesc:
 	db   "Objets-clé"
-	next "dresseur@"
+	next "Dres.@"
 
 .StatusDesc:
 	db   "Votre"

@@ -272,7 +272,8 @@ BattleText_CantEscape2:
 BattleText_TheresNoEscapeFromTrainerBattle:
 	text "On ne s'enfuit pas"
 	line "d'un combat contre"
-	cont "un dresseur!"
+	cont "un·e dresseur·eu-"
+	cont "se!"
 	prompt
 
 BattleText_GotAwaySafely:

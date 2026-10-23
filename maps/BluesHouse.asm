@@ -74,7 +74,7 @@ DaisyHelloText:
 	line "beaucoup, ce qui"
 
 	para "embête pas mal de"
-	line "dresseurs."
+	line "dresseur·euse·s."
 	done
 
 DaisyOfferGroomingText:

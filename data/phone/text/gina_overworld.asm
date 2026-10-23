@@ -1,9 +1,9 @@
 GinaAskNumber1Text:
-	text "Si je vois un bon"
-	line "dresseur, je veux"
-
-	para "l'encourager de"
-	line "tout mon coeur."
+	text "Si je vois un·e"
+	line "bon·ne dresseur-"
+	cont "·euse, je veux"
+	cont "l'encourager de"
+	cont "tout mon coeur."
 
 	para "Au fait, moi je"
 	line "trouve beaucoup"

@@ -41,13 +41,14 @@ BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
 	line "est géante!"
 
 	para "Vu qu'il y a tout"
-	line "plein de dresseurs"
+	line "plein de dresseur-"
+	cont "·euse·s à l'intér-"
+	cont "ieur,"
 
-	para "à l'intérieur, il"
-	line "doit y avoir une"
+	para "il doit y avoir"
+	line "une multitude de"
+	cont "#MON."
 
-	para "multitude de"
-	line "#MON."
 	done
 
 BattleTowerOutsideYoungsterText:
@@ -106,7 +107,8 @@ BattleTowerOutsideSignText:
 	text "TOUR DE COMBAT"
 
 	para "Le méga défi de"
-	line "tout dresseur!"
+	line "tout dresseur-"
+	cont "·euse!"
 	done
 
 BattleTowerOutsideText_DoorsClosed: ; unreferenced

@@ -204,7 +204,8 @@ BillsMomText_AfterEcruteak:
 	done
 
 BillsSisterUsefulNumberText:
-	text "Es-tu dresseur?"
+	text "Es-tu dresseur-"
+	line "·euse?"
 
 	para "J'ai un numéro de"
 	line "téléphone utile"

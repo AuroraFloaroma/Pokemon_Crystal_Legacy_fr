@@ -290,8 +290,8 @@ AzaleaTownRivalAfterText:
 	text "Je déteste les"
 	line "minus."
 
-	para "#MON ou"
-	line "dresseur, c'est"
+	para "#MON ou dres-"
+	line "seur·euse, c'est"
 	cont "du kif-kif."
 
 	para "Je vais devenir"

@@ -1414,7 +1414,7 @@ _ItemWontHaveEffectText::
 	prompt
 
 _BallBlockedText::
-	text "Le dresseur"
+	text "Le·a dresseur·euse"
 	line "détourne la BALL!"
 	prompt
 

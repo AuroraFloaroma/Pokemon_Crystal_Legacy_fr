@@ -102,7 +102,7 @@ CooltrainermCodyAfterBattleText:
 	done
 
 CooltrainerfFranSeenText:
-	text "Un dresseur"
+	text "Un·e dresseur·euse"
 	line "quelconque ne"
 	cont "passera pas!"
 

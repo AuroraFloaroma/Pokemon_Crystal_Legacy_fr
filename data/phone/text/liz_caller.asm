@@ -182,19 +182,18 @@ LizWhitneyGossipText:
 
 	para "BLANCHE de DOU-"
 	line "BLONVILLE est"
-
-	para "dresseur depuis"
-	line "peu de temps!"
+	cont "dresseuse depuis"
+	cont "peu de temps!"
 
 	para "Mais la LIGUE"
-	line "#MON l'a"
-	cont "choisie pour être"
+	line "#MON l'a choi-"
+	cont "sie pour être"
 	cont "CHAMPIONNE!"
 
 	para "Elle doit avoir un"
 	line "sacré talent."
 	done
-
+	
 LizBugCatchingContestGossipText:
 	text "Ecoute!"
 
