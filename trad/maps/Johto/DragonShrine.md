@@ -1,5 +1,5 @@
 Temple du dragon
 
-| key           | Original | Traduction     | Trad. OG |
-| ------------- | -------- | -------------- | -------- |
-| .MenuData<br> |          | Sous-fifre<br> | Esclave  |
+| key           | Original | Traduction | Trad. OG |
+| ------------- | -------- | ---------- | -------- |
+| .MenuData<br> |          | Larbin<br> | Esclave  |

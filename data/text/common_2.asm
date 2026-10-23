@@ -676,7 +676,7 @@ _YouCantUseItInABattleText::
 
 _AreYouABoyOrAreYouAGirlText::
 	text "Quelle apparence"
-	line "préférerez-vous?"
+	line "préférez-vous?"
 	done
 
 _SelectDifficultyText::
