@@ -173,7 +173,7 @@ StartMenu_PrintBugContestStatus:
 	call GetPokemonName
 
 .no_contest_mon
-	hlcoord 9, 1
+	hlcoord 7, 1
 	call PlaceString
 	ld a, [wContestMon]
 	and a
@@ -196,7 +196,7 @@ StartMenu_PrintBugContestStatus:
 .BallsJPString: ; unreferenced
 	db "ボール　　　こ@"
 .CaughtString:
-	db "PRIS@"
+	db "PRIS:@"
 .BallsString:
 	db "BALLS:@"
 .NoneString:
