@@ -428,7 +428,7 @@ TinTower1FSage3Text:
 TinTower1FSage4Text1:
 	text "HO-OH a dû arriver"
 	line "ici, à la TOUR"
-	cont "FERRAILLE!"
+	cont "CARILLON!"
 	done
 
 TinTower1FSage5Text1:

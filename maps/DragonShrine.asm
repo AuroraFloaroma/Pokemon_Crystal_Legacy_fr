@@ -277,7 +277,7 @@ DragonShrineQuestion1_MenuHeader:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
 	db "Copain@"
-	db "Sous-fifre@"
+	db "Larbin@"
 	db "Ami@"
 
 DragonShrineQuestion2_MenuHeader:

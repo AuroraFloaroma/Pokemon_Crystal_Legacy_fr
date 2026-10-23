@@ -243,9 +243,9 @@ SageMasaAfterBattleText:
 	line "qui pouvait éveil-"
 
 	para "ler les #MON,"
-	line "et la TOUR FER-"
+	line "et la TOUR CAR-"
 
-	para "RAILLE, où les"
+	para "ILLON, où les"
 	line "#MON se"
 	cont "reposaient."
 

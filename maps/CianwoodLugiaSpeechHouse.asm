@@ -39,7 +39,7 @@ CianwoodLugiaSpeechHouseLassText:
 	line "voir il faut abso-"
 
 	para "lument avoir"
-	line "l'AILE ARGENT."
+	line "l'ARGENT'AILE."
 
 	para "Elle doit avoir la"
 	line "même odeur que la"

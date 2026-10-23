@@ -112,7 +112,7 @@ EusineLeavesCeladonText:
 	para "leurs de l'arc-"
 	line "en-ciel est apparu"
 	cont "à la TOUR"
-	cont "FERRAILLE."
+	cont "CARILLON."
 
 	para "Je viens de soi-"
 	line "gner mon équipe."

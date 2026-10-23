@@ -70,7 +70,7 @@ ItemNames::
 	li "PASSE BATEAU"
 	li "OEUF MYSTERE"
 	li "GLAS TRANSP."
-	li "AILE ARGENT"
+	li "ARGENT'AILE"
 	li "LAIT MEUMEU"
 	li "VIVE GRIFFE"
 	li "BAIE ANTIDOT"
